@@ -1,0 +1,850 @@
+[
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_01",
+    "title": "长度的单位",
+    "summary": "米是长度基本单位，与千米、分米、厘米、毫米、微米、纳米等的换算关系；国际单位制的统一保证了测量结果可交流、可比较。",
+    "printed_pages": "11-12",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_02",
+    "title": "刻度尺的使用",
+    "summary": "刻度尺的正确放置、读数（视线正对刻度线）、记录（必须注明单位）；根据测量要求选择不同精确度的工具。",
+    "printed_pages": "12-13",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_03",
+    "title": "时间的测量",
+    "summary": "时间的基本单位秒；古代用圭表、日晷、沙漏计时，现代用钟表、秒表、铯原子钟；计时工具的发展体现人类对精确测量的追求。",
+    "printed_pages": "14-16",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_04",
+    "title": "测量误差",
+    "summary": "估测长度的方法（人体作为'尺'）；误差与错误的区别；减小误差的方法（多次测量求平均）。",
+    "printed_pages": "14-16",
+    "cognitive_level": "理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_01",
+    "title": "机械运动",
+    "summary": "物理学中的机械运动：物体位置随时间的变化；运动是宇宙中最普遍的现象。",
+    "printed_pages": "17-18",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_02",
+    "title": "参照物与运动描述",
+    "summary": "判断物体运动必须选取参照物；选取不同参照物对同一物体运动状态的描述可能不同。",
+    "printed_pages": "18-19",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_03",
+    "title": "运动和静止的相对性",
+    "summary": "运动和静止是相对的；描述物体的运动情况必须指明参照物。",
+    "printed_pages": "18-19",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_01",
+    "title": "速度",
+    "summary": "比较物体运动快慢的两种方法：相同时间比路程、相同路程比时间；速度表示物体运动的快慢。",
+    "printed_pages": "20-21",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_02",
+    "title": "速度的计算",
+    "summary": "速度等于路程与时间之比 v=s/t；国际单位米每秒（m/s），常用单位千米每小时（km/h）及其换算。",
+    "printed_pages": "21-23",
+    "cognitive_level": "理解·计算"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_03",
+    "title": "平均速度与运动快慢的比较",
+    "summary": "变速运动用平均速度描述；通过路程与时间的比值比较不同物体的运动快慢。",
+    "printed_pages": "22-24",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_04",
+    "title": "运动图像",
+    "summary": "用路程-时间图像描述匀速直线运动；从图像中读取物体运动信息。",
+    "printed_pages": "23-24",
+    "cognitive_level": "理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_01",
+    "title": "实验：测量平均速度",
+    "summary": "用刻度尺和秒表测量小车通过斜面全程与半程的平均速度；分析误差来源。",
+    "printed_pages": "25-26",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_02",
+    "title": "区间测速与交通规则",
+    "summary": "区间测速通过总路程与总时间的比值判定平均速度是否超速，是平均速度的执法应用。",
+    "printed_pages": "25",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_03",
+    "title": "超声测距与智能技术",
+    "summary": "利用超声波反射测量距离；超声波测距在倒车雷达、机器人避障等场景中的应用。",
+    "printed_pages": "27",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_01",
+    "title": "声音的产生",
+    "summary": "声音由物体振动产生；振动停止发声停止。",
+    "printed_pages": "32-33",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_02",
+    "title": "声音的传播",
+    "summary": "声音的传播需要介质，真空不能传声；固体、液体、气体都能传声。",
+    "printed_pages": "33-35",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_03",
+    "title": "声速",
+    "summary": "声音在不同介质中的传播速度不同，一般固体中最快；15℃空气中约340 m/s。",
+    "printed_pages": "35",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_04",
+    "title": "骨传导与应用",
+    "summary": "声音通过头骨、颌骨传到听觉神经形成听觉；骨传导在助听器和特殊场合通信中的应用。",
+    "printed_pages": "36",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_01",
+    "title": "音调",
+    "summary": "音调由频率决定；频率高则音调高，频率低则音调低；通过钢尺振动实验观察音调与振动快慢的关系。",
+    "printed_pages": "37-39",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_02",
+    "title": "响度",
+    "summary": "响度由振幅决定；振幅越大响度越大；响度还与距离发声体的远近有关。",
+    "printed_pages": "40-41",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_03",
+    "title": "音色",
+    "summary": "音色由发声体的材料、结构决定；不同乐器即便音调响度相同，音色也不同；通过波形比较理解音色差异。",
+    "printed_pages": "40-41",
+    "cognitive_level": "理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_04",
+    "title": "乐器分类与贾湖骨笛",
+    "summary": "乐器分为打击、弦、管三类；河南舞阳贾湖骨笛距今8000多年，是我国迄今发现最早的管乐器，可吹奏七声音阶。",
+    "printed_pages": "42-43",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_01",
+    "title": "声与信息",
+    "summary": "声音可以传递信息：回声定位、超声探伤、B型超声成像等应用。",
+    "printed_pages": "44-45",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_02",
+    "title": "声与能量",
+    "summary": "声音可以传递能量：超声清洗、超声碎石等利用声波能量做功。",
+    "printed_pages": "45-46",
+    "cognitive_level": "理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_03",
+    "title": "中国古代建筑声学",
+    "summary": "回音壁、莺莺塔等古代建筑的声学现象及其科学原理。",
+    "printed_pages": "47",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_04",
+    "title": "音乐公路",
+    "summary": "车轮压过路面刻槽振动发声，通过刻槽间距控制音调，是声学规律的工程应用。",
+    "printed_pages": "48",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_01",
+    "title": "噪声及其等级",
+    "summary": "从物理学角度和环境保护角度定义噪声；用分贝表示声音强弱的等级。",
+    "printed_pages": "49-50",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_02",
+    "title": "噪声的危害",
+    "summary": "长期暴露于高分贝噪声损害听力、影响睡眠与心血管健康。",
+    "printed_pages": "50",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_03",
+    "title": "控制噪声的途径",
+    "summary": "防止噪声的三条途径：防止噪声产生、阻断噪声传播、防止噪声进入耳朵。",
+    "printed_pages": "51",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_04",
+    "title": "防噪声耳罩设计",
+    "summary": "耳罩通过隔音材料与密封结构降低进入人耳的噪声，是噪声控制的个人防护应用。",
+    "printed_pages": "52",
+    "cognitive_level": "应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_01",
+    "title": "隔音原理与材料选择",
+    "summary": "不同材料的隔音性能不同；根据隔音目标与环保要求选择材料。",
+    "printed_pages": "53",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_02",
+    "title": "模型制作与测试",
+    "summary": "按方案制作隔音房间模型，用声级测试比较隔音效果并记录数据。",
+    "printed_pages": "53-54",
+    "cognitive_level": "操作·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_03",
+    "title": "方案评价与听力健康",
+    "summary": "用隔声量等指标综合评价方案优劣；联系噪声环境与听力健康提出改进建议。",
+    "printed_pages": "54",
+    "cognitive_level": "评价·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_01",
+    "title": "温度与温度计原理",
+    "summary": "温度表示物体的冷热程度；常用温度计利用液体热胀冷缩规律制成。",
+    "printed_pages": "58-59",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_02",
+    "title": "温度计的正确使用",
+    "summary": "使用温度计前观察量程与分度值；玻璃泡完全浸入被测液体、不碰容器底和壁，视线与液柱上表面相平。",
+    "printed_pages": "60-61",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_03",
+    "title": "生活温度调查",
+    "summary": "调查冰箱冷藏、冷冻与食品保存适宜温度，用温度知识解释保存要求。",
+    "printed_pages": "61",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_04",
+    "title": "测温技术发展",
+    "summary": "电子温度计、红外测温等现代测温技术的原理与使用场景。",
+    "printed_pages": "62",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_01",
+    "title": "熔化和凝固的概念",
+    "summary": "物质从固态变为液态叫熔化，从液态变为固态叫凝固；熔化吸热、凝固放热。",
+    "printed_pages": "64",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_02",
+    "title": "探究固体熔化时温度变化规律",
+    "summary": "用海波和蜡对比实验：晶体有固定熔点、熔化中温度不变，非晶体没有固定熔点；实验注意隔水加热安全。",
+    "printed_pages": "65-67",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_03",
+    "title": "晶体与非晶体",
+    "summary": "晶体有确定的熔点（如冰、海波），非晶体没有（如蜡、玻璃）；用熔化图像区分。",
+    "printed_pages": "66-67",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_04",
+    "title": "物态变化的应用",
+    "summary": "钢水浇铸成型利用凝固；北方菜窖放水缸防冻、伤口敷蜡利用凝固放热。",
+    "printed_pages": "64、68",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_01",
+    "title": "汽化和液化",
+    "summary": "物质从液态变为气态叫汽化（蒸发和沸腾），从气态变为液态叫液化；汽化吸热、液化放热。",
+    "printed_pages": "70",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_02",
+    "title": "探究水沸腾时温度变化特点",
+    "summary": "水沸腾前气泡上升变小、沸腾时上升变大且温度保持不变；沸腾需要持续吸热且温度保持沸点。",
+    "printed_pages": "70-71",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_03",
+    "title": "蒸发及其影响因素",
+    "summary": "蒸发在任何温度下发生；提高液体温度、增大表面积、加快空气流动可加快蒸发。",
+    "printed_pages": "72-73",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_04",
+    "title": "液化与生活安全",
+    "summary": "降低温度和压缩体积可以使气体液化；'白气'是水蒸气液化成的小水滴；100℃水蒸气烫伤比开水更严重。",
+    "printed_pages": "73-74",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_05",
+    "title": "青藏铁路冻土热管",
+    "summary": "热管内工作液体在热端汽化吸热、冷端液化放热，把热量从路基传出，保持冻土稳定。",
+    "printed_pages": "75",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_01",
+    "title": "升华和凝华",
+    "summary": "物质从固态直接变为气态叫升华（吸热），从气态直接变为固态叫凝华（放热）。",
+    "printed_pages": "77-78",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_02",
+    "title": "升华凝华现象辨析",
+    "summary": "用升华、凝华解释霜、冰花、雾凇、冻衣变干等现象，区分与液化现象。",
+    "printed_pages": "78-79",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_03",
+    "title": "水资源保护与节水行动",
+    "summary": "云、雨、雹、雪的形成对应物态变化；水资源紧缺背景下的节水行动与调查。",
+    "printed_pages": "79-80",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_01",
+    "title": "厨房中的物态变化辨识",
+    "summary": "辨识厨房中的熔化、凝固、汽化、液化、升华、凝华现象并说明吸放热。",
+    "printed_pages": "81",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_02",
+    "title": "节能与安全用能建议",
+    "summary": "利用汽化吸热、液化放热与保温原理提出节能做法；识别水蒸气烫伤等风险并给出防护建议。",
+    "printed_pages": "82",
+    "cognitive_level": "应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_03",
+    "title": "家庭实验设计与安全边界",
+    "summary": "设计观察物态变化的家庭小实验，明确器材安全使用边界并记录现象。",
+    "printed_pages": "82-83",
+    "cognitive_level": "设计·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_01",
+    "title": "光源与光的直线传播",
+    "summary": "光源是自身能发光的物体；光在同种均匀介质中沿直线传播，用光线描述。",
+    "printed_pages": "88-89",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_02",
+    "title": "影子、日食与月食",
+    "summary": "影子由光的直线传播形成；用直线传播的光路解释日食、月食和小孔成像。",
+    "printed_pages": "89-90",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_03",
+    "title": "光速与科学测量",
+    "summary": "光在真空中传播速度约3×10⁸ m/s；光速的测量历程与雷电传播时间估算。",
+    "printed_pages": "91-92",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_01",
+    "title": "光的反射定律",
+    "summary": "反射光线、入射光线和法线在同一平面内；反射角等于入射角；光路可逆。",
+    "printed_pages": "93-94",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_02",
+    "title": "探究光的反射规律",
+    "summary": "用平面镜、量角器多次改变入射角并记录反射角，用证据归纳反射定律。",
+    "printed_pages": "94-95",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_03",
+    "title": "镜面反射与漫反射",
+    "summary": "镜面反射使平行光沿同一方向反射；漫反射使光射向各个方向，两者都遵守反射定律。",
+    "printed_pages": "95-96",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_04",
+    "title": "光污染与用眼健康",
+    "summary": "玻璃幕墙等强反射造成眩光污染；从反射规律理解光污染来源并注意用眼防护。",
+    "printed_pages": "96",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_05",
+    "title": "激光测距",
+    "summary": "利用激光方向性好、反射测距的原理测量距离（如激光测距仪）。",
+    "printed_pages": "97",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_01",
+    "title": "平面镜成像特点",
+    "summary": "平面镜所成像与物大小相等、到镜面距离相等、连线与镜面垂直、成虚像。",
+    "printed_pages": "98-99",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_02",
+    "title": "平面镜成像的应用",
+    "summary": "用对称法作图确定像的位置；解释水中倒影、潜望镜等应用。",
+    "printed_pages": "99-100",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_03",
+    "title": "古代铜镜",
+    "summary": "古代铜镜的成像原理与磨制工艺，平面镜成像规律在古代器物中的体现。",
+    "printed_pages": "100",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_04",
+    "title": "太阳灶与节能",
+    "summary": "凹面镜把平行光会聚于焦点，太阳灶利用会聚的太阳能加热。",
+    "printed_pages": "101",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_05",
+    "title": "京剧艺术中的平面镜情境",
+    "summary": "京剧表演与道具中的平面镜情境及其成像原理解释。",
+    "printed_pages": "102",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_01",
+    "title": "光的折射现象与规律",
+    "summary": "光从一种介质斜射入另一种介质时传播方向发生偏折；折射角与入射角的关系及光路可逆。",
+    "printed_pages": "103-104",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_02",
+    "title": "折射的光路作图与现象解释",
+    "summary": "用折射规律作图解释池底看起来变浅、筷子在水中弯折等现象。",
+    "printed_pages": "104-105",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_03",
+    "title": "海市蜃楼与古籍记载",
+    "summary": "古籍对海市蜃楼的记载；现代用光在不均匀大气中的折射解释其成因。",
+    "printed_pages": "105",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_01",
+    "title": "光的色散",
+    "summary": "白光经三棱镜分解为七种色光；牛顿用棱镜实验研究色散并质疑旧解释。",
+    "printed_pages": "107",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_02",
+    "title": "白光的组成与色光混合",
+    "summary": "白光由多种色光组成；红、绿、蓝为色光三原色。",
+    "printed_pages": "107-108",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_03",
+    "title": "红外线及其应用",
+    "summary": "红外线的热效应及其在红外诊断、夜视仪、遥控等方面的应用。",
+    "printed_pages": "109",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_04",
+    "title": "紫外线及其应用",
+    "summary": "紫外线能使荧光物质发光、能杀菌；应用于验钞、消毒，同时注意防护过度照射。",
+    "printed_pages": "110",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_01",
+    "title": "透镜及其分类",
+    "summary": "中间厚边缘薄的是凸透镜（会聚），中间薄边缘厚的是凹透镜（发散）。",
+    "printed_pages": "114",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_02",
+    "title": "透镜对光的作用",
+    "summary": "凸透镜使光会聚、凹透镜使光发散；用光路图表示。",
+    "printed_pages": "115-116",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_03",
+    "title": "焦点与焦距",
+    "summary": "平行于主光轴的光经凸透镜会聚于焦点；焦点到光心的距离叫焦距。",
+    "printed_pages": "115-116",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_04",
+    "title": "古代冰透镜取火",
+    "summary": "冰凸透镜会聚太阳光取火的记载与原理。",
+    "printed_pages": "117",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_05",
+    "title": "凸透镜会聚与防火安全",
+    "summary": "丢弃的透明瓶或透镜可会聚阳光引燃枯叶，须注意野外用光安全与森林防火。",
+    "printed_pages": "117",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_01",
+    "title": "照相机与数码成像",
+    "summary": "照相机镜头成倒立缩小实像；从胶片到数码的成像技术发展。",
+    "printed_pages": "118-119",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_02",
+    "title": "投影仪",
+    "summary": "投影仪镜头成倒立放大实像，平面镜改变光路；物距与像距关系。",
+    "printed_pages": "119-120",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_03",
+    "title": "放大镜",
+    "summary": "放大镜是短焦距凸透镜，物距小于焦距时成正立放大虚像。",
+    "printed_pages": "120-121",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_01",
+    "title": "凸透镜成像规律的实验探究",
+    "summary": "通过改变物距，观察并记录像的虚实、大小、正倒；用焦距f作为参照距离归纳成像规律；多组数据共享与比较。",
+    "printed_pages": "122-124",
+    "cognitive_level": "探究·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_02",
+    "title": "凸透镜成像规律的应用",
+    "summary": "将成像规律应用于照相机（成缩小倒立实像）、投影仪（成放大倒立实像）、放大镜（成放大正立虚像）等场景的分析。",
+    "printed_pages": "124-125",
+    "cognitive_level": "应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_01",
+    "title": "眼睛与视觉形成",
+    "summary": "眼睛相当于可调焦的照相机：角膜、晶状体等折光系统在视网膜上成倒立缩小实像。",
+    "printed_pages": "126-127",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_02",
+    "title": "近视与远视的成因及矫正",
+    "summary": "近视眼像成在视网膜前，用凹透镜矫正；远视眼像成在视网膜后，用凸透镜矫正。",
+    "printed_pages": "127-128",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_03",
+    "title": "科学用眼",
+    "summary": "用眼距离、时长、光线条件与户外活动对视力的影响及正确用眼习惯。",
+    "printed_pages": "128-129",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_04",
+    "title": "全国爱眼日与公益行动",
+    "summary": "全国爱眼日的设立背景；面向家庭和社区开展视力健康宣传的公益实践。",
+    "printed_pages": "129",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_01",
+    "title": "望远镜的原理与方案设计",
+    "summary": "开普勒望远镜由物镜（成倒立实像）与目镜（放大虚像）组成；按放大需求选择透镜焦距。",
+    "printed_pages": "130-131",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_02",
+    "title": "制作、调试与工程评价",
+    "summary": "装配镜筒与透镜、调试对焦；用放大倍数与清晰度等指标评价作品并提出改进。",
+    "printed_pages": "131-133",
+    "cognitive_level": "操作·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_03",
+    "title": "望远镜与天文观测史",
+    "summary": "伽利略望远镜开启近代天文观测；中国古代天文观测记录与贡献。",
+    "printed_pages": "134",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_04",
+    "title": "中国天眼",
+    "summary": "500米口径球面射电望远镜（FAST）的观测能力与中国射电天文学进展。",
+    "printed_pages": "134-135",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_01",
+    "title": "质量及其单位",
+    "summary": "物体所含物质的多少叫质量；国际单位千克（kg），质量不随形状、状态、位置改变。",
+    "printed_pages": "139-140",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_02",
+    "title": "战国天平与测量史",
+    "summary": "战国楚墓出土的天平与砝码；天平平衡测量质量的古代实践。",
+    "printed_pages": "139",
+    "cognitive_level": "知道"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_03",
+    "title": "天平的使用与计量规范",
+    "summary": "托盘天平的构造与规范使用步骤；计量单位统一保证测量结果可交流、可比较。",
+    "printed_pages": "140-142",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_04",
+    "title": "千克定义的演进",
+    "summary": "国际千克原器的局限；2018年以普朗克常数重新定义千克。",
+    "printed_pages": "143",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_01",
+    "title": "密度概念的建立",
+    "summary": "同种物质质量与体积成正比，比值恒定；用m-V图像建立密度概念。",
+    "printed_pages": "144-145",
+    "cognitive_level": "理解·探究"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_02",
+    "title": "密度公式与单位",
+    "summary": "密度等于质量与体积之比；国际单位千克每立方米（kg/m³），常用克每立方厘米（g/cm³）。",
+    "printed_pages": "145-146",
+    "cognitive_level": "理解·计算"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_03",
+    "title": "密度与物质鉴别",
+    "summary": "测密度可鉴别物质，但不同物质密度可能相同，鉴别需结合其他属性。",
+    "printed_pages": "146-147",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_04",
+    "title": "密度知识的生活安全应用",
+    "summary": "水结冰密度减小、体积增大导致水管冻裂的原理与防护措施。",
+    "printed_pages": "147",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_01",
+    "title": "量筒的使用",
+    "summary": "用量筒测液体和不溶于水固体的体积；读数时视线与凹液面底部相平。",
+    "printed_pages": "149",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_02",
+    "title": "测量液体的密度",
+    "summary": "用天平和量筒测盐水密度（质量差法）；盐水选种利用密度分选饱满种子。",
+    "printed_pages": "149-150",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_03",
+    "title": "测量固体的密度",
+    "summary": "用天平测质量、量筒排水法测体积，计算固体密度；分析操作顺序对误差的影响。",
+    "printed_pages": "150-151",
+    "cognitive_level": "理解·操作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_04",
+    "title": "异常数据与科学发现",
+    "summary": "瑞利发现空气中氮与化学氮密度存在微小差异，与拉姆赛合作追索发现氩元素。",
+    "printed_pages": "150",
+    "cognitive_level": "知道·理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_01",
+    "title": "密度与材料选择",
+    "summary": "根据密度与用途选择材料；密度是材料的基本物理属性之一。",
+    "printed_pages": "152-153",
+    "cognitive_level": "理解·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_02",
+    "title": "碑心石质量估算",
+    "summary": "查花岗岩密度、估碑心石体积，用密度公式估算纪念碑碑心石质量。",
+    "printed_pages": "152",
+    "cognitive_level": "理解·计算"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_03",
+    "title": "新材料与科技发展",
+    "summary": "风电叶片、手撕钢等新材料的属性与工程应用；密度与其他属性的综合考量。",
+    "printed_pages": "154-155",
+    "cognitive_level": "知道·应用"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_04",
+    "title": "古代冶铁与黄河铁牛",
+    "summary": "古代冶铁技术发展；唐代黄河铁牛的铸造与后世浮力打捞中的密度应用。",
+    "printed_pages": "155-156",
+    "cognitive_level": "知道"
+  }
+]

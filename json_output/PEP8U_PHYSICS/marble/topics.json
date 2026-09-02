@@ -1,0 +1,2501 @@
+{
+  "version": "v1-local",
+  "topicCount": 106,
+  "topics": [
+    {
+      "id": "mt_1aa243677c8c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "长度的单位",
+      "description": "米是长度基本单位，与千米、分米、厘米、毫米、微米、纳米等的换算关系；国际单位制的统一保证了测量结果可交流、可比较。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.1",
+        "4.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_01_01",
+        "printed_pages": "11-12"
+      }
+    },
+    {
+      "id": "mt_941b8b390b9b",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "刻度尺的使用",
+      "description": "刻度尺的正确放置、读数（视线正对刻度线）、记录（必须注明单位）；根据测量要求选择不同精确度的工具。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.1",
+        "4.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_01_01",
+        "printed_pages": "12-13"
+      }
+    },
+    {
+      "id": "mt_ab2463afce78",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "时间的测量",
+      "description": "时间的基本单位秒；古代用圭表、日晷、沙漏计时，现代用钟表、秒表、铯原子钟；计时工具的发展体现人类对精确测量的追求。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.1",
+        "4.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_01_01",
+        "printed_pages": "14-16"
+      }
+    },
+    {
+      "id": "mt_6363e90369cd",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "测量误差",
+      "description": "估测长度的方法（人体作为'尺'）；误差与错误的区别；减小误差的方法（多次测量求平均）。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.1",
+        "4.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_04",
+        "section_id": "SEC_PEP8U_PHYSICS_01_01",
+        "printed_pages": "14-16"
+      }
+    },
+    {
+      "id": "mt_8421fb8f05ee",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "机械运动",
+      "description": "物理学中的机械运动：物体位置随时间的变化；运动是宇宙中最普遍的现象。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_01_02",
+        "printed_pages": "17-18"
+      }
+    },
+    {
+      "id": "mt_069a78fee443",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "参照物与运动描述",
+      "description": "判断物体运动必须选取参照物；选取不同参照物对同一物体运动状态的描述可能不同。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_01_02",
+        "printed_pages": "18-19"
+      }
+    },
+    {
+      "id": "mt_28dd69e6ef59",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "运动和静止的相对性",
+      "description": "运动和静止是相对的；描述物体的运动情况必须指明参照物。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_01_02",
+        "printed_pages": "18-19"
+      }
+    },
+    {
+      "id": "mt_bef8d14497a8",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "速度",
+      "description": "比较物体运动快慢的两种方法：相同时间比路程、相同路程比时间；速度表示物体运动的快慢。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_01_03",
+        "printed_pages": "20-21"
+      }
+    },
+    {
+      "id": "mt_ce3ddf2c0ce3",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "速度的计算",
+      "description": "速度等于路程与时间之比 v=s/t；国际单位米每秒（m/s），常用单位千米每小时（km/h）及其换算。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·计算"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_01_03",
+        "printed_pages": "21-23"
+      }
+    },
+    {
+      "id": "mt_87362daf94f0",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "平均速度与运动快慢的比较",
+      "description": "变速运动用平均速度描述；通过路程与时间的比值比较不同物体的运动快慢。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_03",
+        "section_id": "SEC_PEP8U_PHYSICS_01_03",
+        "printed_pages": "22-24"
+      }
+    },
+    {
+      "id": "mt_a56c15809ef3",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "运动图像",
+      "description": "用路程-时间图像描述匀速直线运动；从图像中读取物体运动信息。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_04",
+        "section_id": "SEC_PEP8U_PHYSICS_01_03",
+        "printed_pages": "23-24"
+      }
+    },
+    {
+      "id": "mt_3210f5ae35ff",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "实验：测量平均速度",
+      "description": "用刻度尺和秒表测量小车通过斜面全程与半程的平均速度；分析误差来源。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2",
+        "4.1.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_01_04",
+        "printed_pages": "25-26"
+      }
+    },
+    {
+      "id": "mt_871b100dbcda",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "区间测速与交通规则",
+      "description": "区间测速通过总路程与总时间的比值判定平均速度是否超速，是平均速度的执法应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2",
+        "4.1.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_01_04",
+        "printed_pages": "25"
+      }
+    },
+    {
+      "id": "mt_89fe8b62e3da",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "name": "超声测距与智能技术",
+      "description": "利用超声波反射测量距离；超声波测距在倒车雷达、机器人避障等场景中的应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.2.2",
+        "4.1.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_01_04",
+        "printed_pages": "27"
+      }
+    },
+    {
+      "id": "mt_746e174ac5fc",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "声音的产生",
+      "description": "声音由物体振动产生；振动停止发声停止。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_02_01",
+        "printed_pages": "32-33"
+      }
+    },
+    {
+      "id": "mt_fbe098d4a2c1",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "声音的传播",
+      "description": "声音的传播需要介质，真空不能传声；固体、液体、气体都能传声。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_02_01",
+        "printed_pages": "33-35"
+      }
+    },
+    {
+      "id": "mt_3a56c2ef871c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "声速",
+      "description": "声音在不同介质中的传播速度不同，一般固体中最快；15℃空气中约340 m/s。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_02_01",
+        "printed_pages": "35"
+      }
+    },
+    {
+      "id": "mt_6b87004eee67",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "骨传导与应用",
+      "description": "声音通过头骨、颌骨传到听觉神经形成听觉；骨传导在助听器和特殊场合通信中的应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_04",
+        "section_id": "SEC_PEP8U_PHYSICS_02_01",
+        "printed_pages": "36"
+      }
+    },
+    {
+      "id": "mt_5e91557b4537",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "音调",
+      "description": "音调由频率决定；频率高则音调高，频率低则音调低；通过钢尺振动实验观察音调与振动快慢的关系。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_02_02",
+        "printed_pages": "37-39"
+      }
+    },
+    {
+      "id": "mt_135737721669",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "响度",
+      "description": "响度由振幅决定；振幅越大响度越大；响度还与距离发声体的远近有关。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_02_02",
+        "printed_pages": "40-41"
+      }
+    },
+    {
+      "id": "mt_8a4254984e14",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "音色",
+      "description": "音色由发声体的材料、结构决定；不同乐器即便音调响度相同，音色也不同；通过波形比较理解音色差异。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_02_02",
+        "printed_pages": "40-41"
+      }
+    },
+    {
+      "id": "mt_0b15eb530612",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "乐器分类与贾湖骨笛",
+      "description": "乐器分为打击、弦、管三类；河南舞阳贾湖骨笛距今8000多年，是我国迄今发现最早的管乐器，可吹奏七声音阶。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_04",
+        "section_id": "SEC_PEP8U_PHYSICS_02_02",
+        "printed_pages": "42-43"
+      }
+    },
+    {
+      "id": "mt_cfff706860ea",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "声与信息",
+      "description": "声音可以传递信息：回声定位、超声探伤、B型超声成像等应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_02_03",
+        "printed_pages": "44-45"
+      }
+    },
+    {
+      "id": "mt_addbab45cff0",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "声与能量",
+      "description": "声音可以传递能量：超声清洗、超声碎石等利用声波能量做功。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_02_03",
+        "printed_pages": "45-46"
+      }
+    },
+    {
+      "id": "mt_61435697a8c7",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "中国古代建筑声学",
+      "description": "回音壁、莺莺塔等古代建筑的声学现象及其科学原理。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_03",
+        "section_id": "SEC_PEP8U_PHYSICS_02_03",
+        "printed_pages": "47"
+      }
+    },
+    {
+      "id": "mt_ed1bb30ecf43",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "音乐公路",
+      "description": "车轮压过路面刻槽振动发声，通过刻槽间距控制音调，是声学规律的工程应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_04",
+        "section_id": "SEC_PEP8U_PHYSICS_02_03",
+        "printed_pages": "48"
+      }
+    },
+    {
+      "id": "mt_6cf8bd979860",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "噪声及其等级",
+      "description": "从物理学角度和环境保护角度定义噪声；用分贝表示声音强弱的等级。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_02_04",
+        "printed_pages": "49-50"
+      }
+    },
+    {
+      "id": "mt_bd94e81fab04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "噪声的危害",
+      "description": "长期暴露于高分贝噪声损害听力、影响睡眠与心血管健康。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_02_04",
+        "printed_pages": "50"
+      }
+    },
+    {
+      "id": "mt_fc9d438521df",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "控制噪声的途径",
+      "description": "防止噪声的三条途径：防止噪声产生、阻断噪声传播、防止噪声进入耳朵。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_02_04",
+        "printed_pages": "51"
+      }
+    },
+    {
+      "id": "mt_9b7f378ea392",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "防噪声耳罩设计",
+      "description": "耳罩通过隔音材料与密封结构降低进入人耳的噪声，是噪声控制的个人防护应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_04",
+        "section_id": "SEC_PEP8U_PHYSICS_02_04",
+        "printed_pages": "52"
+      }
+    },
+    {
+      "id": "mt_5abdd3361973",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "隔音原理与材料选择",
+      "description": "不同材料的隔音性能不同；根据隔音目标与环保要求选择材料。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_01",
+        "section_id": "SEC_PEP8U_PHYSICS_02_05",
+        "printed_pages": "53"
+      }
+    },
+    {
+      "id": "mt_cd5eff9d3fe0",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "模型制作与测试",
+      "description": "按方案制作隔音房间模型，用声级测试比较隔音效果并记录数据。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "操作·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_02",
+        "section_id": "SEC_PEP8U_PHYSICS_02_05",
+        "printed_pages": "53-54"
+      }
+    },
+    {
+      "id": "mt_c728c10d62fa",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "name": "方案评价与听力健康",
+      "description": "用隔声量等指标综合评价方案优劣；联系噪声环境与听力健康提出改进建议。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "评价·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.2",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_03",
+        "section_id": "SEC_PEP8U_PHYSICS_02_05",
+        "printed_pages": "54"
+      }
+    },
+    {
+      "id": "mt_a4f037653084",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "温度与温度计原理",
+      "description": "温度表示物体的冷热程度；常用温度计利用液体热胀冷缩规律制成。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.2",
+        "4.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_03_01",
+        "printed_pages": "58-59"
+      }
+    },
+    {
+      "id": "mt_59edcb3ab963",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "温度计的正确使用",
+      "description": "使用温度计前观察量程与分度值；玻璃泡完全浸入被测液体、不碰容器底和壁，视线与液柱上表面相平。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.2",
+        "4.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_03_01",
+        "printed_pages": "60-61"
+      }
+    },
+    {
+      "id": "mt_af9ffc0daf7e",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "生活温度调查",
+      "description": "调查冰箱冷藏、冷冻与食品保存适宜温度，用温度知识解释保存要求。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.2",
+        "4.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_03_01",
+        "printed_pages": "61"
+      }
+    },
+    {
+      "id": "mt_ca49e232de78",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "测温技术发展",
+      "description": "电子温度计、红外测温等现代测温技术的原理与使用场景。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.2",
+        "4.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_04",
+        "section_id": "SEC_PEP8U_PHYSICS_03_01",
+        "printed_pages": "62"
+      }
+    },
+    {
+      "id": "mt_a833dbaecb10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "熔化和凝固的概念",
+      "description": "物质从固态变为液态叫熔化，从液态变为固态叫凝固；熔化吸热、凝固放热。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_03_02",
+        "printed_pages": "64"
+      }
+    },
+    {
+      "id": "mt_482428205f7c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "探究固体熔化时温度变化规律",
+      "description": "用海波和蜡对比实验：晶体有固定熔点、熔化中温度不变，非晶体没有固定熔点；实验注意隔水加热安全。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_03_02",
+        "printed_pages": "65-67"
+      }
+    },
+    {
+      "id": "mt_8f18f8cb0a1f",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "晶体与非晶体",
+      "description": "晶体有确定的熔点（如冰、海波），非晶体没有（如蜡、玻璃）；用熔化图像区分。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_03_02",
+        "printed_pages": "66-67"
+      }
+    },
+    {
+      "id": "mt_6aefbea85b72",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "物态变化的应用",
+      "description": "钢水浇铸成型利用凝固；北方菜窖放水缸防冻、伤口敷蜡利用凝固放热。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_04",
+        "section_id": "SEC_PEP8U_PHYSICS_03_02",
+        "printed_pages": "64、68"
+      }
+    },
+    {
+      "id": "mt_5a9b4de32ac2",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "汽化和液化",
+      "description": "物质从液态变为气态叫汽化（蒸发和沸腾），从气态变为液态叫液化；汽化吸热、液化放热。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "4.2.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_03_03",
+        "printed_pages": "70"
+      }
+    },
+    {
+      "id": "mt_0739c9dd7d33",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "探究水沸腾时温度变化特点",
+      "description": "水沸腾前气泡上升变小、沸腾时上升变大且温度保持不变；沸腾需要持续吸热且温度保持沸点。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "4.2.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_03_03",
+        "printed_pages": "70-71"
+      }
+    },
+    {
+      "id": "mt_81a36f5b0724",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "蒸发及其影响因素",
+      "description": "蒸发在任何温度下发生；提高液体温度、增大表面积、加快空气流动可加快蒸发。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "4.2.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_03",
+        "section_id": "SEC_PEP8U_PHYSICS_03_03",
+        "printed_pages": "72-73"
+      }
+    },
+    {
+      "id": "mt_23a16e98deff",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "液化与生活安全",
+      "description": "降低温度和压缩体积可以使气体液化；'白气'是水蒸气液化成的小水滴；100℃水蒸气烫伤比开水更严重。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "4.2.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_04",
+        "section_id": "SEC_PEP8U_PHYSICS_03_03",
+        "printed_pages": "73-74"
+      }
+    },
+    {
+      "id": "mt_5e717e22a8bf",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "青藏铁路冻土热管",
+      "description": "热管内工作液体在热端汽化吸热、冷端液化放热，把热量从路基传出，保持冻土稳定。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "4.2.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_05",
+        "section_id": "SEC_PEP8U_PHYSICS_03_03",
+        "printed_pages": "75"
+      }
+    },
+    {
+      "id": "mt_7b3bf5c06604",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "升华和凝华",
+      "description": "物质从固态直接变为气态叫升华（吸热），从气态直接变为固态叫凝华（放热）。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_03_04",
+        "printed_pages": "77-78"
+      }
+    },
+    {
+      "id": "mt_566c3b0ca76f",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "升华凝华现象辨析",
+      "description": "用升华、凝华解释霜、冰花、雾凇、冻衣变干等现象，区分与液化现象。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_03_04",
+        "printed_pages": "78-79"
+      }
+    },
+    {
+      "id": "mt_f1a211dbfcf9",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "水资源保护与节水行动",
+      "description": "云、雨、雹、雪的形成对应物态变化；水资源紧缺背景下的节水行动与调查。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_03_04",
+        "printed_pages": "79-80"
+      }
+    },
+    {
+      "id": "mt_cf6a6772f5fc",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "厨房中的物态变化辨识",
+      "description": "辨识厨房中的熔化、凝固、汽化、液化、升华、凝华现象并说明吸放热。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_01",
+        "section_id": "SEC_PEP8U_PHYSICS_03_05",
+        "printed_pages": "81"
+      }
+    },
+    {
+      "id": "mt_9963d931b280",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "节能与安全用能建议",
+      "description": "利用汽化吸热、液化放热与保温原理提出节能做法；识别水蒸气烫伤等风险并给出防护建议。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_02",
+        "section_id": "SEC_PEP8U_PHYSICS_03_05",
+        "printed_pages": "82"
+      }
+    },
+    {
+      "id": "mt_73ad23fb6ded",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "name": "家庭实验设计与安全边界",
+      "description": "设计观察物态变化的家庭小实验，明确器材安全使用边界并记录现象。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "设计·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.1.3",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_03",
+        "section_id": "SEC_PEP8U_PHYSICS_03_05",
+        "printed_pages": "82-83"
+      }
+    },
+    {
+      "id": "mt_0c83bae1c5d3",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光源与光的直线传播",
+      "description": "光源是自身能发光的物体；光在同种均匀介质中沿直线传播，用光线描述。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3-TEACH"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_04_01",
+        "printed_pages": "88-89"
+      }
+    },
+    {
+      "id": "mt_19e30872c50e",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "影子、日食与月食",
+      "description": "影子由光的直线传播形成；用直线传播的光路解释日食、月食和小孔成像。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3-TEACH"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_04_01",
+        "printed_pages": "89-90"
+      }
+    },
+    {
+      "id": "mt_73c73b0d2c3d",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光速与科学测量",
+      "description": "光在真空中传播速度约3×10⁸ m/s；光速的测量历程与雷电传播时间估算。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3-TEACH"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_04_01",
+        "printed_pages": "91-92"
+      }
+    },
+    {
+      "id": "mt_e90eba07d7c9",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光的反射定律",
+      "description": "反射光线、入射光线和法线在同一平面内；反射角等于入射角；光路可逆。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3",
+        "4.2.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_04_02",
+        "printed_pages": "93-94"
+      }
+    },
+    {
+      "id": "mt_f5c35268117d",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "探究光的反射规律",
+      "description": "用平面镜、量角器多次改变入射角并记录反射角，用证据归纳反射定律。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3",
+        "4.2.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_04_02",
+        "printed_pages": "94-95"
+      }
+    },
+    {
+      "id": "mt_e218f8dcf8da",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "镜面反射与漫反射",
+      "description": "镜面反射使平行光沿同一方向反射；漫反射使光射向各个方向，两者都遵守反射定律。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3",
+        "4.2.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_04_02",
+        "printed_pages": "95-96"
+      }
+    },
+    {
+      "id": "mt_fda593d175cf",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光污染与用眼健康",
+      "description": "玻璃幕墙等强反射造成眩光污染；从反射规律理解光污染来源并注意用眼防护。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3",
+        "4.2.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_04",
+        "section_id": "SEC_PEP8U_PHYSICS_04_02",
+        "printed_pages": "96"
+      }
+    },
+    {
+      "id": "mt_5b5bf3c19f50",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "激光测距",
+      "description": "利用激光方向性好、反射测距的原理测量距离（如激光测距仪）。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3",
+        "4.2.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_05",
+        "section_id": "SEC_PEP8U_PHYSICS_04_02",
+        "printed_pages": "97"
+      }
+    },
+    {
+      "id": "mt_14df9961b26c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "平面镜成像特点",
+      "description": "平面镜所成像与物大小相等、到镜面距离相等、连线与镜面垂直、成虚像。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.4",
+        "4.2.7"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_04_03",
+        "printed_pages": "98-99"
+      }
+    },
+    {
+      "id": "mt_96511630b540",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "平面镜成像的应用",
+      "description": "用对称法作图确定像的位置；解释水中倒影、潜望镜等应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.4",
+        "4.2.7"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_04_03",
+        "printed_pages": "99-100"
+      }
+    },
+    {
+      "id": "mt_a4d034dc711b",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "古代铜镜",
+      "description": "古代铜镜的成像原理与磨制工艺，平面镜成像规律在古代器物中的体现。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.4",
+        "4.2.7"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_03",
+        "section_id": "SEC_PEP8U_PHYSICS_04_03",
+        "printed_pages": "100"
+      }
+    },
+    {
+      "id": "mt_5b867a40f199",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "太阳灶与节能",
+      "description": "凹面镜把平行光会聚于焦点，太阳灶利用会聚的太阳能加热。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.4",
+        "4.2.7"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_04",
+        "section_id": "SEC_PEP8U_PHYSICS_04_03",
+        "printed_pages": "101"
+      }
+    },
+    {
+      "id": "mt_44673fead4d1",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "京剧艺术中的平面镜情境",
+      "description": "京剧表演与道具中的平面镜情境及其成像原理解释。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.4",
+        "4.2.7"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_05",
+        "section_id": "SEC_PEP8U_PHYSICS_04_03",
+        "printed_pages": "102"
+      }
+    },
+    {
+      "id": "mt_df2e81ef10d0",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光的折射现象与规律",
+      "description": "光从一种介质斜射入另一种介质时传播方向发生偏折；折射角与入射角的关系及光路可逆。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_04_04",
+        "printed_pages": "103-104"
+      }
+    },
+    {
+      "id": "mt_9839792d2da3",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "折射的光路作图与现象解释",
+      "description": "用折射规律作图解释池底看起来变浅、筷子在水中弯折等现象。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_04_04",
+        "printed_pages": "104-105"
+      }
+    },
+    {
+      "id": "mt_e6583ec96fee",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "海市蜃楼与古籍记载",
+      "description": "古籍对海市蜃楼的记载；现代用光在不均匀大气中的折射解释其成因。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_04_04",
+        "printed_pages": "105"
+      }
+    },
+    {
+      "id": "mt_4fca93e785c8",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "光的色散",
+      "description": "白光经三棱镜分解为七种色光；牛顿用棱镜实验研究色散并质疑旧解释。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_01",
+        "section_id": "SEC_PEP8U_PHYSICS_04_05",
+        "printed_pages": "107"
+      }
+    },
+    {
+      "id": "mt_36e3f58a6545",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "白光的组成与色光混合",
+      "description": "白光由多种色光组成；红、绿、蓝为色光三原色。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_02",
+        "section_id": "SEC_PEP8U_PHYSICS_04_05",
+        "printed_pages": "107-108"
+      }
+    },
+    {
+      "id": "mt_e6425e64a363",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "红外线及其应用",
+      "description": "红外线的热效应及其在红外诊断、夜视仪、遥控等方面的应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_03",
+        "section_id": "SEC_PEP8U_PHYSICS_04_05",
+        "printed_pages": "109"
+      }
+    },
+    {
+      "id": "mt_b9a4d2f0bf31",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "name": "紫外线及其应用",
+      "description": "紫外线能使荧光物质发光、能杀菌；应用于验钞、消毒，同时注意防护过度照射。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.6"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_04",
+        "section_id": "SEC_PEP8U_PHYSICS_04_05",
+        "printed_pages": "110"
+      }
+    },
+    {
+      "id": "mt_ce3c60e49c07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "透镜及其分类",
+      "description": "中间厚边缘薄的是凸透镜（会聚），中间薄边缘厚的是凹透镜（发散）。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_05_01",
+        "printed_pages": "114"
+      }
+    },
+    {
+      "id": "mt_cd40b282cb41",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "透镜对光的作用",
+      "description": "凸透镜使光会聚、凹透镜使光发散；用光路图表示。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_05_01",
+        "printed_pages": "115-116"
+      }
+    },
+    {
+      "id": "mt_35f2222792b0",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "焦点与焦距",
+      "description": "平行于主光轴的光经凸透镜会聚于焦点；焦点到光心的距离叫焦距。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_05_01",
+        "printed_pages": "115-116"
+      }
+    },
+    {
+      "id": "mt_d989c3a8e6ac",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "古代冰透镜取火",
+      "description": "冰凸透镜会聚太阳光取火的记载与原理。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_04",
+        "section_id": "SEC_PEP8U_PHYSICS_05_01",
+        "printed_pages": "117"
+      }
+    },
+    {
+      "id": "mt_909a08c66268",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "凸透镜会聚与防火安全",
+      "description": "丢弃的透明瓶或透镜可会聚阳光引燃枯叶，须注意野外用光安全与森林防火。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_05",
+        "section_id": "SEC_PEP8U_PHYSICS_05_01",
+        "printed_pages": "117"
+      }
+    },
+    {
+      "id": "mt_d566620e33ef",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "照相机与数码成像",
+      "description": "照相机镜头成倒立缩小实像；从胶片到数码的成像技术发展。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_05_02",
+        "printed_pages": "118-119"
+      }
+    },
+    {
+      "id": "mt_c2e1f6a5f0dd",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "投影仪",
+      "description": "投影仪镜头成倒立放大实像，平面镜改变光路；物距与像距关系。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_05_02",
+        "printed_pages": "119-120"
+      }
+    },
+    {
+      "id": "mt_f6d24e9ce0e8",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "放大镜",
+      "description": "放大镜是短焦距凸透镜，物距小于焦距时成正立放大虚像。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_05_02",
+        "printed_pages": "120-121"
+      }
+    },
+    {
+      "id": "mt_7c538d249ed1",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "凸透镜成像规律的实验探究",
+      "description": "通过改变物距，观察并记录像的虚实、大小、正倒；用焦距f作为参照距离归纳成像规律；多组数据共享与比较。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "探究·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "4.2.8"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_05_03",
+        "printed_pages": "122-124"
+      }
+    },
+    {
+      "id": "mt_9587117d2c5c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "凸透镜成像规律的应用",
+      "description": "将成像规律应用于照相机（成缩小倒立实像）、投影仪（成放大倒立实像）、放大镜（成放大正立虚像）等场景的分析。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "4.2.8"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_05_03",
+        "printed_pages": "124-125"
+      }
+    },
+    {
+      "id": "mt_cca2ca6ab51e",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "眼睛与视觉形成",
+      "description": "眼睛相当于可调焦的照相机：角膜、晶状体等折光系统在视网膜上成倒立缩小实像。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_05_04",
+        "printed_pages": "126-127"
+      }
+    },
+    {
+      "id": "mt_03f5c4729d78",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "近视与远视的成因及矫正",
+      "description": "近视眼像成在视网膜前，用凹透镜矫正；远视眼像成在视网膜后，用凸透镜矫正。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_05_04",
+        "printed_pages": "127-128"
+      }
+    },
+    {
+      "id": "mt_679ba50469ae",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "科学用眼",
+      "description": "用眼距离、时长、光线条件与户外活动对视力的影响及正确用眼习惯。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_05_04",
+        "printed_pages": "128-129"
+      }
+    },
+    {
+      "id": "mt_bbfa2e746f31",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "全国爱眼日与公益行动",
+      "description": "全国爱眼日的设立背景；面向家庭和社区开展视力健康宣传的公益实践。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_04",
+        "section_id": "SEC_PEP8U_PHYSICS_05_04",
+        "printed_pages": "129"
+      }
+    },
+    {
+      "id": "mt_f93237dec1c6",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "望远镜的原理与方案设计",
+      "description": "开普勒望远镜由物镜（成倒立实像）与目镜（放大虚像）组成；按放大需求选择透镜焦距。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_01",
+        "section_id": "SEC_PEP8U_PHYSICS_05_05",
+        "printed_pages": "130-131"
+      }
+    },
+    {
+      "id": "mt_4405946ef0b5",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "制作、调试与工程评价",
+      "description": "装配镜筒与透镜、调试对焦；用放大倍数与清晰度等指标评价作品并提出改进。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "操作·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_02",
+        "section_id": "SEC_PEP8U_PHYSICS_05_05",
+        "printed_pages": "131-133"
+      }
+    },
+    {
+      "id": "mt_b773bf6a2c51",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "望远镜与天文观测史",
+      "description": "伽利略望远镜开启近代天文观测；中国古代天文观测记录与贡献。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_03",
+        "section_id": "SEC_PEP8U_PHYSICS_05_05",
+        "printed_pages": "134"
+      }
+    },
+    {
+      "id": "mt_e0b0e59b9411",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "name": "中国天眼",
+      "description": "500米口径球面射电望远镜（FAST）的观测能力与中国射电天文学进展。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "2.3.5",
+        "5.2.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_04",
+        "section_id": "SEC_PEP8U_PHYSICS_05_05",
+        "printed_pages": "134-135"
+      }
+    },
+    {
+      "id": "mt_de505a7d16d5",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "质量及其单位",
+      "description": "物体所含物质的多少叫质量；国际单位千克（kg），质量不随形状、状态、位置改变。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.2",
+        "4.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_01",
+        "section_id": "SEC_PEP8U_PHYSICS_06_01",
+        "printed_pages": "139-140"
+      }
+    },
+    {
+      "id": "mt_c1aedfd87b12",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "战国天平与测量史",
+      "description": "战国楚墓出土的天平与砝码；天平平衡测量质量的古代实践。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.2",
+        "4.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_02",
+        "section_id": "SEC_PEP8U_PHYSICS_06_01",
+        "printed_pages": "139"
+      }
+    },
+    {
+      "id": "mt_1b6adbb79747",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "天平的使用与计量规范",
+      "description": "托盘天平的构造与规范使用步骤；计量单位统一保证测量结果可交流、可比较。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.2",
+        "4.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_03",
+        "section_id": "SEC_PEP8U_PHYSICS_06_01",
+        "printed_pages": "140-142"
+      }
+    },
+    {
+      "id": "mt_6ee71c7e3f72",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "千克定义的演进",
+      "description": "国际千克原器的局限；2018年以普朗克常数重新定义千克。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.2",
+        "4.1.1"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_04",
+        "section_id": "SEC_PEP8U_PHYSICS_06_01",
+        "printed_pages": "143"
+      }
+    },
+    {
+      "id": "mt_9b81c7a1108c",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "密度概念的建立",
+      "description": "同种物质质量与体积成正比，比值恒定；用m-V图像建立密度概念。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·探究"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_01",
+        "section_id": "SEC_PEP8U_PHYSICS_06_02",
+        "printed_pages": "144-145"
+      }
+    },
+    {
+      "id": "mt_0bc1033292e1",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "密度公式与单位",
+      "description": "密度等于质量与体积之比；国际单位千克每立方米（kg/m³），常用克每立方厘米（g/cm³）。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·计算"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_02",
+        "section_id": "SEC_PEP8U_PHYSICS_06_02",
+        "printed_pages": "145-146"
+      }
+    },
+    {
+      "id": "mt_d655294cc55e",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "密度与物质鉴别",
+      "description": "测密度可鉴别物质，但不同物质密度可能相同，鉴别需结合其他属性。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_03",
+        "section_id": "SEC_PEP8U_PHYSICS_06_02",
+        "printed_pages": "146-147"
+      }
+    },
+    {
+      "id": "mt_47cde9fc1266",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "密度知识的生活安全应用",
+      "description": "水结冰密度减小、体积增大导致水管冻裂的原理与防护措施。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_04",
+        "section_id": "SEC_PEP8U_PHYSICS_06_02",
+        "printed_pages": "147"
+      }
+    },
+    {
+      "id": "mt_ecb04806fe41",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "量筒的使用",
+      "description": "用量筒测液体和不溶于水固体的体积；读数时视线与凹液面底部相平。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3",
+        "4.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_01",
+        "section_id": "SEC_PEP8U_PHYSICS_06_03",
+        "printed_pages": "149"
+      }
+    },
+    {
+      "id": "mt_70296bd30942",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "测量液体的密度",
+      "description": "用天平和量筒测盐水密度（质量差法）；盐水选种利用密度分选饱满种子。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3",
+        "4.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_02",
+        "section_id": "SEC_PEP8U_PHYSICS_06_03",
+        "printed_pages": "149-150"
+      }
+    },
+    {
+      "id": "mt_040b66a070fa",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "测量固体的密度",
+      "description": "用天平测质量、量筒排水法测体积，计算固体密度；分析操作顺序对误差的影响。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·操作"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3",
+        "4.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_03",
+        "section_id": "SEC_PEP8U_PHYSICS_06_03",
+        "printed_pages": "150-151"
+      }
+    },
+    {
+      "id": "mt_faae1b8f6d0b",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "异常数据与科学发现",
+      "description": "瑞利发现空气中氮与化学氮密度存在微小差异，与拉姆赛合作追索发现氩元素。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·理解"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.3",
+        "4.1.2"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_04",
+        "section_id": "SEC_PEP8U_PHYSICS_06_03",
+        "printed_pages": "150"
+      }
+    },
+    {
+      "id": "mt_3c54720cffe9",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "密度与材料选择",
+      "description": "根据密度与用途选择材料；密度是材料的基本物理属性之一。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_01",
+        "section_id": "SEC_PEP8U_PHYSICS_06_04",
+        "printed_pages": "152-153"
+      }
+    },
+    {
+      "id": "mt_eb2b2ae20361",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "碑心石质量估算",
+      "description": "查花岗岩密度、估碑心石体积，用密度公式估算纪念碑碑心石质量。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "理解·计算"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_02",
+        "section_id": "SEC_PEP8U_PHYSICS_06_04",
+        "printed_pages": "152"
+      }
+    },
+    {
+      "id": "mt_1eb8e96eeb3e",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "新材料与科技发展",
+      "description": "风电叶片、手撕钢等新材料的属性与工程应用；密度与其他属性的综合考量。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道·应用"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_03",
+        "section_id": "SEC_PEP8U_PHYSICS_06_04",
+        "printed_pages": "154-155"
+      }
+    },
+    {
+      "id": "mt_bacc1e06823b",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "name": "古代冶铁与黄河铁牛",
+      "description": "古代冶铁技术发展；唐代黄河铁牛的铸造与后世浮力打捞中的密度应用。",
+      "ageRangeStart": null,
+      "ageRangeEnd": null,
+      "centrality": null,
+      "evidence": [
+        "知道"
+      ],
+      "assessmentPrompt": null,
+      "standards": [
+        "1.2.4"
+      ],
+      "source": {
+        "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_04",
+        "section_id": "SEC_PEP8U_PHYSICS_06_04",
+        "printed_pages": "155-156"
+      }
+    }
+  ]
+}

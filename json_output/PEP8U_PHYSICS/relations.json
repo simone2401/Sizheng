@@ -1,0 +1,2442 @@
+{
+  "chapter_has_section": [
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_01",
+      "section_id": "SEC_PEP8U_PHYSICS_01_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_01",
+      "section_id": "SEC_PEP8U_PHYSICS_01_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_01",
+      "section_id": "SEC_PEP8U_PHYSICS_01_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_01",
+      "section_id": "SEC_PEP8U_PHYSICS_01_04"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_02",
+      "section_id": "SEC_PEP8U_PHYSICS_02_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_02",
+      "section_id": "SEC_PEP8U_PHYSICS_02_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_02",
+      "section_id": "SEC_PEP8U_PHYSICS_02_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_02",
+      "section_id": "SEC_PEP8U_PHYSICS_02_04"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_02",
+      "section_id": "SEC_PEP8U_PHYSICS_02_05"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_03",
+      "section_id": "SEC_PEP8U_PHYSICS_03_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_03",
+      "section_id": "SEC_PEP8U_PHYSICS_03_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_03",
+      "section_id": "SEC_PEP8U_PHYSICS_03_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_03",
+      "section_id": "SEC_PEP8U_PHYSICS_03_04"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_03",
+      "section_id": "SEC_PEP8U_PHYSICS_03_05"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_04",
+      "section_id": "SEC_PEP8U_PHYSICS_04_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_04",
+      "section_id": "SEC_PEP8U_PHYSICS_04_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_04",
+      "section_id": "SEC_PEP8U_PHYSICS_04_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_04",
+      "section_id": "SEC_PEP8U_PHYSICS_04_04"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_04",
+      "section_id": "SEC_PEP8U_PHYSICS_04_05"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_05",
+      "section_id": "SEC_PEP8U_PHYSICS_05_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_05",
+      "section_id": "SEC_PEP8U_PHYSICS_05_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_05",
+      "section_id": "SEC_PEP8U_PHYSICS_05_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_05",
+      "section_id": "SEC_PEP8U_PHYSICS_05_04"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_05",
+      "section_id": "SEC_PEP8U_PHYSICS_05_05"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_06",
+      "section_id": "SEC_PEP8U_PHYSICS_06_01"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_06",
+      "section_id": "SEC_PEP8U_PHYSICS_06_02"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_06",
+      "section_id": "SEC_PEP8U_PHYSICS_06_03"
+    },
+    {
+      "chapter_id": "CH_PEP8U_PHYSICS_06",
+      "section_id": "SEC_PEP8U_PHYSICS_06_04"
+    }
+  ],
+  "section_has_standard": [
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_01_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_02_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_03_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_04_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "standard_item_id": "STD_PEP8U_PHYSICS_05_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "standard_item_id": "STD_PEP8U_PHYSICS_06_04_01"
+    }
+  ],
+  "section_has_knowledge_point": [
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_01_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_03_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_01_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_01_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_02_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_03_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_04_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_02_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_01_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_02_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_03_05"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_03_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_02_05"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_03_05"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_04_05_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_01_05"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_04_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_05_05_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_01_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_02_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_03_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "knowledge_point_id": "KP_PEP8U_PHYSICS_06_04_04"
+    }
+  ],
+  "section_has_chunk": [
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P11_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P12_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P13_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P14_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P15_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P16_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "chunk_id": "PEP8U_PHYSICS_01_01_P16_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "chunk_id": "PEP8U_PHYSICS_01_02_P17_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "chunk_id": "PEP8U_PHYSICS_01_02_P18_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "chunk_id": "PEP8U_PHYSICS_01_02_P19_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "chunk_id": "PEP8U_PHYSICS_01_03_P20_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "chunk_id": "PEP8U_PHYSICS_01_03_P21_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "chunk_id": "PEP8U_PHYSICS_01_03_P22_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "chunk_id": "PEP8U_PHYSICS_01_03_P23_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "chunk_id": "PEP8U_PHYSICS_01_03_P24_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "chunk_id": "PEP8U_PHYSICS_01_04_P25_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "chunk_id": "PEP8U_PHYSICS_01_04_P26_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "chunk_id": "PEP8U_PHYSICS_01_04_P27_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "chunk_id": "PEP8U_PHYSICS_01_04_P27_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "chunk_id": "PEP8U_PHYSICS_02_01_P32_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "chunk_id": "PEP8U_PHYSICS_02_01_P33_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "chunk_id": "PEP8U_PHYSICS_02_01_P34_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "chunk_id": "PEP8U_PHYSICS_02_01_P35_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "chunk_id": "PEP8U_PHYSICS_02_01_P36_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P37_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P38_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P39_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P40_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P41_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P42_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "chunk_id": "PEP8U_PHYSICS_02_02_P43_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "chunk_id": "PEP8U_PHYSICS_02_03_P44_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "chunk_id": "PEP8U_PHYSICS_02_03_P45_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "chunk_id": "PEP8U_PHYSICS_02_03_P46_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "chunk_id": "PEP8U_PHYSICS_02_03_P47_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "chunk_id": "PEP8U_PHYSICS_02_03_P48_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "chunk_id": "PEP8U_PHYSICS_02_04_P49_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "chunk_id": "PEP8U_PHYSICS_02_04_P50_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "chunk_id": "PEP8U_PHYSICS_02_04_P51_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "chunk_id": "PEP8U_PHYSICS_02_04_P52_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "chunk_id": "PEP8U_PHYSICS_02_05_P53_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "chunk_id": "PEP8U_PHYSICS_02_05_P54_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P58_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P59_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P60_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P61_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P62_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "chunk_id": "PEP8U_PHYSICS_03_01_P63_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P64_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P65_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P66_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P67_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P68_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "chunk_id": "PEP8U_PHYSICS_03_02_P69_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P70_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P71_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P72_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P73_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P74_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P75_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P75_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "chunk_id": "PEP8U_PHYSICS_03_03_P76_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "chunk_id": "PEP8U_PHYSICS_03_04_P77_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "chunk_id": "PEP8U_PHYSICS_03_04_P78_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "chunk_id": "PEP8U_PHYSICS_03_04_P79_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "chunk_id": "PEP8U_PHYSICS_03_04_P79_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "chunk_id": "PEP8U_PHYSICS_03_04_P80_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "chunk_id": "PEP8U_PHYSICS_03_05_P81_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "chunk_id": "PEP8U_PHYSICS_03_05_P82_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "chunk_id": "PEP8U_PHYSICS_03_05_P83_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P88_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P89_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P90_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P91_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P91_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "chunk_id": "PEP8U_PHYSICS_04_01_P92_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "chunk_id": "PEP8U_PHYSICS_04_02_P93_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "chunk_id": "PEP8U_PHYSICS_04_02_P94_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "chunk_id": "PEP8U_PHYSICS_04_02_P95_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "chunk_id": "PEP8U_PHYSICS_04_02_P96_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "chunk_id": "PEP8U_PHYSICS_04_02_P97_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "chunk_id": "PEP8U_PHYSICS_04_03_P98_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "chunk_id": "PEP8U_PHYSICS_04_03_P99_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "chunk_id": "PEP8U_PHYSICS_04_03_P100_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "chunk_id": "PEP8U_PHYSICS_04_03_P101_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "chunk_id": "PEP8U_PHYSICS_04_03_P102_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "chunk_id": "PEP8U_PHYSICS_04_04_P103_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "chunk_id": "PEP8U_PHYSICS_04_04_P104_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "chunk_id": "PEP8U_PHYSICS_04_04_P105_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "chunk_id": "PEP8U_PHYSICS_04_04_P106_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "chunk_id": "PEP8U_PHYSICS_04_05_P107_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "chunk_id": "PEP8U_PHYSICS_04_05_P108_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "chunk_id": "PEP8U_PHYSICS_04_05_P109_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "chunk_id": "PEP8U_PHYSICS_04_05_P110_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "chunk_id": "PEP8U_PHYSICS_05_01_P114_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "chunk_id": "PEP8U_PHYSICS_05_01_P115_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "chunk_id": "PEP8U_PHYSICS_05_01_P116_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "chunk_id": "PEP8U_PHYSICS_05_01_P117_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "chunk_id": "PEP8U_PHYSICS_05_02_P118_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "chunk_id": "PEP8U_PHYSICS_05_02_P119_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "chunk_id": "PEP8U_PHYSICS_05_02_P120_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "chunk_id": "PEP8U_PHYSICS_05_02_P121_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "chunk_id": "PEP8U_PHYSICS_05_03_P122_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "chunk_id": "PEP8U_PHYSICS_05_03_P123_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "chunk_id": "PEP8U_PHYSICS_05_03_P124_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "chunk_id": "PEP8U_PHYSICS_05_03_P125_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "chunk_id": "PEP8U_PHYSICS_05_03_P125_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "chunk_id": "PEP8U_PHYSICS_05_04_P126_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "chunk_id": "PEP8U_PHYSICS_05_04_P127_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "chunk_id": "PEP8U_PHYSICS_05_04_P128_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "chunk_id": "PEP8U_PHYSICS_05_04_P129_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P130_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P131_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P132_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P133_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P134_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P134_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "chunk_id": "PEP8U_PHYSICS_05_05_P135_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P139_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P140_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P141_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P142_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P143_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "chunk_id": "PEP8U_PHYSICS_06_01_P143_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "chunk_id": "PEP8U_PHYSICS_06_02_P144_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "chunk_id": "PEP8U_PHYSICS_06_02_P145_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "chunk_id": "PEP8U_PHYSICS_06_02_P146_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "chunk_id": "PEP8U_PHYSICS_06_02_P147_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "chunk_id": "PEP8U_PHYSICS_06_02_P148_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "chunk_id": "PEP8U_PHYSICS_06_03_P149_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "chunk_id": "PEP8U_PHYSICS_06_03_P150_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "chunk_id": "PEP8U_PHYSICS_06_03_P150_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "chunk_id": "PEP8U_PHYSICS_06_03_P151_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "chunk_id": "PEP8U_PHYSICS_06_03_P151_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P152_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P153_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P154_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P155_1"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P155_2"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "chunk_id": "PEP8U_PHYSICS_06_04_P156_1"
+    }
+  ],
+  "section_has_ideology_paragraph": [
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_01_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_02_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_03_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_04_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_05_05",
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_01",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_02_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_02",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_02_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_03",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_01"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_02"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_03"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_04"
+    },
+    {
+      "section_id": "SEC_PEP8U_PHYSICS_06_04",
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_05"
+    }
+  ],
+  "tag_l1_has_l2": [
+    {
+      "l1_code": "T01",
+      "l2_code": "T01-01"
+    },
+    {
+      "l1_code": "T01",
+      "l2_code": "T01-02"
+    },
+    {
+      "l1_code": "T01",
+      "l2_code": "T01-03"
+    },
+    {
+      "l1_code": "T02",
+      "l2_code": "T02-01"
+    },
+    {
+      "l1_code": "T02",
+      "l2_code": "T02-02"
+    },
+    {
+      "l1_code": "T02",
+      "l2_code": "T02-03"
+    },
+    {
+      "l1_code": "T03",
+      "l2_code": "T03-01"
+    },
+    {
+      "l1_code": "T03",
+      "l2_code": "T03-02"
+    },
+    {
+      "l1_code": "T03",
+      "l2_code": "T03-03"
+    },
+    {
+      "l1_code": "T04",
+      "l2_code": "T04-01"
+    },
+    {
+      "l1_code": "T04",
+      "l2_code": "T04-02"
+    },
+    {
+      "l1_code": "T04",
+      "l2_code": "T04-03"
+    },
+    {
+      "l1_code": "T05",
+      "l2_code": "T05-01"
+    },
+    {
+      "l1_code": "T05",
+      "l2_code": "T05-02"
+    },
+    {
+      "l1_code": "T05",
+      "l2_code": "T05-03"
+    },
+    {
+      "l1_code": "T06",
+      "l2_code": "T06-01"
+    },
+    {
+      "l1_code": "T06",
+      "l2_code": "T06-02"
+    },
+    {
+      "l1_code": "T06",
+      "l2_code": "T06-03"
+    },
+    {
+      "l1_code": "T06",
+      "l2_code": "T06-04"
+    },
+    {
+      "l1_code": "T07",
+      "l2_code": "T07-01"
+    },
+    {
+      "l1_code": "T07",
+      "l2_code": "T07-02"
+    },
+    {
+      "l1_code": "T07",
+      "l2_code": "T07-03"
+    },
+    {
+      "l1_code": "T08",
+      "l2_code": "T08-01"
+    },
+    {
+      "l1_code": "T08",
+      "l2_code": "T08-02"
+    },
+    {
+      "l1_code": "T08",
+      "l2_code": "T08-03"
+    },
+    {
+      "l1_code": "T09",
+      "l2_code": "T09-01"
+    },
+    {
+      "l1_code": "T09",
+      "l2_code": "T09-02"
+    },
+    {
+      "l1_code": "T09",
+      "l2_code": "T09-03"
+    },
+    {
+      "l1_code": "T10",
+      "l2_code": "T10-01"
+    },
+    {
+      "l1_code": "T10",
+      "l2_code": "T10-02"
+    },
+    {
+      "l1_code": "T10",
+      "l2_code": "T10-03"
+    }
+  ],
+  "tag_l2_has_l3": [
+    {
+      "l2_code": "T01-01",
+      "l3_code": "T01-01-01"
+    },
+    {
+      "l2_code": "T01-01",
+      "l3_code": "T01-01-02"
+    },
+    {
+      "l2_code": "T01-01",
+      "l3_code": "T01-01-03"
+    },
+    {
+      "l2_code": "T01-02",
+      "l3_code": "T01-02-01"
+    },
+    {
+      "l2_code": "T01-02",
+      "l3_code": "T01-02-02"
+    },
+    {
+      "l2_code": "T01-02",
+      "l3_code": "T01-02-03"
+    },
+    {
+      "l2_code": "T01-03",
+      "l3_code": "T01-03-01"
+    },
+    {
+      "l2_code": "T01-03",
+      "l3_code": "T01-03-02"
+    },
+    {
+      "l2_code": "T01-03",
+      "l3_code": "T01-03-03"
+    },
+    {
+      "l2_code": "T02-01",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "l2_code": "T02-01",
+      "l3_code": "T02-01-02"
+    },
+    {
+      "l2_code": "T02-01",
+      "l3_code": "T02-01-03"
+    },
+    {
+      "l2_code": "T02-02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "l2_code": "T02-02",
+      "l3_code": "T02-02-02"
+    },
+    {
+      "l2_code": "T02-02",
+      "l3_code": "T02-02-03"
+    },
+    {
+      "l2_code": "T02-03",
+      "l3_code": "T02-03-01"
+    },
+    {
+      "l2_code": "T02-03",
+      "l3_code": "T02-03-02"
+    },
+    {
+      "l2_code": "T02-03",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "l2_code": "T03-01",
+      "l3_code": "T03-01-01"
+    },
+    {
+      "l2_code": "T03-01",
+      "l3_code": "T03-01-02"
+    },
+    {
+      "l2_code": "T03-01",
+      "l3_code": "T03-01-03"
+    },
+    {
+      "l2_code": "T03-02",
+      "l3_code": "T03-02-01"
+    },
+    {
+      "l2_code": "T03-02",
+      "l3_code": "T03-02-02"
+    },
+    {
+      "l2_code": "T03-02",
+      "l3_code": "T03-02-03"
+    },
+    {
+      "l2_code": "T03-03",
+      "l3_code": "T03-03-01"
+    },
+    {
+      "l2_code": "T03-03",
+      "l3_code": "T03-03-02"
+    },
+    {
+      "l2_code": "T03-03",
+      "l3_code": "T03-03-03"
+    },
+    {
+      "l2_code": "T04-01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "l2_code": "T04-01",
+      "l3_code": "T04-01-02"
+    },
+    {
+      "l2_code": "T04-01",
+      "l3_code": "T04-01-03"
+    },
+    {
+      "l2_code": "T04-02",
+      "l3_code": "T04-02-01"
+    },
+    {
+      "l2_code": "T04-02",
+      "l3_code": "T04-02-02"
+    },
+    {
+      "l2_code": "T04-02",
+      "l3_code": "T04-02-03"
+    },
+    {
+      "l2_code": "T04-03",
+      "l3_code": "T04-03-01"
+    },
+    {
+      "l2_code": "T04-03",
+      "l3_code": "T04-03-02"
+    },
+    {
+      "l2_code": "T04-03",
+      "l3_code": "T04-03-03"
+    },
+    {
+      "l2_code": "T05-01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "l2_code": "T05-01",
+      "l3_code": "T05-01-02"
+    },
+    {
+      "l2_code": "T05-01",
+      "l3_code": "T05-01-03"
+    },
+    {
+      "l2_code": "T05-02",
+      "l3_code": "T05-02-01"
+    },
+    {
+      "l2_code": "T05-02",
+      "l3_code": "T05-02-02"
+    },
+    {
+      "l2_code": "T05-02",
+      "l3_code": "T05-02-03"
+    },
+    {
+      "l2_code": "T05-03",
+      "l3_code": "T05-03-01"
+    },
+    {
+      "l2_code": "T05-03",
+      "l3_code": "T05-03-02"
+    },
+    {
+      "l2_code": "T05-03",
+      "l3_code": "T05-03-03"
+    },
+    {
+      "l2_code": "T06-01",
+      "l3_code": "T06-01-01"
+    },
+    {
+      "l2_code": "T06-01",
+      "l3_code": "T06-01-02"
+    },
+    {
+      "l2_code": "T06-01",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "l2_code": "T06-02",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "l2_code": "T06-02",
+      "l3_code": "T06-02-02"
+    },
+    {
+      "l2_code": "T06-02",
+      "l3_code": "T06-02-03"
+    },
+    {
+      "l2_code": "T06-03",
+      "l3_code": "T06-03-01"
+    },
+    {
+      "l2_code": "T06-03",
+      "l3_code": "T06-03-02"
+    },
+    {
+      "l2_code": "T06-03",
+      "l3_code": "T06-03-03"
+    },
+    {
+      "l2_code": "T06-04",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "l2_code": "T06-04",
+      "l3_code": "T06-04-02"
+    },
+    {
+      "l2_code": "T06-04",
+      "l3_code": "T06-04-03"
+    },
+    {
+      "l2_code": "T07-01",
+      "l3_code": "T07-01-01"
+    },
+    {
+      "l2_code": "T07-01",
+      "l3_code": "T07-01-02"
+    },
+    {
+      "l2_code": "T07-01",
+      "l3_code": "T07-01-03"
+    },
+    {
+      "l2_code": "T07-02",
+      "l3_code": "T07-02-01"
+    },
+    {
+      "l2_code": "T07-02",
+      "l3_code": "T07-02-02"
+    },
+    {
+      "l2_code": "T07-02",
+      "l3_code": "T07-02-03"
+    },
+    {
+      "l2_code": "T07-03",
+      "l3_code": "T07-03-01"
+    },
+    {
+      "l2_code": "T07-03",
+      "l3_code": "T07-03-02"
+    },
+    {
+      "l2_code": "T07-03",
+      "l3_code": "T07-03-03"
+    },
+    {
+      "l2_code": "T08-01",
+      "l3_code": "T08-01-01"
+    },
+    {
+      "l2_code": "T08-01",
+      "l3_code": "T08-01-02"
+    },
+    {
+      "l2_code": "T08-01",
+      "l3_code": "T08-01-03"
+    },
+    {
+      "l2_code": "T08-02",
+      "l3_code": "T08-02-01"
+    },
+    {
+      "l2_code": "T08-02",
+      "l3_code": "T08-02-02"
+    },
+    {
+      "l2_code": "T08-02",
+      "l3_code": "T08-02-03"
+    },
+    {
+      "l2_code": "T08-03",
+      "l3_code": "T08-03-01"
+    },
+    {
+      "l2_code": "T08-03",
+      "l3_code": "T08-03-02"
+    },
+    {
+      "l2_code": "T08-03",
+      "l3_code": "T08-03-03"
+    },
+    {
+      "l2_code": "T09-01",
+      "l3_code": "T09-01-01"
+    },
+    {
+      "l2_code": "T09-01",
+      "l3_code": "T09-01-02"
+    },
+    {
+      "l2_code": "T09-01",
+      "l3_code": "T09-01-03"
+    },
+    {
+      "l2_code": "T09-02",
+      "l3_code": "T09-02-01"
+    },
+    {
+      "l2_code": "T09-02",
+      "l3_code": "T09-02-02"
+    },
+    {
+      "l2_code": "T09-02",
+      "l3_code": "T09-02-03"
+    },
+    {
+      "l2_code": "T09-03",
+      "l3_code": "T09-03-01"
+    },
+    {
+      "l2_code": "T09-03",
+      "l3_code": "T09-03-02"
+    },
+    {
+      "l2_code": "T09-03",
+      "l3_code": "T09-03-03"
+    },
+    {
+      "l2_code": "T10-01",
+      "l3_code": "T10-01-01"
+    },
+    {
+      "l2_code": "T10-01",
+      "l3_code": "T10-01-02"
+    },
+    {
+      "l2_code": "T10-01",
+      "l3_code": "T10-01-03"
+    },
+    {
+      "l2_code": "T10-02",
+      "l3_code": "T10-02-01"
+    },
+    {
+      "l2_code": "T10-02",
+      "l3_code": "T10-02-02"
+    },
+    {
+      "l2_code": "T10-02",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "l2_code": "T10-03",
+      "l3_code": "T10-03-01"
+    },
+    {
+      "l2_code": "T10-03",
+      "l3_code": "T10-03-02"
+    },
+    {
+      "l2_code": "T10-03",
+      "l3_code": "T10-03-03"
+    }
+  ],
+  "paragraph_tagged_with_l3": [
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_02",
+      "l3_code": "T08-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_01_02",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_02_01",
+      "l3_code": "T02-03-02"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_02_01",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_02_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_03_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_04_01",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_04_01",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_01_04_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_01_01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_01_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_02_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_02_02",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_02_02",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_01",
+      "l3_code": "T03-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_02",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_03",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_03_03",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_03",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_04_03",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_01",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_01",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_02_05_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_01",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_01_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_03",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_01",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_02",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_03",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_03_03",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_04_01",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_04_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_05_01",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_03_05_02",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_01_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_02_01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_02_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_02",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_03_03",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_04_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_04_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_03",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_04_05_03",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_01_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_01_02",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_01_02",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_02_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_02_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_03_01",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_03_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_04_01",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_04_02",
+      "l3_code": "T05-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_01",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_01",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_02",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_03",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_03",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_04",
+      "l3_code": "T02-03-02"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_04",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_05_05_04",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_01",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_02",
+      "l3_code": "T08-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_02",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_03",
+      "l3_code": "T08-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_01_03",
+      "l3_code": "T02-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_02_01",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_02_02",
+      "l3_code": "T02-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_01",
+      "l3_code": "T03-03-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_02",
+      "l3_code": "T06-02-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_02",
+      "l3_code": "T06-01-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_03_02",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_01",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_02",
+      "l3_code": "T10-02-03"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_02",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_03",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_04",
+      "l3_code": "T02-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_04",
+      "l3_code": "T06-04-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_05",
+      "l3_code": "T04-01-01"
+    },
+    {
+      "paragraph_id": "EV_PEP8U_PHYSICS_06_04_05",
+      "l3_code": "T06-04-01"
+    }
+  ]
+}

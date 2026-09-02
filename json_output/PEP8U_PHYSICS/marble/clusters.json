@@ -1,0 +1,42 @@
+{
+  "version": "v1-local",
+  "clusterCount": 6,
+  "clusters": [
+    {
+      "subject": "物理",
+      "domain": "第一章 机械运动",
+      "ageRangeStart": 13,
+      "summary": "第一章 机械运动：涵盖本章主要知识点与应用能力要求。"
+    },
+    {
+      "subject": "物理",
+      "domain": "第二章 声现象",
+      "ageRangeStart": 13,
+      "summary": "第二章 声现象：涵盖本章主要知识点与应用能力要求。"
+    },
+    {
+      "subject": "物理",
+      "domain": "第三章 物态变化",
+      "ageRangeStart": 13,
+      "summary": "第三章 物态变化：涵盖本章主要知识点与应用能力要求。"
+    },
+    {
+      "subject": "物理",
+      "domain": "第四章 光现象",
+      "ageRangeStart": 13,
+      "summary": "第四章 光现象：涵盖本章主要知识点与应用能力要求。"
+    },
+    {
+      "subject": "物理",
+      "domain": "第五章 透镜及其应用",
+      "ageRangeStart": 13,
+      "summary": "第五章 透镜及其应用：涵盖本章主要知识点与应用能力要求。"
+    },
+    {
+      "subject": "物理",
+      "domain": "第六章 质量与密度",
+      "ageRangeStart": 13,
+      "summary": "第六章 质量与密度：涵盖本章主要知识点与应用能力要求。"
+    }
+  ]
+}

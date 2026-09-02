@@ -1,0 +1,30 @@
+{
+  "version": "v1-local",
+  "counts": {
+    "topics": 106,
+    "dependencies": 105,
+    "clusters": 6,
+    "curricula": 1
+  },
+  "subjects": {
+    "物理": 106
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 73910,
+      "sha256": "13e700f60b92e16188e9cc3d9e42a81f297b199e0fc4b269319fc5d86919f584"
+    },
+    "dependencies.json": {
+      "bytes": 19300,
+      "sha256": "f4fea84fa9ecbd8c43c54b19c7d3181b03b68ff4ad301cd21db49e67ba634bce"
+    },
+    "curriculum-standards.json": {
+      "bytes": 19701,
+      "sha256": "25638cf982c4eddee95540b2f313af401c85db647f8d332a8a4760b98c8831ed"
+    },
+    "clusters.json": {
+      "bytes": 1304,
+      "sha256": "c4b657339930678dbf4b508d83f3021b101d45af68afaa887b5d351eba95260f"
+    }
+  }
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_01_01",
+    "source_page": 14,
+    "evidence_type": "科学史与文化",
+    "keyword": "在古代，人们用圭表、日晷",
+    "textbook_original_excerpt": "时间单位还有小时（h）、 分 （min）等，它们 之间的关系是 1 h = 60 min  1 min = 60 s 在古代，人们用圭表、日晷（图 1.1-6） 、沙漏等计 时仪器来测量时间。你还知道有哪些测量时间的方法？",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_01_02",
+    "source_page": 16,
+    "evidence_type": "规范与标准",
+    "keyword": "国际单位制（SI）",
+    "textbook_original_excerpt": "鉴于这种认识，国际计量组织制定了一套国际统一的单位，称之为 国际单位制（SI） ，推荐各国使用。目前世界上大多数国家和地区已经采用国际单 位制，我国的法定计量单位也是以国际单位制为基础制定的",
+    "ideology_l3_codes": "T08-01-03;T02-02-01;T06-02-01",
+    "ideology_l3_labels": "国际标准认知;公共责任;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_02_01",
+    "source_page": 19,
+    "evidence_type": "工程与科技应用",
+    "keyword": "中国空间站的梦天实验舱",
+    "textbook_original_excerpt": "3 中国空间站的梦天实验舱与天和核心舱 成功对接，转位后形成空间站“ T”字 基本构型。在梦天实验舱靠近天和核心 舱的过程中（图 1.2-5） ，以天和核心舱 为参照物，梦天实验舱是运动的还是静 止的？",
+    "ideology_l3_codes": "T02-03-02;T02-01-01;T06-04-01",
+    "ideology_l3_labels": "科技报国;国家认同;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_03_01",
+    "source_page": 23,
+    "evidence_type": "社会生活与责任",
+    "keyword": "我国优秀短跑运动员",
+    "textbook_original_excerpt": "我国优秀短跑运动员以 9.83 s的成绩打破了亚洲纪录。他在这次比赛中的平均速度是多少？",
+    "ideology_l3_codes": "T06-02-01",
+    "ideology_l3_labels": "证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_04_01",
+    "source_page": 25,
+    "evidence_type": "社会生活与责任",
+    "keyword": "公路上有许多速度监测设备",
+    "textbook_original_excerpt": "公路上有许多速度监测设备，其中一种测速设备采用的是区间测速的方法（图 1.4-1），即通过测算车辆在两个监测点之间的平均速度，判断车辆在该路段是否超速。这种测速设备是如何测算出车辆的平均速度的？",
+    "ideology_l3_codes": "T02-03-03;T02-02-01",
+    "ideology_l3_labels": "国防与国家安全意识;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_01_04_02",
+    "source_page": 27,
+    "evidence_type": "工程与科技应用",
+    "keyword": "汽车倒车防撞、智能机器人",
+    "textbook_original_excerpt": "超声波在空气中的传播速度约为 340 m/s，它具有指向性好、反射能力强、能 量集中等特点，因而经常被用于距离的测量、汽车倒车防撞、智能机器人等领域。 超声波测距的原理如图 1.4-4 所示",
+    "ideology_l3_codes": "T06-04-01",
+    "ideology_l3_labels": "工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_01_01",
+    "source_page": 36,
+    "evidence_type": "社会生活与责任",
+    "keyword": "骨传导不用空气传声",
+    "textbook_original_excerpt": "骨传导不用空 气传声，可以有效避免嘈杂环境的干扰，常应用在 工业、战场等特殊场合中。而利用骨传导原理制成的助听器、耳机等更是在生活 中得到了广泛的应用",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_01_02",
+    "source_page": 36,
+    "evidence_type": "社会生活与责任",
+    "keyword": "利用骨传导原理制成的助听器",
+    "textbook_original_excerpt": "而利用骨传导原理制成的助听器、耳机等更是在生活 中得到了广泛的应用。 想一想：我们梳头、刷牙、吃饼干时发出的各种声音是怎样传进大脑，产生 听觉的？",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_02_01",
+    "source_page": 42,
+    "evidence_type": "科学史与文化",
+    "keyword": "贾湖骨笛",
+    "textbook_original_excerpt": "在河南舞阳出土的  8 000 多年前的贾湖骨笛，可以吹奏出七声音阶，是 我国迄今发现的最早的管乐器（图 2.2-6） 。单簧管、 双簧管和各种号也是常见的管乐器",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_02_02",
+    "source_page": 43,
+    "evidence_type": "学科实践",
+    "keyword": "用自己制作的乐器进行演奏",
+    "textbook_original_excerpt": "在班里举行的小型音乐会上，用自己制作的乐器进行演奏，看看谁的乐器有新 意，谁演奏得好。写出你的制作过程，看看以下制作方案能否给你启发",
+    "ideology_l3_codes": "T06-02-01;T06-01-03",
+    "ideology_l3_labels": "证据推理;开放合作"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_03_01",
+    "source_page": 45,
+    "evidence_type": "工程与科技应用",
+    "keyword": "超声波检测技术应用很广",
+    "textbook_original_excerpt": "在生产实践中，超声波检测技术应用很广。例 如，利用超声波可以检测出锅炉有没有裂纹，甚至还 可以知道裂纹有多大、多深",
+    "ideology_l3_codes": "T03-03-03;T06-04-01",
+    "ideology_l3_labels": "社会贡献;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_03_02",
+    "source_page": 47,
+    "evidence_type": "科学史与文化",
+    "keyword": "我国古代高水平的建筑声学成就",
+    "textbook_original_excerpt": "圜丘等建筑反映出我国古代高水平的建筑声学成就。现在，人们也经常在设 计礼堂、音乐厅（图 2.3-10）等建筑时进行特别的声学设计，使听众听到的声音 更加饱满、悦耳",
+    "ideology_l3_codes": "T04-01-01;T06-04-01",
+    "ideology_l3_labels": "传统科技认知;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_03_03",
+    "source_page": 48,
+    "evidence_type": "工程与科技应用",
+    "keyword": "我国有些地方修筑了“音乐公路”",
+    "textbook_original_excerpt": "我国有些地方修筑了“音乐公路” 。当汽车以一 定速度匀速行驶时，就会奏出一段悦耳的乐曲",
+    "ideology_l3_codes": "T06-04-01;T06-02-01",
+    "ideology_l3_labels": "工程设计;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_04_01",
+    "source_page": 50,
+    "evidence_type": "社会生活与责任",
+    "keyword": "长期生活在 90 dB 以上",
+    "textbook_original_excerpt": "长期生活在 90 dB 以上的噪声 环境中，听力会受到严重影响并产生神经衰弱、头疼、 高血压等疾病；如果突然暴露在高达 150 dB 的噪声环 境中，鼓膜会破裂出血，双耳完全失去听力",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_04_02",
+    "source_page": 51,
+    "evidence_type": "社会生活与责任",
+    "keyword": "现代的城市把控制噪声列为环境保护",
+    "textbook_original_excerpt": "现代的城市把控制噪声列为环境保护的重要项目之一。 在需要安静环境的医院、学校和科学研究部门附近，常 常有禁止鸣喇叭的标志（图 2.4-3）",
+    "ideology_l3_codes": "T02-02-01",
+    "ideology_l3_labels": "公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_04_03",
+    "source_page": 52,
+    "evidence_type": "学科实践",
+    "keyword": "设计一款防噪声耳罩",
+    "textbook_original_excerpt": "如果由你来设计一款防噪声耳罩，你觉得 应该选用什么样的材料？这些材料有什么特点？",
+    "ideology_l3_codes": "T06-04-01;T05-01-01",
+    "ideology_l3_labels": "工程设计;健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_05_01",
+    "source_page": 54,
+    "evidence_type": "学科实践",
+    "keyword": "材料是否易得、安全和环保",
+    "textbook_original_excerpt": "展示交流 1. 展示你制作的隔音房间模型（图 2.5-2） ，并从 隔音性能，空间占用率，材料是否易得、安全和环保等 方面对模型进行评价。 2. 相互交流，总结经验并进行反思，尝试对制作 的模型进行改进",
+    "ideology_l3_codes": "T06-01-03;T06-04-01;T10-02-03",
+    "ideology_l3_labels": "开放合作;工程设计;可持续发展"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_02_05_02",
+    "source_page": 54,
+    "evidence_type": "社会生活与责任",
+    "keyword": "为了做到不打扰他人",
+    "textbook_original_excerpt": "如果有了真正的隔音房间，为了做到不打扰他 人，也为了自己听力的健康，在使用时还要注意哪些  问题？",
+    "ideology_l3_codes": "T02-02-01;T05-01-01",
+    "ideology_l3_labels": "公共责任;健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_01_01",
+    "source_page": 61,
+    "evidence_type": "社会生活与责任",
+    "keyword": "分别测量冰箱的冷藏室和冷冻室",
+    "textbook_original_excerpt": "请你选择合适的温度计，分别测量冰箱的冷藏室和冷冻室中不同位 置的温度，看看不同的食物适合放在冰箱的什么位置。 各种各样的温度计 人们为了判断身体是否发热，常常会测量体 温",
+    "ideology_l3_codes": "T05-01-01;T02-02-01",
+    "ideology_l3_labels": "健康知识理解;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_01_02",
+    "source_page": 62,
+    "evidence_type": "工程与科技应用",
+    "keyword": "电子体温计",
+    "textbook_original_excerpt": "现在的电子体温计通过液晶屏可以直接显 示体温（图 3.1-6）。 无论是玻璃体温计还是电子体温计，都要接触 人体，并需要一定的测量时间",
+    "ideology_l3_codes": "T05-01-01;T06-04-01",
+    "ideology_l3_labels": "健康知识理解;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_02_01",
+    "source_page": 64,
+    "evidence_type": "工程与科技应用",
+    "keyword": "工业生产中常将钢水铸造成",
+    "textbook_original_excerpt": "工业生产中常将钢水铸造成有一定形状的工件（图 3.2-1）。钢水在变成工件的过程中，它的状态发生了怎样的变化？在状态变化的过程中，钢水吸热还是放热？",
+    "ideology_l3_codes": "T06-04-01;T06-02-01",
+    "ideology_l3_labels": "工程设计;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
+    "source_page": 65,
+    "evidence_type": "学科实践",
+    "keyword": "注意避免烫伤",
+    "textbook_original_excerpt": "注意避免烫伤",
+    "ideology_l3_codes": "T02-02-01;T06-02-01;T02-03-03",
+    "ideology_l3_labels": "公共责任;证据推理;国防与国家安全意识"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_02_03",
+    "source_page": 68,
+    "evidence_type": "社会生活与责任",
+    "keyword": "在北方的冬天，为了很好地保存蔬菜",
+    "textbook_original_excerpt": "在北方的冬天，为了很好地保存蔬菜，人们通常会在菜窖里放几桶水，这样可以利用水凝固成冰时放出的热使菜窖内的温度不会太低。",
+    "ideology_l3_codes": "T06-02-01",
+    "ideology_l3_labels": "证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_03_01",
+    "source_page": 71,
+    "evidence_type": "学科实践",
+    "keyword": "正确读取和记录实验数据",
+    "textbook_original_excerpt": "证据 根据对问题的猜 想 ，设计实验方案 ， 选用相应的实验器材 进行实验 ，正确读取 和记录实验数据 。实 验数据是科学探究的 重要证据",
+    "ideology_l3_codes": "T06-02-01;T02-02-01",
+    "ideology_l3_labels": "证据推理;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_03_02",
+    "source_page": 74,
+    "evidence_type": "社会生活与责任",
+    "keyword": "水蒸气引起的烫伤",
+    "textbook_original_excerpt": "烧水、做饭的时候，水蒸气引起的烫伤往往比开水 烫伤更严重，这是因为水蒸气和开水的温度虽然差不 多，但是水蒸气液化的时候还要放出大量的热",
+    "ideology_l3_codes": "T05-01-01;T02-03-03",
+    "ideology_l3_labels": "健康知识理解;国防与国家安全意识"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_03_03",
+    "source_page": 75,
+    "evidence_type": "工程与科技应用",
+    "keyword": "我国的青藏铁路",
+    "textbook_original_excerpt": "我国的青藏铁路是世界上海拔最高的铁路。铁 路穿过多年冻土区时，为了减小冻土因融化对路基 产生的影响，需要使冻土保持低温",
+    "ideology_l3_codes": "T02-01-01;T06-04-01",
+    "ideology_l3_labels": "国家认同;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_04_01",
+    "source_page": 79,
+    "evidence_type": "社会生活与责任",
+    "keyword": "共同保卫我们的蓝色家园",
+    "textbook_original_excerpt": "因此，我们不仅需要改 进节水技术（图 3.4-5） 、优化用水 系统的运行，更需要每个人提高节 水意识、养成良好的用水习惯，共 同保卫我们的蓝色家园",
+    "ideology_l3_codes": "T10-02-03",
+    "ideology_l3_labels": "可持续发展"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_04_02",
+    "source_page": 80,
+    "evidence_type": "社会生活与责任",
+    "keyword": "造成水资源的浪费",
+    "textbook_original_excerpt": "生活中，有很多情况会造成水资源的浪费。比如，水龙头漏水，用水后水龙头 未关紧，用水不节制等",
+    "ideology_l3_codes": "T02-02-01",
+    "ideology_l3_labels": "公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_05_01",
+    "source_page": 82,
+    "evidence_type": "社会生活与责任",
+    "keyword": "优化烹饪过程或解决安全隐患",
+    "textbook_original_excerpt": "进 一步说明这些建议是怎样优化烹饪过程或解决安全隐患 的，并解释这些建议的科学依据。还可以撰写一篇观察 报告，从物理学的视角分析物态变化规律在烹饪过程中 所起的作用，总结认识体会",
+    "ideology_l3_codes": "T02-03-03",
+    "ideology_l3_labels": "国防与国家安全意识"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_03_05_02",
+    "source_page": 83,
+    "evidence_type": "学科实践",
+    "keyword": "在家中实验前",
+    "textbook_original_excerpt": "在家中实验前， 请 确保 你处于安全 的操作环境中 ，并 能正确使用各种厨 具 ，家中还应有成 年人在场 ，操作时 须注意避免烫伤！",
+    "ideology_l3_codes": "T02-03-03",
+    "ideology_l3_labels": "国防与国家安全意识"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_01_01",
+    "source_page": 91,
+    "evidence_type": "科学史与文化",
+    "keyword": "神话终归是神话",
+    "textbook_original_excerpt": "但是，神话终归是神话。你知道天上的牛郎星和织女星相距多远吗？",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_02_01",
+    "source_page": 96,
+    "evidence_type": "社会生活与责任",
+    "keyword": "造成“光污染”",
+    "textbook_original_excerpt": "当强烈的太阳光照射到这些光 滑的表面时，就会发生镜面反射，炫目的光干扰人们的 正常生活，造成“光污染”",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_02_02",
+    "source_page": 97,
+    "evidence_type": "工程与科技应用",
+    "keyword": "激光测距技术广泛应用",
+    "textbook_original_excerpt": "激光测距技术广泛应用在人造地球卫星测控、大地 测量等方面。例如，激光测距仪向目标天体发射激 光束，并接收反射回来的激光束，测出激光往返所 用的时间，就可以算出所测天体与地球之间的距离",
+    "ideology_l3_codes": "T06-04-01",
+    "ideology_l3_labels": "工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_03_01",
+    "source_page": 100,
+    "evidence_type": "科学史与文化",
+    "keyword": "古代人们就用磨光",
+    "textbook_original_excerpt": "平面镜的应用 平面镜的使用历史悠久，古代人们就用磨光 的铜面作为镜子（图 4.3-4）",
+    "ideology_l3_codes": "T04-01-01;T06-02-01",
+    "ideology_l3_labels": "传统科技认知;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_03_02",
+    "source_page": 101,
+    "evidence_type": "社会生活与责任",
+    "keyword": "既节省燃料，又不污染环境",
+    "textbook_original_excerpt": "利用凹面镜制成的太阳灶（图 4.3-8） 可以会聚太阳光用来烧水、煮饭，既节省 燃料，又不污染环境。凹面镜的面积越 大，会聚的太阳光越多，温度也就越高",
+    "ideology_l3_codes": "T10-02-03;T06-04-01",
+    "ideology_l3_labels": "可持续发展;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_03_03",
+    "source_page": 102,
+    "evidence_type": "科学史与文化",
+    "keyword": "京剧被列入我国第一批国家级非物质文化遗产",
+    "textbook_original_excerpt": "京剧被列入我国第一批国家级非物质文化遗产名 录。请在图 4.3-9 中分别画出京剧演员通过平面镜 看到的 A 点和 B 点的像",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_04_01",
+    "source_page": 105,
+    "evidence_type": "科学史与文化",
+    "keyword": "《梦溪笔谈》",
+    "textbook_original_excerpt": "《梦溪笔谈》中都有关于海市蜃楼的记载，宋代大诗人 苏轼在《登州海市》诗中也描述过海市蜃楼的奇观。可见，海市蜃楼是一种不算 少见的自然现象",
+    "ideology_l3_codes": "T04-01-01;T06-02-01",
+    "ideology_l3_labels": "传统科技认知;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_05_01",
+    "source_page": 107,
+    "evidence_type": "科学史与文化",
+    "keyword": "英国物理学家牛顿用玻璃三棱镜",
+    "textbook_original_excerpt": "直到 1666 年，英国物理学家牛顿用玻璃三棱镜分解了太阳 光，这才揭开了光的颜色之谜。  色散 人们早就学会将金刚石、水晶打磨成各种饰品",
+    "ideology_l3_codes": "T06-02-01;T04-01-01",
+    "ideology_l3_labels": "证据推理;传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_05_02",
+    "source_page": 109,
+    "evidence_type": "社会生活与责任",
+    "keyword": "有助于诊断疾病",
+    "textbook_original_excerpt": "人生病的时 候，局部皮肤的温度异常，利用红外相机给皮肤拍照并 与健康人的照片（图 4.5-6）对比，有助于诊断疾病。 夜间人的体温比野外草木、岩石的温度高，人体辐射的 红外线比它们强",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_04_05_03",
+    "source_page": 110,
+    "evidence_type": "社会生活与责任",
+    "keyword": "紫外线灯",
+    "textbook_original_excerpt": "医院的手术室和病房里常配备紫外线灯 来灭菌，一些学校的餐厅也装有紫外线 灯，有的公交车也会采取紫外线灯封闭 照射的方式消毒（图 4.5-9） 。紫外线灯 一般会发出淡紫色的光",
+    "ideology_l3_codes": "T05-01-01;T02-02-01",
+    "ideology_l3_labels": "健康知识理解;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_01_01",
+    "source_page": 117,
+    "evidence_type": "科学史与文化",
+    "keyword": "《淮南万毕术》",
+    "textbook_original_excerpt": "《淮南万毕术》记载： “削冰令圆， 举以向日，以艾承其影，则火生。 ”这是利用冰透 镜对日聚焦取火的最早记载",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_01_02",
+    "source_page": 117,
+    "evidence_type": "社会生活与责任",
+    "keyword": "瓶装水引发的",
+    "textbook_original_excerpt": "调查发现，火灾是由放在仪表盘 上方防滑垫上的瓶装水引发的。瓶装水是怎样引发火灾的？",
+    "ideology_l3_codes": "T02-03-03;T10-02-03",
+    "ideology_l3_labels": "国防与国家安全意识;可持续发展"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_02_01",
+    "source_page": 118,
+    "evidence_type": "工程与科技应用",
+    "keyword": "现在的照相机利用光学或电子技术",
+    "textbook_original_excerpt": "现在的照相机利用光学或电子技术， 把倒立的像转变成正立的，便于观察。 晶莹的露珠是大自然创造的“透镜” （图 5.2-1）",
+    "ideology_l3_codes": "T06-04-01",
+    "ideology_l3_labels": "工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_02_02",
+    "source_page": 119,
+    "evidence_type": "工程与科技应用",
+    "keyword": "数码照相机用一种电荷耦合器件",
+    "textbook_original_excerpt": "现在生活中常使用数码照相机，数码照 相机用一种电荷耦合器件作为感光元件代替胶片。这种 电荷耦合器件能把光信号转换成电信号，从而更方便地 记录物体的像",
+    "ideology_l3_codes": "T06-04-01",
+    "ideology_l3_labels": "工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_03_01",
+    "source_page": 123,
+    "evidence_type": "学科实验与规律",
+    "keyword": "与各小组共享测量的数据",
+    "textbook_original_excerpt": "每个 小组可以自己选择适当的物距，并与各小组共享测量的数据",
+    "ideology_l3_codes": "T06-01-03;T06-02-01",
+    "ideology_l3_labels": "开放合作;证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_04_01",
+    "source_page": 127,
+    "evidence_type": "社会生活与责任",
+    "keyword": "形成近视眼的原因",
+    "textbook_original_excerpt": "形成近视眼的原因是晶状体太厚，折光能力太强，或者 眼球在前后方向上太长，因此来自远处某点的光会聚在 视网膜前，到达视网膜时已经不是一点而是一个模糊的 光斑了（图 5.4-3 甲） 。利用凹透镜能使光发散的特点， 在眼睛前面放一个合适的凹透镜，就能使来自远处物体 的光会聚在视网膜上（图 5.4-3 乙 ）",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_04_02",
+    "source_page": 129,
+    "evidence_type": "社会生活与责任",
+    "keyword": "全国爱眼日",
+    "textbook_original_excerpt": "6 月 6 日是全国爱眼日。根据你的观察和了解，生活中有哪些不当的用眼习惯会 导致近视？",
+    "ideology_l3_codes": "T05-01-01",
+    "ideology_l3_labels": "健康知识理解"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_05_01",
+    "source_page": 133,
+    "evidence_type": "学科实践",
+    "keyword": "同学之间相互评价",
+    "textbook_original_excerpt": "同学之间相互评价，比一比 谁的望远镜更完善",
+    "ideology_l3_codes": "T06-01-03;T06-04-01",
+    "ideology_l3_labels": "开放合作;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_05_02",
+    "source_page": 134,
+    "evidence_type": "科学史与文化",
+    "keyword": "确凿的证据支持了哥白尼",
+    "textbook_original_excerpt": "1609 年，伽利略用自制的望远镜观察天体（图 5.5-7） ，以确凿的证据支持了哥白尼的“日心说” 。 他还第一个观察到了木星的卫星、太阳黑子和月球 上的环形山",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_05_03",
+    "source_page": 134,
+    "evidence_type": "科学史与文化",
+    "keyword": "我国不仅古代在天文",
+    "textbook_original_excerpt": "我国不仅古代在天文 观测上取得了丰硕的成果， 在现代也对宇宙探索作出 了很大贡献 。 2009 年， 郭 守敬望远镜建成 ，并于 2011年启动光谱巡天任务， 成为世界上第一个获取光 谱数突破千万量级的望远 镜（图5.5-8）",
+    "ideology_l3_codes": "T04-01-01;T02-01-01",
+    "ideology_l3_labels": "传统科技认知;国家认同"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "paragraph_id": "EV_PEP8U_PHYSICS_05_05_04",
+    "source_page": 134,
+    "evidence_type": "工程与科技应用",
+    "keyword": "中国天眼",
+    "textbook_original_excerpt": "2020年，中国天眼正式开放运行",
+    "ideology_l3_codes": "T02-03-02;T02-01-01;T06-04-01",
+    "ideology_l3_labels": "科技报国;国家认同;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_01_01",
+    "source_page": 139,
+    "evidence_type": "科学史与文化",
+    "keyword": "战国时期的天平",
+    "textbook_original_excerpt": "图 6.1-1 战国时期的天平",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_01_02",
+    "source_page": 142,
+    "evidence_type": "规范与标准",
+    "keyword": "我国曾经用斤、两、钱",
+    "textbook_original_excerpt": "自古以来，各国采用过各种不同的质量单位。例如，我国曾经用斤、两、钱作为质量单位，英、美等国曾经用磅作为质量单位。",
+    "ideology_l3_codes": "T08-01-03;T02-02-01",
+    "ideology_l3_labels": "国际标准认知;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_01_03",
+    "source_page": 143,
+    "evidence_type": "规范与标准",
+    "keyword": "第 26 届国际计量大会决定更新千克的定义",
+    "textbook_original_excerpt": "2018 年，第 26 届国际计量大会决定更新千克的定义，在 不使用具体实物的情况下定义了质量单位",
+    "ideology_l3_codes": "T08-01-03;T02-02-01",
+    "ideology_l3_labels": "国际标准认知;公共责任"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_02_01",
+    "source_page": 145,
+    "evidence_type": "学科实验与规律",
+    "keyword": "通过所作的图像",
+    "textbook_original_excerpt": "通过所作的图像，可以直观地 看到铝块的质量与体积的关系。你从中能得出什么结论？",
+    "ideology_l3_codes": "T06-02-01",
+    "ideology_l3_labels": "证据推理"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_02_02",
+    "source_page": 147,
+    "evidence_type": "社会生活与责任",
+    "keyword": "冬天对自来水管的保护",
+    "textbook_original_excerpt": "在我国的北方，冬天对自来水管的保护十分重要。如果保护不好，水管内的 水结了冰，不仅影响正常的生活用水，有时还会把水管冻裂，造成设备的损坏",
+    "ideology_l3_codes": "T02-03-03",
+    "ideology_l3_labels": "国防与国家安全意识"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_03_01",
+    "source_page": 149,
+    "evidence_type": "社会生活与责任",
+    "keyword": "为了选出饱满的种粒",
+    "textbook_original_excerpt": "例如，为了选出饱满的种粒，可以配制适当密度的 盐水进行选种。将种粒浸没在盐水中并适当搅拌，静置 一段时间后，清除水面漂浮的空粒、瘪粒，就可以选出 较好的种子（图 6.3-1）",
+    "ideology_l3_codes": "T03-03-03",
+    "ideology_l3_labels": "社会贡献"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_03_02",
+    "source_page": 150,
+    "evidence_type": "科学史与文化",
+    "keyword": "虽经多次重复测量",
+    "textbook_original_excerpt": "虽经多次重复测量，但仍然存在这个令人奇怪的差异。 后来，他与化学家拉姆塞合作，于 1894 年在从空气中取得的氮里，分离出另 一种当时还不知道的气体——氩，这个谜才解开了",
+    "ideology_l3_codes": "T06-02-01;T06-01-03;T04-01-01",
+    "ideology_l3_labels": "证据推理;开放合作;传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_04_01",
+    "source_page": 152,
+    "evidence_type": "社会生活与责任",
+    "keyword": "矗立在天安门广场的人民英雄纪念碑",
+    "textbook_original_excerpt": "矗立在天安门广场的人民英雄纪念碑（图 6.4-1），碑身高 37.94 m，由 413 块花岗岩石块砌成。碑心石由一整块花岗岩经多次加工而成，当这块花岗岩被加工成长 14.7 m、宽 2.9 m、厚 1.0 m 的长方体巨石时，它的质量约为多少？",
+    "ideology_l3_codes": "T02-01-01",
+    "ideology_l3_labels": "国家认同"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_04_02",
+    "source_page": 154,
+    "evidence_type": "工程与科技应用",
+    "keyword": "海上风力发电机",
+    "textbook_original_excerpt": "超过百米的海上风力发电机的叶片采用了具有密度 小、强度高、耐腐蚀、抗疲劳等优异性能的碳纤维材料  （图 6.4-4）",
+    "ideology_l3_codes": "T10-02-03;T06-04-01",
+    "ideology_l3_labels": "可持续发展;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_04_03",
+    "source_page": 155,
+    "evidence_type": "科学史与文化",
+    "keyword": "我国是世界上冶铁业出现较早",
+    "textbook_original_excerpt": "我国是世界上冶铁业出现较早的国家之一。春 秋战国时代，由铁制作的农具、手工工具及各种兵 器得以广泛应用",
+    "ideology_l3_codes": "T04-01-01",
+    "ideology_l3_labels": "传统科技认知"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_04_04",
+    "source_page": 155,
+    "evidence_type": "工程与科技应用",
+    "keyword": "我国自主研发的“手撕钢”",
+    "textbook_original_excerpt": "随着我国工业技术的发展，目前，我国自主研发的 “手撕钢”比纸还要薄（图 6.4-6） ，被不断应用到许多高新技术领域。 20 世纪，各种新材料层出不穷",
+    "ideology_l3_codes": "T02-01-01;T06-04-01",
+    "ideology_l3_labels": "国家认同;工程设计"
+  },
+  {
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "paragraph_id": "EV_PEP8U_PHYSICS_06_04_05",
+    "source_page": 156,
+    "evidence_type": "科学史与文化",
+    "keyword": "黄河铁牛",
+    "textbook_original_excerpt": "我国唐代的“黄河铁牛”是世界桥梁史上的瑰宝，巨大的铁牛（图 6.4-8）起到固定索桥的作用。",
+    "ideology_l3_codes": "T04-01-01;T06-04-01",
+    "ideology_l3_labels": "传统科技认知;工程设计"
+  }
+]

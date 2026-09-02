@@ -1,0 +1,637 @@
+{
+  "version": "v1-local",
+  "note": "Auto-generated from textbook knowledge points",
+  "edgeCount": 105,
+  "dependencies": [
+    {
+      "topicId": "mt_941b8b390b9b",
+      "prerequisiteId": "mt_1aa243677c8c",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_ab2463afce78",
+      "prerequisiteId": "mt_941b8b390b9b",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_6363e90369cd",
+      "prerequisiteId": "mt_ab2463afce78",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_069a78fee443",
+      "prerequisiteId": "mt_8421fb8f05ee",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_28dd69e6ef59",
+      "prerequisiteId": "mt_069a78fee443",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_ce3ddf2c0ce3",
+      "prerequisiteId": "mt_bef8d14497a8",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_87362daf94f0",
+      "prerequisiteId": "mt_ce3ddf2c0ce3",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_a56c15809ef3",
+      "prerequisiteId": "mt_87362daf94f0",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_871b100dbcda",
+      "prerequisiteId": "mt_3210f5ae35ff",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_89fe8b62e3da",
+      "prerequisiteId": "mt_871b100dbcda",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_01_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_fbe098d4a2c1",
+      "prerequisiteId": "mt_746e174ac5fc",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_3a56c2ef871c",
+      "prerequisiteId": "mt_fbe098d4a2c1",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_6b87004eee67",
+      "prerequisiteId": "mt_3a56c2ef871c",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_135737721669",
+      "prerequisiteId": "mt_5e91557b4537",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_8a4254984e14",
+      "prerequisiteId": "mt_135737721669",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_0b15eb530612",
+      "prerequisiteId": "mt_8a4254984e14",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_addbab45cff0",
+      "prerequisiteId": "mt_cfff706860ea",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_61435697a8c7",
+      "prerequisiteId": "mt_addbab45cff0",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_ed1bb30ecf43",
+      "prerequisiteId": "mt_61435697a8c7",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_bd94e81fab04",
+      "prerequisiteId": "mt_6cf8bd979860",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_fc9d438521df",
+      "prerequisiteId": "mt_bd94e81fab04",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_9b7f378ea392",
+      "prerequisiteId": "mt_fc9d438521df",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_cd5eff9d3fe0",
+      "prerequisiteId": "mt_5abdd3361973",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_c728c10d62fa",
+      "prerequisiteId": "mt_cd5eff9d3fe0",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_02_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_59edcb3ab963",
+      "prerequisiteId": "mt_a4f037653084",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_af9ffc0daf7e",
+      "prerequisiteId": "mt_59edcb3ab963",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_ca49e232de78",
+      "prerequisiteId": "mt_af9ffc0daf7e",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_482428205f7c",
+      "prerequisiteId": "mt_a833dbaecb10",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_8f18f8cb0a1f",
+      "prerequisiteId": "mt_482428205f7c",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_6aefbea85b72",
+      "prerequisiteId": "mt_8f18f8cb0a1f",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_0739c9dd7d33",
+      "prerequisiteId": "mt_5a9b4de32ac2",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_81a36f5b0724",
+      "prerequisiteId": "mt_0739c9dd7d33",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_23a16e98deff",
+      "prerequisiteId": "mt_81a36f5b0724",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_5e717e22a8bf",
+      "prerequisiteId": "mt_23a16e98deff",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_566c3b0ca76f",
+      "prerequisiteId": "mt_7b3bf5c06604",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_f1a211dbfcf9",
+      "prerequisiteId": "mt_566c3b0ca76f",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_9963d931b280",
+      "prerequisiteId": "mt_cf6a6772f5fc",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_73ad23fb6ded",
+      "prerequisiteId": "mt_9963d931b280",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_03_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_19e30872c50e",
+      "prerequisiteId": "mt_0c83bae1c5d3",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_73c73b0d2c3d",
+      "prerequisiteId": "mt_19e30872c50e",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_f5c35268117d",
+      "prerequisiteId": "mt_e90eba07d7c9",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_e218f8dcf8da",
+      "prerequisiteId": "mt_f5c35268117d",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_fda593d175cf",
+      "prerequisiteId": "mt_e218f8dcf8da",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_5b5bf3c19f50",
+      "prerequisiteId": "mt_fda593d175cf",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_96511630b540",
+      "prerequisiteId": "mt_14df9961b26c",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_a4d034dc711b",
+      "prerequisiteId": "mt_96511630b540",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_5b867a40f199",
+      "prerequisiteId": "mt_a4d034dc711b",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_44673fead4d1",
+      "prerequisiteId": "mt_5b867a40f199",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_9839792d2da3",
+      "prerequisiteId": "mt_df2e81ef10d0",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_e6583ec96fee",
+      "prerequisiteId": "mt_9839792d2da3",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_36e3f58a6545",
+      "prerequisiteId": "mt_4fca93e785c8",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_e6425e64a363",
+      "prerequisiteId": "mt_36e3f58a6545",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_b9a4d2f0bf31",
+      "prerequisiteId": "mt_e6425e64a363",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_04_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_cd40b282cb41",
+      "prerequisiteId": "mt_ce3c60e49c07",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_35f2222792b0",
+      "prerequisiteId": "mt_cd40b282cb41",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_d989c3a8e6ac",
+      "prerequisiteId": "mt_35f2222792b0",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_909a08c66268",
+      "prerequisiteId": "mt_d989c3a8e6ac",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_c2e1f6a5f0dd",
+      "prerequisiteId": "mt_d566620e33ef",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_f6d24e9ce0e8",
+      "prerequisiteId": "mt_c2e1f6a5f0dd",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_9587117d2c5c",
+      "prerequisiteId": "mt_7c538d249ed1",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_03f5c4729d78",
+      "prerequisiteId": "mt_cca2ca6ab51e",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_679ba50469ae",
+      "prerequisiteId": "mt_03f5c4729d78",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_bbfa2e746f31",
+      "prerequisiteId": "mt_679ba50469ae",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_4405946ef0b5",
+      "prerequisiteId": "mt_f93237dec1c6",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_b773bf6a2c51",
+      "prerequisiteId": "mt_4405946ef0b5",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_e0b0e59b9411",
+      "prerequisiteId": "mt_b773bf6a2c51",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_05_05)内知识点递进"
+    },
+    {
+      "topicId": "mt_c1aedfd87b12",
+      "prerequisiteId": "mt_de505a7d16d5",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_1b6adbb79747",
+      "prerequisiteId": "mt_c1aedfd87b12",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_6ee71c7e3f72",
+      "prerequisiteId": "mt_1b6adbb79747",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_01)内知识点递进"
+    },
+    {
+      "topicId": "mt_0bc1033292e1",
+      "prerequisiteId": "mt_9b81c7a1108c",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_d655294cc55e",
+      "prerequisiteId": "mt_0bc1033292e1",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_47cde9fc1266",
+      "prerequisiteId": "mt_d655294cc55e",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_02)内知识点递进"
+    },
+    {
+      "topicId": "mt_70296bd30942",
+      "prerequisiteId": "mt_ecb04806fe41",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_040b66a070fa",
+      "prerequisiteId": "mt_70296bd30942",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_faae1b8f6d0b",
+      "prerequisiteId": "mt_040b66a070fa",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_03)内知识点递进"
+    },
+    {
+      "topicId": "mt_eb2b2ae20361",
+      "prerequisiteId": "mt_3c54720cffe9",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_1eb8e96eeb3e",
+      "prerequisiteId": "mt_eb2b2ae20361",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_bacc1e06823b",
+      "prerequisiteId": "mt_1eb8e96eeb3e",
+      "strength": "soft",
+      "reason": "同一节(SEC_PEP8U_PHYSICS_06_04)内知识点递进"
+    },
+    {
+      "topicId": "mt_8421fb8f05ee",
+      "prerequisiteId": "mt_6363e90369cd",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_bef8d14497a8",
+      "prerequisiteId": "mt_28dd69e6ef59",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_3210f5ae35ff",
+      "prerequisiteId": "mt_a56c15809ef3",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_746e174ac5fc",
+      "prerequisiteId": "mt_89fe8b62e3da",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_5e91557b4537",
+      "prerequisiteId": "mt_6b87004eee67",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_cfff706860ea",
+      "prerequisiteId": "mt_0b15eb530612",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_6cf8bd979860",
+      "prerequisiteId": "mt_ed1bb30ecf43",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_5abdd3361973",
+      "prerequisiteId": "mt_9b7f378ea392",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_a4f037653084",
+      "prerequisiteId": "mt_c728c10d62fa",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_a833dbaecb10",
+      "prerequisiteId": "mt_ca49e232de78",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_5a9b4de32ac2",
+      "prerequisiteId": "mt_6aefbea85b72",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_7b3bf5c06604",
+      "prerequisiteId": "mt_5e717e22a8bf",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_cf6a6772f5fc",
+      "prerequisiteId": "mt_f1a211dbfcf9",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_0c83bae1c5d3",
+      "prerequisiteId": "mt_73ad23fb6ded",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_e90eba07d7c9",
+      "prerequisiteId": "mt_73c73b0d2c3d",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_14df9961b26c",
+      "prerequisiteId": "mt_5b5bf3c19f50",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_df2e81ef10d0",
+      "prerequisiteId": "mt_44673fead4d1",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_4fca93e785c8",
+      "prerequisiteId": "mt_e6583ec96fee",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_ce3c60e49c07",
+      "prerequisiteId": "mt_b9a4d2f0bf31",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_d566620e33ef",
+      "prerequisiteId": "mt_909a08c66268",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_7c538d249ed1",
+      "prerequisiteId": "mt_f6d24e9ce0e8",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_cca2ca6ab51e",
+      "prerequisiteId": "mt_9587117d2c5c",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_f93237dec1c6",
+      "prerequisiteId": "mt_bbfa2e746f31",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_de505a7d16d5",
+      "prerequisiteId": "mt_e0b0e59b9411",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_9b81c7a1108c",
+      "prerequisiteId": "mt_6ee71c7e3f72",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_ecb04806fe41",
+      "prerequisiteId": "mt_47cde9fc1266",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    },
+    {
+      "topicId": "mt_3c54720cffe9",
+      "prerequisiteId": "mt_faae1b8f6d0b",
+      "strength": "soft",
+      "reason": "相邻节次的学习衔接"
+    }
+  ]
+}

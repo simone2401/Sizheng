@@ -1,0 +1,170 @@
+[
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_01",
+    "chapter_title": "第一章 机械运动",
+    "section_id": "SEC_PEP8U_PHYSICS_01_01",
+    "section_title": "第1节 长度和时间的测量"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_01",
+    "chapter_title": "第一章 机械运动",
+    "section_id": "SEC_PEP8U_PHYSICS_01_02",
+    "section_title": "第2节 运动的描述"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_01",
+    "chapter_title": "第一章 机械运动",
+    "section_id": "SEC_PEP8U_PHYSICS_01_03",
+    "section_title": "第3节 运动的快慢"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_01",
+    "chapter_title": "第一章 机械运动",
+    "section_id": "SEC_PEP8U_PHYSICS_01_04",
+    "section_title": "第4节 速度的测量"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_02",
+    "chapter_title": "第二章 声现象",
+    "section_id": "SEC_PEP8U_PHYSICS_02_01",
+    "section_title": "第1节 声音的产生与传播"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_02",
+    "chapter_title": "第二章 声现象",
+    "section_id": "SEC_PEP8U_PHYSICS_02_02",
+    "section_title": "第2节 声音的特性"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_02",
+    "chapter_title": "第二章 声现象",
+    "section_id": "SEC_PEP8U_PHYSICS_02_03",
+    "section_title": "第3节 声的利用"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_02",
+    "chapter_title": "第二章 声现象",
+    "section_id": "SEC_PEP8U_PHYSICS_02_04",
+    "section_title": "第4节 噪声的危害和控制"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_02",
+    "chapter_title": "第二章 声现象",
+    "section_id": "SEC_PEP8U_PHYSICS_02_05",
+    "section_title": "第5节 跨学科实践：制作隔音房间模型"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_03",
+    "chapter_title": "第三章 物态变化",
+    "section_id": "SEC_PEP8U_PHYSICS_03_01",
+    "section_title": "第1节 温度"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_03",
+    "chapter_title": "第三章 物态变化",
+    "section_id": "SEC_PEP8U_PHYSICS_03_02",
+    "section_title": "第2节 熔化和凝固"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_03",
+    "chapter_title": "第三章 物态变化",
+    "section_id": "SEC_PEP8U_PHYSICS_03_03",
+    "section_title": "第3节 汽化和液化"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_03",
+    "chapter_title": "第三章 物态变化",
+    "section_id": "SEC_PEP8U_PHYSICS_03_04",
+    "section_title": "第4节 升华和凝华"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_03",
+    "chapter_title": "第三章 物态变化",
+    "section_id": "SEC_PEP8U_PHYSICS_03_05",
+    "section_title": "第5节 跨学科实践：探索厨房中的物态变化问题"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_04",
+    "chapter_title": "第四章 光现象",
+    "section_id": "SEC_PEP8U_PHYSICS_04_01",
+    "section_title": "第1节 光的直线传播"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_04",
+    "chapter_title": "第四章 光现象",
+    "section_id": "SEC_PEP8U_PHYSICS_04_02",
+    "section_title": "第2节 光的反射"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_04",
+    "chapter_title": "第四章 光现象",
+    "section_id": "SEC_PEP8U_PHYSICS_04_03",
+    "section_title": "第3节 平面镜成像"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_04",
+    "chapter_title": "第四章 光现象",
+    "section_id": "SEC_PEP8U_PHYSICS_04_04",
+    "section_title": "第4节 光的折射"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_04",
+    "chapter_title": "第四章 光现象",
+    "section_id": "SEC_PEP8U_PHYSICS_04_05",
+    "section_title": "第5节 光的色散"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_05",
+    "chapter_title": "第五章 透镜及其应用",
+    "section_id": "SEC_PEP8U_PHYSICS_05_01",
+    "section_title": "第1节 透镜"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_05",
+    "chapter_title": "第五章 透镜及其应用",
+    "section_id": "SEC_PEP8U_PHYSICS_05_02",
+    "section_title": "第2节 生活中的透镜"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_05",
+    "chapter_title": "第五章 透镜及其应用",
+    "section_id": "SEC_PEP8U_PHYSICS_05_03",
+    "section_title": "第3节 凸透镜成像的规律"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_05",
+    "chapter_title": "第五章 透镜及其应用",
+    "section_id": "SEC_PEP8U_PHYSICS_05_04",
+    "section_title": "第4节 眼睛和眼镜"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_05",
+    "chapter_title": "第五章 透镜及其应用",
+    "section_id": "SEC_PEP8U_PHYSICS_05_05",
+    "section_title": "第5节 跨学科实践：制作望远镜"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_06",
+    "chapter_title": "第六章 质量与密度",
+    "section_id": "SEC_PEP8U_PHYSICS_06_01",
+    "section_title": "第1节 质量"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_06",
+    "chapter_title": "第六章 质量与密度",
+    "section_id": "SEC_PEP8U_PHYSICS_06_02",
+    "section_title": "第2节 密度"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_06",
+    "chapter_title": "第六章 质量与密度",
+    "section_id": "SEC_PEP8U_PHYSICS_06_03",
+    "section_title": "第3节 测量液体和固体的密度"
+  },
+  {
+    "chapter_id": "CH_PEP8U_PHYSICS_06",
+    "chapter_title": "第六章 质量与密度",
+    "section_id": "SEC_PEP8U_PHYSICS_06_04",
+    "section_title": "第4节 密度的应用"
+  }
+]

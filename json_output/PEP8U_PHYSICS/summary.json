@@ -1,0 +1,46 @@
+{
+  "source_file": "PEP8U_PHYSICS.xlsx",
+  "sheet_count": 7,
+  "sheets": [
+    "meta",
+    "sections",
+    "curriculum_standards",
+    "knowledge_points",
+    "textbook_original_chunks",
+    "ideology_paragraphs",
+    "ideology_tag_taxonomy"
+  ],
+  "sheet_row_counts": {
+    "meta": 1,
+    "sections": 28,
+    "curriculum_standards": 43,
+    "knowledge_points": 106,
+    "textbook_original_chunks": 140,
+    "ideology_paragraphs": 63,
+    "ideology_tag_taxonomy": 93
+  },
+  "entity_counts": {
+    "textbook": 1,
+    "chapters": 6,
+    "sections": 28,
+    "curriculum_standards": 43,
+    "knowledge_points": 106,
+    "textbook_chunks": 140,
+    "ideology_paragraphs": 63,
+    "ideology_tags": {
+      "level_1": 10,
+      "level_2": 31,
+      "level_3": 93
+    }
+  },
+  "relation_counts": {
+    "chapter_has_section": 28,
+    "section_has_standard": 43,
+    "section_has_knowledge_point": 106,
+    "section_has_chunk": 140,
+    "section_has_ideology_paragraph": 63,
+    "tag_l1_has_l2": 31,
+    "tag_l2_has_l3": 93,
+    "paragraph_tagged_with_l3": 102
+  }
+}
