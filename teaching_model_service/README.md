@@ -1,42 +1,80 @@
 # Teaching Model Service
 
-独立 FastAPI 服务，提供教材静态资源查询和教学模型接口。
+项目由两个可独立运行的 FastAPI 服务组成：资源 API 只读取教材 JSON，模型 API 通过 HTTP 调用资源 API，再调用 Mock 或智谱模型。
 
-## 启动
+## 安装
 
 ```bash
 cd /Users/simone/Desktop/思政/teaching_model_service
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-TEACHING_API_KEYS=dev-key ZHIPU_API_KEY=your-key ZHIPU_MODEL=glm-5.2 uvicorn app.main:app --reload --port 8000
 ```
 
-默认读取 `../json_output/PEP8U_PHYSICS`，可用 `TEACHING_RESOURCE_DIR` 覆盖。
-未配置 `ZHIPU_API_KEY` 时使用 Mock 客户端，仅用于本地测试。
+复制 `.env.example` 为 `.env` 后按本地环境修改。教材数据默认位于项目上级的 `json_output/PEP8U_PHYSICS`，也可设置 `TEACHING_RESOURCE_DIR`。如果前端跨域调用，可配置 `CORS_ALLOW_ORIGINS`，多个来源用逗号分隔。
 
-## 接口
+## 启动
 
-`GET /v1/teaching/resources` 查询教材、知识点、课标和思政资源。
+终端一启动资源服务：
 
-`POST /v1/chat/teaching` 使用 `Authorization: Bearer <成研院 API Key>` 调用。`TEACHING_API_KEYS` 可配置逗号分隔的多个 Key；这些 Key 与内部调用智谱的 `ZHIPU_API_KEY` 完全不同。
-
-备课请求的非流式响应不使用 `stage`、`outputType` 或 `outputs[]`：
-
-```json
-{
-  "model": "glm-5.2",
-  "reasoning_content": "已完成教材分析、教案对齐和思政标签匹配。",
-  "content": "# 课程思政融入初中物理教学\n...",
-  "finishReason": "stop",
-  "usage": {"inputTokens": 1580, "outputTokens": 920, "totalTokens": 2500},
-  "error": null
-}
+```bash
+RESOURCE_API_KEYS=local-resource-key uvicorn app.resource_api.main:app --host 127.0.0.1 --port 8001
 ```
 
-`content` 是 Markdown 教案正文，由调用方自行渲染；`reasoning_content` 是中文、可展示的生成依据摘要。案例导引只返回 `content`，`reasoning_content` 为空。
+终端二启动模型服务：
 
-`stream` 默认为 `true`，未传该字段时返回 SSE；显式设置 `stream=false` 时返回非流式 JSON。每个 SSE `data` 事件分别增量携带 `content` 或 `reasoning_content`；结束事件携带 `finishReason` 和驼峰格式 `usage`。智谱的 `[DONE]` 不会透传。
+```bash
+MODEL_BACKEND=mock TEACHING_API_KEYS=local-model-key RESOURCE_SERVICE_API_KEY=local-resource-key uvicorn app.model_api.main:app --host 127.0.0.1 --port 8000
+```
+
+访问 `/docs`：
+
+- `http://127.0.0.1:8001/docs`
+- `http://127.0.0.1:8000/docs`
+
+也可以使用项目脚本同时启动两个服务：
+
+```bash
+# 先在 .env 中配置环境变量，或在当前终端导出变量
+./scripts/dev.sh
+```
+
+按 `Ctrl+C` 会只停止该脚本启动的两个进程，不会使用 `pkill` 误杀其他服务。
+
+
+资源查询：
+
+```bash
+curl -G 'http://127.0.0.1:8001/v1/teaching/resources' \
+  -H 'Authorization: Bearer local-resource-key' \
+  --data-urlencode 'schoolLevel=8年级上' \
+  --data-urlencode 'subject=物理' \
+  --data-urlencode 'textbookVersion=人教版' \
+  --data-urlencode 'chapter=第六章' \
+  --data-urlencode 'lesson=第4节'
+```
+
+模型非流式：
+
+```bash
+curl -X POST 'http://127.0.0.1:8000/v1/chat/teaching' \
+  -H 'Authorization: Bearer local-model-key' -H 'Content-Type: application/json' \
+  -d '{"model":"glm-5.2","stream":false,"turnId":1,"messages":[{"role":"USER","content":[{"type":"TEXT","text":"请生成教案"}]}],"metadata":{"chatType":"lesson_plan_assist","schoolLevel":"8年级上","subject":"物理","textbookVersion":"人教版","chapter":"第六章","lesson":"第4节"}}'
+```
+
+省略 `stream` 即返回 SSE；显式 `stream=false` 返回 JSON。模型响应使用 `content`、`reasoning_content`、`l1_labels` 和 `finishReason`，token 使用量为 `inputTokens/outputTokens/totalTokens`。案例导引和备课助手通过 `metadata.chatType` 区分；不使用 `stage`、`outputType` 或 `outputs[]`。
+
+配置说明：
+
+- 生产和联调环境必须开启 Bearer API Key 鉴权，并分别配置 `RESOURCE_API_KEYS`、`TEACHING_API_KEYS`。
+- 仅允许本地离线开发时使用 `MODEL_API_AUTH_DISABLED=true` 或 `RESOURCE_API_AUTH_DISABLED=true` 关闭对应服务鉴权，禁止在生产和联调环境关闭。
+- 服务端以请求体中的 `stream` 字段决定返回 JSON 或 SSE；`Accept` 仅作为客户端推荐请求头，不作为强制校验项。
+- 生产和联调环境必须开启 Bearer API Key 鉴权，并分别配置 `RESOURCE_API_KEYS`、`TEACHING_API_KEYS`。
+- 仅允许本地离线开发时使用 `MODEL_API_AUTH_DISABLED=true` 或 `RESOURCE_API_AUTH_DISABLED=true` 关闭对应服务鉴权，禁止在生产和联调环境关闭。
+- 服务端以请求体中的 `stream` 字段决定返回 JSON 或 SSE；`Accept` 仅作为客户端推荐请求头，不作为强制校验项。
+- `model` 传入时作为本次请求的期望模型；未传入时使用 `ZHIPU_MODEL`，默认 `glm-5.2`。
+- `reasoning_content` 可以是字符串或 `null`；案例导引场景按业务约定返回空字符串。
+`MODEL_BACKEND=mock` 用于本地离线测试；真实智谱调用需显式设置 `MODEL_BACKEND=zhipu` 和 `ZHIPU_API_KEY`，默认模型为 `glm-5.2`。成研院调用 Key 与智谱 Key 分开保存，长期 Key 不应放在浏览器端。
 
 ## 测试
 
