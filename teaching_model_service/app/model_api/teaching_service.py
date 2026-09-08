@@ -82,7 +82,7 @@ class TeachingChatService:
         self.output_guard.check(result.content)
         if result.reasoning_content:
             self.output_guard.check(result.reasoning_content)
-        reasoning = "" if prepared.mode == "case_guide" else result.reasoning_content
+        reasoning = result.reasoning_content
         return response_for(prepared.request, result.model, prepared.l1_labels, reasoning, result.content, result.usage, _normalize_finish_reason(result.finish_reason))
 
     async def stream(self, prepared: PreparedTeachingRequest) -> AsyncIterator[TeachingResponse]:
@@ -90,7 +90,7 @@ class TeachingChatService:
         last_model = prepared.request.model
         async for item in self.model_client.stream(prepared.system_prompt, prepared.user_prompt, prepared.mode, prepared.request.model):
             last_model = item.get("model") or last_model
-            reasoning = "" if prepared.mode == "case_guide" else item.get("reasoning_content")
+            reasoning = item.get("reasoning_content")
             content = item.get("content", "")
             if reasoning:
                 self.output_guard.check(reasoning)

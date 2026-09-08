@@ -28,7 +28,7 @@ def test_case_has_content_only_and_filters_resources(model_client):
     payload["metadata"] = dict(BASE["metadata"], knowledgePoints=["密度与材料选择"])
     data = client.post("/v1/chat/teaching", json=payload).json()
     assert data["content"]
-    assert data["reasoning_content"] == ""
+    assert data["reasoning_content"] == "不应透传"
     assert data["l1_labels"] == ["家国责任"]
     assert "knowledgePoints" not in resource.calls[0]
     user_prompt = fake_model.calls[0][1]

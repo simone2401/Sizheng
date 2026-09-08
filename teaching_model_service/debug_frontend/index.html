@@ -295,6 +295,41 @@
       els.content.scrollTop = els.content.scrollHeight;
     }
 
+    function consumeSseBuffer(buffer, state) {
+      let rest = buffer;
+      let idx;
+      while ((idx = rest.indexOf("\n\n")) >= 0) {
+        const rawEvent = rest.slice(0, idx);
+        rest = rest.slice(idx + 2);
+
+        const lines = rawEvent.split("\n");
+        for (const line of lines) {
+          if (line.startsWith(":")) {
+            setStatus("连接保持中（收到 keepalive ping）...");
+            continue;
+          }
+          if (!line.startsWith("data:")) continue;
+          const raw = line.slice(5).trim();
+          if (!raw) continue;
+
+          let payload;
+          try {
+            payload = JSON.parse(raw);
+          } catch {
+            continue;
+          }
+
+          appendReasoning(payload.reasoning_content || "");
+          appendContent(payload.content || "");
+
+          if (payload.finishReason) {
+            state.terminal = payload;
+          }
+        }
+      }
+      return rest;
+    }
+
     async function callJson() {
       stopCurrent();
       startedAt = Date.now();
@@ -372,49 +407,26 @@
         const reader = response.body.getReader();
         const decoder = new TextDecoder("utf-8");
         let buffer = "";
-        let terminal = null;
+        const streamState = { terminal: null };
 
         while (true) {
           const { value, done } = await reader.read();
           if (done) break;
           buffer += decoder.decode(value, { stream: true });
-
-          let idx;
-          while ((idx = buffer.indexOf("\n\n")) >= 0) {
-            const rawEvent = buffer.slice(0, idx);
-            buffer = buffer.slice(idx + 2);
-
-            const lines = rawEvent.split("\n");
-            for (const line of lines) {
-              if (line.startsWith(":")) {
-                setStatus("连接保持中（收到 keepalive ping）...");
-                continue;
-              }
-              if (!line.startsWith("data:")) continue;
-              const raw = line.slice(5).trim();
-              if (!raw) continue;
-
-              let payload;
-              try {
-                payload = JSON.parse(raw);
-              } catch {
-                continue;
-              }
-
-              appendReasoning(payload.reasoning_content || "");
-              appendContent(payload.content || "");
-
-              if (payload.finishReason) {
-                terminal = payload;
-              }
-            }
-          }
+          buffer = consumeSseBuffer(buffer, streamState);
         }
 
-        if (terminal) {
-          setStatus(`流式完成\nfinishReason=${terminal.finishReason} model=${terminal.model || ""}`);
+        buffer += decoder.decode();
+        buffer = consumeSseBuffer(buffer, streamState);
+        if (buffer.trim().startsWith("data:")) {
+          buffer = consumeSseBuffer(`${buffer}\n\n`, streamState);
+        }
+
+        if (streamState.terminal) {
+          setStatus(`流式完成\nfinishReason=${streamState.terminal.finishReason} model=${streamState.terminal.model || ""}`);
         } else {
-          setStatus("流式结束（未收到终止块 finishReason）");
+          const hasOutput = Boolean(els.reasoning.textContent || els.content.textContent);
+          setStatus(hasOutput ? "流式结束（连接关闭，未显式返回终止块）" : "流式结束（未收到终止块 finishReason）");
         }
       } catch (err) {
         setStatus(`流式异常：${err?.message || err}`);
