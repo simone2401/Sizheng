@@ -49,7 +49,7 @@ class TeachingResponse(BaseModel):
     l1_labels: list[str] = Field(default_factory=list, alias="l1_labels")
     reasoning_content: str | None = Field(default=None, alias="reasoning_content")
     content: str = ""
-    finish_reason: Literal["stop", "error"] | None = Field(None, alias="finishReason")
+    finish_reason: Literal["stop", "error", "length", "tool_calls", "content_filter"] | None = Field(None, alias="finishReason")
     usage: Usage | None = None
     error: ErrorInfo | None = None
     model_config = ConfigDict(populate_by_name=True)

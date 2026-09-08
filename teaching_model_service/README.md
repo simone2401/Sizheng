@@ -66,15 +66,15 @@ curl -X POST 'http://127.0.0.1:8000/v1/chat/teaching' \
 
 配置说明：
 
+- `MODEL_BACKEND` 仅支持 `mock` 或 `zhipu`；未知值会使服务配置失败，不会静默降级。
+- 未显式设置 `MODEL_API_AUTH_DISABLED=true` 或 `RESOURCE_API_AUTH_DISABLED=true` 时，服务默认启用鉴权；未配置或未提供有效 Bearer API Key 的请求会被拒绝。
 - 生产和联调环境必须开启 Bearer API Key 鉴权，并分别配置 `RESOURCE_API_KEYS`、`TEACHING_API_KEYS`。
-- 仅允许本地离线开发时使用 `MODEL_API_AUTH_DISABLED=true` 或 `RESOURCE_API_AUTH_DISABLED=true` 关闭对应服务鉴权，禁止在生产和联调环境关闭。
-- 服务端以请求体中的 `stream` 字段决定返回 JSON 或 SSE；`Accept` 仅作为客户端推荐请求头，不作为强制校验项。
-- 生产和联调环境必须开启 Bearer API Key 鉴权，并分别配置 `RESOURCE_API_KEYS`、`TEACHING_API_KEYS`。
-- 仅允许本地离线开发时使用 `MODEL_API_AUTH_DISABLED=true` 或 `RESOURCE_API_AUTH_DISABLED=true` 关闭对应服务鉴权，禁止在生产和联调环境关闭。
+- 仅允许本地离线开发时使用对应的 `*_AUTH_DISABLED=true` 关闭鉴权。
+- `/health/live` 始终返回 200；`/health/ready` 就绪返回 200，未就绪返回 503。
 - 服务端以请求体中的 `stream` 字段决定返回 JSON 或 SSE；`Accept` 仅作为客户端推荐请求头，不作为强制校验项。
 - `model` 传入时作为本次请求的期望模型；未传入时使用 `ZHIPU_MODEL`，默认 `glm-5.2`。
 - `reasoning_content` 可以是字符串或 `null`；案例导引场景按业务约定返回空字符串。
-`MODEL_BACKEND=mock` 用于本地离线测试；真实智谱调用需显式设置 `MODEL_BACKEND=zhipu` 和 `ZHIPU_API_KEY`，默认模型为 `glm-5.2`。成研院调用 Key 与智谱 Key 分开保存，长期 Key 不应放在浏览器端。
+- `MODEL_BACKEND=mock` 用于本地离线测试；真实智谱调用需显式设置 `MODEL_BACKEND=zhipu` 和 `ZHIPU_API_KEY`。成研院调用 Key 与智谱 Key 分开保存，长期 Key 不应放在浏览器端。
 
 ## 测试
 

@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-from typing import Any
-from fastapi import APIRouter, Depends, Header, HTTPException, Query
+from fastapi import APIRouter, Depends, Header, HTTPException, Query, Request
 from pydantic import ValidationError
 from app.shared.auth import authorized
 from app.shared.config import ResourceSettings
-from app.shared.errors import InvalidArgumentError, ResourceNotFoundError, UnauthorizedError, error_dict
+from app.shared.errors import InvalidArgumentError, ResourceNotFoundError, ResourceUnavailableError, UnauthorizedError, error_dict
 from app.shared.resource_contracts import ResourceQuery, ResourceResponse
 from .service import ResourceService
 
@@ -16,8 +15,11 @@ def service_dependency() -> ResourceService:
     raise RuntimeError("resource service is not initialized")
 
 
-def settings_dependency() -> ResourceSettings:
-    return ResourceSettings.from_env()
+def settings_dependency(request: Request) -> ResourceSettings:
+    settings = getattr(request.app.state, "settings", None)
+    if settings is None:
+        raise RuntimeError("resource settings are not initialized")
+    return settings
 
 
 @router.get("/v1/teaching/resources", response_model=ResourceResponse)
@@ -45,6 +47,8 @@ def get_resources(
         )
         return service.query(query)
     except ResourceNotFoundError as exc:
+        raise HTTPException(exc.status_code, detail=error_dict(exc)) from exc
+    except ResourceUnavailableError as exc:
         raise HTTPException(exc.status_code, detail=error_dict(exc)) from exc
     except ValidationError as exc:
         raise HTTPException(400, detail=error_dict(InvalidArgumentError(str(exc)))) from exc

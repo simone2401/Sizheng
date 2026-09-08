@@ -5,6 +5,9 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
+SUPPORTED_MODEL_BACKENDS = frozenset({"mock", "zhipu"})
+
+
 def _keys(name: str) -> frozenset[str]:
     return frozenset(value.strip() for value in os.getenv(name, "").split(",") if value.strip())
 
@@ -50,6 +53,11 @@ class ModelSettings:
 
     @classmethod
     def from_env(cls) -> "ModelSettings":
+        model_backend = os.getenv("MODEL_BACKEND", "mock").strip().lower()
+        if model_backend not in SUPPORTED_MODEL_BACKENDS:
+            raise ValueError(
+                f"MODEL_BACKEND must be one of: {', '.join(sorted(SUPPORTED_MODEL_BACKENDS))}"
+            )
         return cls(
             os.getenv("MODEL_API_HOST", "127.0.0.1"),
             int(os.getenv("MODEL_API_PORT", "8000")),
@@ -57,7 +65,7 @@ class ModelSettings:
             os.getenv("RESOURCE_SERVICE_API_KEY", ""),
             _keys("TEACHING_API_KEYS"),
             _bool("MODEL_API_AUTH_DISABLED"),
-            os.getenv("MODEL_BACKEND", "mock").strip().lower(),
+            model_backend,
             os.getenv("ZHIPU_API_KEY", ""),
             os.getenv("ZHIPU_BASE_URL", "https://open.bigmodel.cn/api/paas/v4").rstrip("/"),
             os.getenv("ZHIPU_MODEL", "glm-5.2"),

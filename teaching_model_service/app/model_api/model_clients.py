@@ -30,7 +30,7 @@ class MockModelClient:
         else:
             content = "# 课程思政融入初中物理教学\n\n## 《密度的应用》教学设计\n\n## 教学基本信息\n待补充课型、班型与学生基础。\n\n## 教学目标\n学生能够理解并应用密度知识。\n\n## 教学过程\n1. 创设真实情境并提出问题。\n2. 基于教材探究并交流证据。\n\n## 作业与延伸\n完成一个生活中的密度应用任务。"
             reasoning = "已完成教材分析、教案对齐和思政标签匹配；课型、班型与学生基础待补充。"
-        usage = Usage(inputTokens=len(prompt), outputTokens=len(content) + len(reasoning), totalTokens=len(prompt) + len(content) + len(reasoning))
+        usage = Usage(inputTokens=len(system_prompt) + len(user_prompt), outputTokens=len(content) + len(reasoning), totalTokens=len(system_prompt) + len(user_prompt) + len(content) + len(reasoning))
         return ModelResult(content, reasoning, selected_model, usage)
 
     async def stream(self, system_prompt: str, user_prompt: str, response_mode: str, model: str | None = None) -> AsyncIterator[dict[str, Any]]:
@@ -96,7 +96,19 @@ class ZhipuModelClient:
                     raw = line[5:].strip()
                     if raw == "[DONE]": break
                     try:
-                        data = json.loads(raw); choice = data.get("choices", [{}])[0]; delta = choice.get("delta", {})
+                        data = json.loads(raw)
+                        choices = data.get("choices") or []
+                        if not choices:
+                            yield {
+                                "content": "",
+                                "reasoning_content": "",
+                                "model": data.get("model", self.default_model),
+                                "finish_reason": None,
+                                "usage": self._usage(data["usage"]) if data.get("usage") else None,
+                            }
+                            continue
+                        choice = choices[0]
+                        delta = choice.get("delta", {})
                         content = delta.get("content", "")
                         reasoning = delta.get("reasoning_content")
                         if not isinstance(content, str) or (reasoning is not None and not isinstance(reasoning, str)): raise ValueError

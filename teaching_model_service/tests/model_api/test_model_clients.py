@@ -85,6 +85,32 @@ def test_stream_request_contains_system_and_user_messages():
     ]
 
 
+def test_stream_accepts_usage_chunk_with_empty_choices():
+    lines = [
+        'data: {"model":"glm-5.3-flash","choices":[{"delta":{"content":"片段"},"finish_reason":null}]}\n\n',
+        'data: {"model":"glm-5.3-flash","choices":[],"usage":{"prompt_tokens":1,"completion_tokens":2,"total_tokens":3}}\n\n',
+        "data: [DONE]\n\n",
+    ]
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, content="".join(lines))
+
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+            return [
+                item
+                async for item in ZhipuModelClient("test-key", client=client).stream(
+                    SYSTEM_PROMPT,
+                    USER_PROMPT,
+                    "lesson_plan_assist",
+                )
+            ]
+
+    items = asyncio.run(run())
+    assert items[0]["content"] == "片段"
+    assert items[1]["usage"].total_tokens == 3
+
+
 @pytest.mark.parametrize(
     ("upstream_status", "expected_status", "expected_retriable"),
     [(400, 502, False), (429, 429, True), (500, 502, True)],

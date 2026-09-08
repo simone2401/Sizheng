@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching Model API 联调面板</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      margin: 0;
+      background: #0b1020;
+      color: #e8edff;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 18px; }
+    .card {
+      background: #111834;
+      border: 1px solid #2b376e;
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+    h1 { margin: 0 0 10px; font-size: 20px; }
+    h2 { margin: 0 0 10px; font-size: 15px; color: #b8c7ff; }
+    .grid { display: grid; gap: 10px; }
+    .grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    label { display: block; font-size: 12px; color: #b8c7ff; margin-bottom: 4px; }
+    input, select, textarea, button {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #3b4a8f;
+      border-radius: 8px;
+      background: #0c1430;
+      color: #e8edff;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+    textarea { min-height: 84px; resize: vertical; }
+    .row { display: flex; gap: 8px; }
+    .row > * { flex: 1; }
+    button { cursor: pointer; background: #1a2a6f; }
+    button.secondary { background: #2f3558; }
+    .status {
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: #1a2145;
+      border: 1px solid #445299;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+    .split { display: grid; gap: 10px; grid-template-columns: 1fr 1fr; }
+    .pane {
+      border: 1px solid #3b4a8f;
+      border-radius: 8px;
+      min-height: 220px;
+      max-height: 400px;
+      overflow: auto;
+      background: #0a122f;
+      padding: 10px;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+    }
+    .small { font-size: 12px; color: #a7b3df; }
+    .muted { color: #8ea0df; }
+    @media (max-width: 920px) {
+      .grid.cols-2, .grid.cols-3, .split { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Teaching Model API 联调面板（独立临时工具）</h1>
+
+    <div class="card">
+      <h2>连接配置</h2>
+      <div class="grid cols-3">
+        <div>
+          <label>模型 API 地址</label>
+          <input id="baseUrl" value="http://127.0.0.1:8000" />
+        </div>
+        <div>
+          <label>API Key（Bearer）</label>
+          <input id="apiKey" placeholder="local-model-key" />
+        </div>
+        <div>
+          <label>超时（分钟）</label>
+          <input id="timeoutMin" type="number" min="1" max="60" value="10" />
+        </div>
+      </div>
+      <p class="small">流式请求默认可等待 10 分钟；你可以改成更长（最多 60 分钟）。</p>
+    </div>
+
+    <div class="card">
+      <h2>请求参数</h2>
+      <div class="grid cols-3" style="margin-bottom: 10px;">
+        <div>
+          <label>请求模板</label>
+          <select id="requestTemplate">
+            <option value="lesson_plan_assist">备课助手模板</option>
+            <option value="case_guide_study">案例导引模板</option>
+          </select>
+        </div>
+        <div style="align-self: end;">
+          <button id="btnApplyTemplate" type="button">应用模板</button>
+        </div>
+      </div>
+
+      <div class="grid cols-3">
+        <div>
+          <label>模型</label>
+          <select id="modelSelect">
+            <option>glm-5.2</option>
+            <option>glm-5.3-flash</option>
+            <option>glm-4.5</option>
+            <option value="__custom__">自定义...</option>
+          </select>
+        </div>
+        <div>
+          <label>自定义模型（可空）</label>
+          <input id="modelCustom" placeholder="例如 glm-5.2" />
+        </div>
+        <div>
+          <label>chatType</label>
+          <select id="chatType">
+            <option value="lesson_plan_assist">lesson_plan_assist</option>
+            <option value="case_guide_study">case_guide_study</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid cols-2" style="margin-top: 10px;">
+        <div><label>schoolLevel</label><input id="schoolLevel" value="8年级上" /></div>
+        <div><label>subject</label><input id="subject" value="物理" /></div>
+        <div><label>textbookVersion</label><input id="textbookVersion" value="人教版" /></div>
+        <div><label>chapter</label><input id="chapter" value="第六章" /></div>
+        <div><label>lesson</label><input id="lesson" value="第4节" /></div>
+        <div><label>knowledgePoints（逗号分隔，备课助手可用）</label><input id="knowledgePoints" value="密度与材料选择" /></div>
+      </div>
+
+      <div style="margin-top: 10px;">
+        <label>教师输入（最后一条 USER）</label>
+        <textarea id="userText">请生成课程思政教学设计教案</textarea>
+      </div>
+
+      <div class="row" style="margin-top: 10px;">
+        <button id="btnStream">发起流式请求（SSE）</button>
+        <button id="btnJson" class="secondary">发起非流式请求（JSON）</button>
+        <button id="btnStop" class="secondary">中止请求</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>运行状态</h2>
+      <div id="status" class="status">等待请求...</div>
+      <div class="split" style="margin-top: 10px;">
+        <div>
+          <div class="small muted">reasoning_content（实时）</div>
+          <div id="reasoning" class="pane"></div>
+        </div>
+        <div>
+          <div class="small muted">content（实时）</div>
+          <div id="content" class="pane"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let controller = null;
+    let startedAt = 0;
+
+    const els = {
+      baseUrl: document.getElementById("baseUrl"),
+      apiKey: document.getElementById("apiKey"),
+      timeoutMin: document.getElementById("timeoutMin"),
+      modelSelect: document.getElementById("modelSelect"),
+      modelCustom: document.getElementById("modelCustom"),
+      chatType: document.getElementById("chatType"),
+      requestTemplate: document.getElementById("requestTemplate"),
+      btnApplyTemplate: document.getElementById("btnApplyTemplate"),
+      schoolLevel: document.getElementById("schoolLevel"),
+      subject: document.getElementById("subject"),
+      textbookVersion: document.getElementById("textbookVersion"),
+      chapter: document.getElementById("chapter"),
+      lesson: document.getElementById("lesson"),
+      knowledgePoints: document.getElementById("knowledgePoints"),
+      userText: document.getElementById("userText"),
+      status: document.getElementById("status"),
+      reasoning: document.getElementById("reasoning"),
+      content: document.getElementById("content"),
+      btnStream: document.getElementById("btnStream"),
+      btnJson: document.getElementById("btnJson"),
+      btnStop: document.getElementById("btnStop"),
+    };
+
+    const templates = {
+      lesson_plan_assist: {
+        chatType: "lesson_plan_assist",
+        schoolLevel: "8年级上",
+        subject: "物理",
+        textbookVersion: "人教版",
+        chapter: "第六章",
+        lesson: "第4节",
+        knowledgePoints: "密度与材料选择",
+        userText: "请生成课程思政教学设计教案，突出实验探究与价值引导。",
+      },
+      case_guide_study: {
+        chatType: "case_guide_study",
+        schoolLevel: "8年级上",
+        subject: "物理",
+        textbookVersion: "人教版",
+        chapter: "第六章",
+        lesson: "第4节",
+        knowledgePoints: "",
+        userText: "请继续案例导引学习，从学生常见误区切入，每轮只问一个关键问题。",
+      },
+    };
+
+    function setStatus(text) {
+      const sec = startedAt ? ((Date.now() - startedAt) / 1000).toFixed(1) : "0.0";
+      els.status.textContent = `[${new Date().toLocaleTimeString()} | ${sec}s]\n${text}`;
+    }
+
+    function chosenModel() {
+      if (els.modelSelect.value === "__custom__") {
+        return els.modelCustom.value.trim() || null;
+      }
+      return els.modelCustom.value.trim() || els.modelSelect.value;
+    }
+
+    function buildPayload(stream) {
+      const kp = els.knowledgePoints.value
+        .split(",")
+        .map(item => item.trim())
+        .filter(Boolean);
+
+      const metadata = {
+        chatType: els.chatType.value,
+        schoolLevel: els.schoolLevel.value.trim(),
+        subject: els.subject.value.trim(),
+        textbookVersion: els.textbookVersion.value.trim(),
+        chapter: els.chapter.value.trim(),
+        lesson: els.lesson.value.trim(),
+      };
+
+      if (els.chatType.value === "lesson_plan_assist" && kp.length) {
+        metadata.knowledgePoints = kp;
+      }
+
+      return {
+        model: chosenModel(),
+        stream,
+        turnId: 1,
+        messages: [
+          {
+            role: "USER",
+            content: [{ type: "TEXT", text: els.userText.value.trim() }],
+          },
+        ],
+        metadata,
+      };
+    }
+
+    function clearOutput() {
+      els.reasoning.textContent = "";
+      els.content.textContent = "";
+    }
+
+    function applyTemplate(templateKey) {
+      const template = templates[templateKey];
+      if (!template) return;
+      els.chatType.value = template.chatType;
+      els.schoolLevel.value = template.schoolLevel;
+      els.subject.value = template.subject;
+      els.textbookVersion.value = template.textbookVersion;
+      els.chapter.value = template.chapter;
+      els.lesson.value = template.lesson;
+      els.knowledgePoints.value = template.knowledgePoints;
+      els.userText.value = template.userText;
+      setStatus(`已应用模板：${templateKey}`);
+    }
+
+    function appendReasoning(text) {
+      if (!text) return;
+      els.reasoning.textContent += text;
+      els.reasoning.scrollTop = els.reasoning.scrollHeight;
+    }
+
+    function appendContent(text) {
+      if (!text) return;
+      els.content.textContent += text;
+      els.content.scrollTop = els.content.scrollHeight;
+    }
+
+    async function callJson() {
+      stopCurrent();
+      startedAt = Date.now();
+      clearOutput();
+      setStatus("正在发送非流式请求...");
+
+      const payload = buildPayload(false);
+      const headers = { "Content-Type": "application/json" };
+      const key = els.apiKey.value.trim();
+      if (key) headers.Authorization = `Bearer ${key}`;
+
+      controller = new AbortController();
+      const timeoutMs = Math.max(1, Math.min(60, Number(els.timeoutMin.value) || 10)) * 60 * 1000;
+      const timer = setTimeout(() => controller?.abort("请求超时"), timeoutMs);
+
+      try {
+        const res = await fetch(`${els.baseUrl.value.trim()}/v1/chat/teaching`, {
+          method: "POST",
+          headers,
+          body: JSON.stringify(payload),
+          signal: controller.signal,
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus(`请求失败: HTTP ${res.status}\n${JSON.stringify(data, null, 2)}`);
+          return;
+        }
+        appendReasoning(data.reasoning_content || "");
+        appendContent(data.content || "");
+        setStatus(`完成（非流式）\nfinishReason=${data.finishReason} model=${data.model || ""}`);
+      } catch (err) {
+        setStatus(`请求异常：${err?.message || err}`);
+      } finally {
+        clearTimeout(timer);
+        controller = null;
+      }
+    }
+
+    async function callStream() {
+      stopCurrent();
+      startedAt = Date.now();
+      clearOutput();
+      setStatus("正在建立流式连接...");
+
+      const payload = buildPayload(true);
+      const headers = { "Content-Type": "application/json" };
+      const key = els.apiKey.value.trim();
+      if (key) headers.Authorization = `Bearer ${key}`;
+
+      controller = new AbortController();
+      const timeoutMs = Math.max(1, Math.min(60, Number(els.timeoutMin.value) || 10)) * 60 * 1000;
+      const timer = setTimeout(() => controller?.abort("流式请求超时"), timeoutMs);
+
+      try {
+        const response = await fetch(`${els.baseUrl.value.trim()}/v1/chat/teaching`, {
+          method: "POST",
+          headers,
+          body: JSON.stringify(payload),
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          const text = await response.text();
+          setStatus(`流式请求失败: HTTP ${response.status}\n${text}`);
+          return;
+        }
+
+        if (!response.body) {
+          setStatus("浏览器不支持可读流 response.body");
+          return;
+        }
+
+        setStatus("已连接，正在接收流式数据...");
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder("utf-8");
+        let buffer = "";
+        let terminal = null;
+
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+
+          let idx;
+          while ((idx = buffer.indexOf("\n\n")) >= 0) {
+            const rawEvent = buffer.slice(0, idx);
+            buffer = buffer.slice(idx + 2);
+
+            const lines = rawEvent.split("\n");
+            for (const line of lines) {
+              if (line.startsWith(":")) {
+                setStatus("连接保持中（收到 keepalive ping）...");
+                continue;
+              }
+              if (!line.startsWith("data:")) continue;
+              const raw = line.slice(5).trim();
+              if (!raw) continue;
+
+              let payload;
+              try {
+                payload = JSON.parse(raw);
+              } catch {
+                continue;
+              }
+
+              appendReasoning(payload.reasoning_content || "");
+              appendContent(payload.content || "");
+
+              if (payload.finishReason) {
+                terminal = payload;
+              }
+            }
+          }
+        }
+
+        if (terminal) {
+          setStatus(`流式完成\nfinishReason=${terminal.finishReason} model=${terminal.model || ""}`);
+        } else {
+          setStatus("流式结束（未收到终止块 finishReason）");
+        }
+      } catch (err) {
+        setStatus(`流式异常：${err?.message || err}`);
+      } finally {
+        clearTimeout(timer);
+        controller = null;
+      }
+    }
+
+    function stopCurrent() {
+      if (controller) {
+        controller.abort("用户手动中止");
+        controller = null;
+      }
+    }
+
+    els.btnStream.addEventListener("click", callStream);
+    els.btnJson.addEventListener("click", callJson);
+    els.btnApplyTemplate.addEventListener("click", () => applyTemplate(els.requestTemplate.value));
+    els.btnStop.addEventListener("click", () => {
+      stopCurrent();
+      setStatus("已手动中止请求。");
+    });
+
+    applyTemplate(els.requestTemplate.value);
+  </script>
+</body>
+</html>
