@@ -1,4 +1,5 @@
 from __future__ import annotations
+import re
 import uuid
 from dataclasses import dataclass
 from typing import Any, AsyncIterator
@@ -79,6 +80,8 @@ class TeachingChatService:
 
     async def generate(self, prepared: PreparedTeachingRequest) -> TeachingResponse:
         result = await self.model_client.generate(prepared.system_prompt, prepared.user_prompt, prepared.mode, prepared.request.model)
+        if prepared.mode == "lesson_plan_assist":
+            result.content = _normalize_lesson_markdown(result.content)
         self.output_guard.check(result.content)
         if result.reasoning_content:
             self.output_guard.check(result.reasoning_content)
@@ -92,6 +95,8 @@ class TeachingChatService:
             last_model = item.get("model") or last_model
             reasoning = item.get("reasoning_content")
             content = item.get("content", "")
+            if prepared.mode == "lesson_plan_assist" and content:
+                content = _normalize_lesson_markdown(content)
             if reasoning:
                 self.output_guard.check(reasoning)
             if content:
@@ -136,3 +141,16 @@ def _case_resource_context(resource):
 
 def _json_context(resource):
     return "\n".join((f"教材：{resource['textbook'].get('textbook_name', '')}", f"章节：{resource['chapter'].get('chapter_title', '')}", f"小节：{resource['section'].get('section_title', '')}", "知识点：" + "；".join(x['title'] for x in resource['knowledgePoints']), "教材原文：" + "\n".join(x.get('text', '')[:500] for x in resource['textbookChunks'][:8]), "课程标准：" + "；".join(x.get('item_content', '') for x in resource['curriculumStandards'][:6]), "思政资源：" + "\n".join(x.get('textbook_original_excerpt', '') for x in resource['ideologyParagraphs'][:6]), "思政标签：" + "、".join(x.get('l3_label', '') for x in resource.get('ideologyTags', {}).get('level3', [])[:12])))
+
+
+def _normalize_lesson_markdown(text: str) -> str:
+    value = text
+    value = value.replace("\r\n", "\n")
+    value = re.sub(r"(?m)^\s*\\+(?=#{1,6}\s)", "", value)
+    value = re.sub(r"(?m)^\s*\\+(?=-\s)", "", value)
+    value = re.sub(r"(?m)^\s*\\+(?=\|)", "", value)
+    value = re.sub(r"\\([#*`_.\-\[\]()|])", r"\1", value)
+    value = re.sub(r"(?m)^\s*\\\s*$", "", value)
+    value = re.sub(r"(?m)^\s*\(\s*$", "", value)
+    value = re.sub(r"(?m)^\s*\)\s*$", "", value)
+    return value.strip()

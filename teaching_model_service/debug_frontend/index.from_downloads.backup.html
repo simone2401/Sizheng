@@ -191,15 +191,12 @@
         </div>
         <div>
           <div class="small muted">content（实时）
-            <button id="btnPreview" type="button" class="mini-btn">刷新预览</button>
+            <button id="btnPreview" type="button" class="mini-btn">预览</button>
             <button id="btnPrint" type="button" class="mini-btn">打印 / PDF</button>
           </div>
           <div id="content" class="pane"></div>
+          <div id="contentPreview" class="pane lesson-doc" style="display:none;"></div>
         </div>
-      </div>
-      <div style="margin-top: 10px;">
-        <div class="small muted">content Markdown 渲染（独立区域）</div>
-        <div id="contentPreview" class="pane lesson-doc"></div>
       </div>
     </div>
   </div>
@@ -413,10 +410,12 @@
       if (!text) return;
       els.content.textContent += text;
       els.content.scrollTop = els.content.scrollHeight;
-      renderPreview();
+      if (previewMode) renderPreview();
     }
 
     // ===== 教案预览（Markdown 渲染）=====
+    let previewMode = false;
+
     function renderPreview() {
       const raw = els.content.textContent;
       els.contentPreview.innerHTML = raw.trim()
@@ -425,9 +424,17 @@
       els.contentPreview.scrollTop = els.contentPreview.scrollHeight;
     }
 
-    els.btnPreview.addEventListener("click", renderPreview);
+    function setPreviewMode(on) {
+      previewMode = on;
+      els.contentPreview.style.display = on ? "block" : "none";
+      els.content.style.display = on ? "none" : "block";
+      els.btnPreview.textContent = on ? "原文" : "预览";
+      if (on) renderPreview();
+    }
+
+    els.btnPreview.addEventListener("click", () => setPreviewMode(!previewMode));
     els.btnPrint.addEventListener("click", () => {
-      renderPreview();
+      if (!previewMode) setPreviewMode(true); else renderPreview();
       document.body.classList.add("print-mode");
       window.print();
     });
