@@ -6,6 +6,7 @@ from app.model_api.main import app as model_app
 from app.model_api.model_clients import ModelResult
 from app.model_api.models import Usage
 from app.model_api.router import settings_dependency as model_settings_dependency
+from app.model_api.teaching_service import _normalize_lesson_markdown
 from app.shared.config import ModelSettings
 
 
@@ -49,6 +50,50 @@ def test_sse_separates_fields_and_stop_event(model_client):
     assert all(item["l1_labels"] == payloads[0]["l1_labels"] for item in payloads)
     assert payloads[-1]["finishReason"] == "stop"
     assert payloads[-1]["usage"]["totalTokens"] > 0
+
+
+def test_sse_lesson_markdown_keeps_spaces_and_blank_lines_across_tiny_chunks(model_client):
+    client, resource, _ = model_client
+
+    class TinyChunkModel(FakeModelClient):
+        async def stream(self, *args, **kwargs):
+            for piece in ("##", " 标", "题", "\n\n", "第一", "段。"):
+                yield {
+                    "content": piece,
+                    "reasoning_content": "",
+                    "model": "fake-model",
+                    "finish_reason": None,
+                    "usage": None,
+                }
+            yield {
+                "content": "",
+                "reasoning_content": "",
+                "model": "fake-model",
+                "finish_reason": "stop",
+                "usage": Usage(inputTokens=1, outputTokens=1, totalTokens=2),
+            }
+
+    from app.model_api.router import service_dependency as model_service_dependency
+    from app.model_api.teaching_service import TeachingChatService
+
+    service = TeachingChatService(resource, model_client=TinyChunkModel())
+    model_app.dependency_overrides[model_service_dependency] = lambda: service
+
+    response = client.post("/v1/chat/teaching", json=lesson_payload("请生成教案", True))
+    payloads = [json.loads(line[6:]) for line in response.text.splitlines() if line.startswith("data: ")]
+
+    rendered = "".join(item["content"] for item in payloads if item.get("content"))
+    assert rendered == "## 标题\n\n第一段。"
+
+
+def test_normalize_lesson_markdown_keeps_leading_whitespace():
+    raw = "\n\n    代码块前导缩进\n"
+    assert _normalize_lesson_markdown(raw) == "\n\n    代码块前导缩进"
+
+
+def test_normalize_lesson_markdown_keeps_literal_escape_for_asterisk():
+    raw = "\\*保留星号"
+    assert _normalize_lesson_markdown(raw) == "\\*保留星号"
 
 
 def test_model_auth_rejects_missing_key(model_client):

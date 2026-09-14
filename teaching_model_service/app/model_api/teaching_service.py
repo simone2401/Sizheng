@@ -91,12 +91,24 @@ class TeachingChatService:
     async def stream(self, prepared: PreparedTeachingRequest) -> AsyncIterator[TeachingResponse]:
         emitted_terminal = False
         last_model = prepared.request.model
+        raw_content_buffer = ""
+        emitted_content = ""
         async for item in self.model_client.stream(prepared.system_prompt, prepared.user_prompt, prepared.mode, prepared.request.model):
             last_model = item.get("model") or last_model
             reasoning = item.get("reasoning_content")
-            content = item.get("content", "")
-            if prepared.mode == "lesson_plan_assist" and content:
-                content = _normalize_lesson_markdown(content)
+            chunk = item.get("content", "")
+            content = ""
+            if prepared.mode == "lesson_plan_assist" and chunk:
+                raw_content_buffer += chunk
+                normalized = _normalize_lesson_markdown(raw_content_buffer)
+                prefix_length = 0
+                max_prefix = min(len(emitted_content), len(normalized))
+                while prefix_length < max_prefix and emitted_content[prefix_length] == normalized[prefix_length]:
+                    prefix_length += 1
+                content = normalized[prefix_length:]
+                emitted_content = normalized
+            elif chunk:
+                content = chunk
             if reasoning:
                 self.output_guard.check(reasoning)
             if content:
@@ -149,8 +161,8 @@ def _normalize_lesson_markdown(text: str) -> str:
     value = re.sub(r"(?m)^\s*\\+(?=#{1,6}\s)", "", value)
     value = re.sub(r"(?m)^\s*\\+(?=-\s)", "", value)
     value = re.sub(r"(?m)^\s*\\+(?=\|)", "", value)
-    value = re.sub(r"\\([#*`_.\-\[\]()|])", r"\1", value)
+    value = re.sub(r"\\([#|\-])", r"\1", value)
     value = re.sub(r"(?m)^\s*\\\s*$", "", value)
     value = re.sub(r"(?m)^\s*\(\s*$", "", value)
     value = re.sub(r"(?m)^\s*\)\s*$", "", value)
-    return value.strip()
+    return value.rstrip()
