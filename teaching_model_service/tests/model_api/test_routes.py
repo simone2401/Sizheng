@@ -22,6 +22,15 @@ def test_lesson_generation_returns_reasoning_and_markdown(model_client):
     assert "思政段落" in fake_model.calls[0][1]
 
 
+def test_lesson_generation_passes_ideology_ids(model_client):
+    client, resource, _ = model_client
+    payload = lesson_payload("请帮我生成课程思政教学设计教案")
+    payload["metadata"]["ideologyIDs"] = "EV_PEP8U_PHYSICS_06_04_01,EV_PEP8U_PHYSICS_06_04_02"
+    response = client.post("/v1/chat/teaching", json=payload)
+    assert response.status_code == 200
+    assert resource.calls[0]["ideologyIDs"] == ["EV_PEP8U_PHYSICS_06_04_01", "EV_PEP8U_PHYSICS_06_04_02"]
+
+
 def test_case_has_content_only_and_filters_resources(model_client):
     client, resource, fake_model = model_client
     payload = dict(BASE)

@@ -5,7 +5,7 @@ from pydantic import ValidationError
 from app.shared.auth import authorized
 from app.shared.config import ResourceSettings
 from app.shared.errors import InvalidArgumentError, ResourceNotFoundError, ResourceUnavailableError, UnauthorizedError, error_dict
-from app.shared.resource_contracts import ResourceQuery, ResourceResponse
+from app.shared.resource_contracts import ResourceQuery, ResourceResponse, StaticIdeologyResponse
 from .service import ResourceService
 
 router = APIRouter()
@@ -30,6 +30,7 @@ def get_resources(
     chapter: str = Query(..., min_length=1),
     lesson: str = Query(..., min_length=1),
     knowledge_points: list[str] | None = Query(None, alias="knowledgePoints"),
+    ideology_ids: list[str] | None = Query(None, alias="ideologyIDs"),
     authorization: str | None = Header(None),
     service: ResourceService = Depends(service_dependency),
     settings: ResourceSettings = Depends(settings_dependency),
@@ -44,8 +45,39 @@ def get_resources(
             chapter=chapter,
             lesson=lesson,
             knowledgePoints=knowledge_points,
+            ideologyIDs=ideology_ids,
         )
         return service.query(query)
+    except ResourceNotFoundError as exc:
+        raise HTTPException(exc.status_code, detail=error_dict(exc)) from exc
+    except ResourceUnavailableError as exc:
+        raise HTTPException(exc.status_code, detail=error_dict(exc)) from exc
+    except ValidationError as exc:
+        raise HTTPException(400, detail=error_dict(InvalidArgumentError(str(exc)))) from exc
+
+
+@router.get("/v1/teaching/resources/static", response_model=StaticIdeologyResponse)
+def get_static_resources(
+    school_level: str = Query(..., alias="schoolLevel", min_length=1),
+    subject: str = Query(..., min_length=1),
+    textbook_version: str = Query(..., alias="textbookVersion", min_length=1),
+    chapter: str = Query(..., min_length=1),
+    lesson: str = Query(..., min_length=1),
+    authorization: str | None = Header(None),
+    service: ResourceService = Depends(service_dependency),
+    settings: ResourceSettings = Depends(settings_dependency),
+) -> StaticIdeologyResponse:
+    if not authorized(authorization, settings.api_keys, settings.auth_disabled):
+        raise HTTPException(401, detail=error_dict(UnauthorizedError()))
+    try:
+        query = ResourceQuery(
+            schoolLevel=school_level,
+            subject=subject,
+            textbookVersion=textbook_version,
+            chapter=chapter,
+            lesson=lesson,
+        )
+        return service.query_static(query)
     except ResourceNotFoundError as exc:
         raise HTTPException(exc.status_code, detail=error_dict(exc)) from exc
     except ResourceUnavailableError as exc:

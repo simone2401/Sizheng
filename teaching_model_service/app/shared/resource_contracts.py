@@ -11,6 +11,7 @@ class ResourceQuery(BaseModel):
     chapter: str = Field(min_length=1)
     lesson: str = Field(min_length=1)
     knowledge_points: list[str] | None = Field(default=None, alias="knowledgePoints")
+    ideology_ids: list[str] | None = Field(default=None, alias="ideologyIDs")
     model_config = ConfigDict(populate_by_name=True)
 
 
@@ -24,4 +25,17 @@ class ResourceResponse(BaseModel):
     curriculum_standards: list[dict[str, Any]] = Field(alias="curriculumStandards")
     ideology_paragraphs: list[dict[str, Any]] = Field(alias="ideologyParagraphs")
     ideology_tags: dict[str, list[dict[str, Any]]] = Field(alias="ideologyTags")
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class StaticIdeologyItem(BaseModel):
+    ideology_id: str = Field(alias="ideologyID")
+    source_page: int = Field(alias="sourcePage")
+    ideology_keyword: str = Field(alias="ideologyKeyword")
+    l1_label: str = Field(alias="l1_label")
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class StaticIdeologyResponse(BaseModel):
+    items: list[StaticIdeologyItem]
     model_config = ConfigDict(populate_by_name=True)

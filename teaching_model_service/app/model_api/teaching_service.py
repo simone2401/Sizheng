@@ -59,6 +59,9 @@ class TeachingChatService:
         }
         if meta.chat_type == "lesson_plan_assist":
             resource_params["knowledgePoints"] = meta.knowledge_points
+            ideology_ids = [item.strip() for item in (meta.ideology_ids or "").split(",") if item.strip()]
+            if ideology_ids:
+                resource_params["ideologyIDs"] = ideology_ids
         resource_result = await self.resource_client.query(**resource_params)
         resource = resource_result.model_dump(by_alias=True) if hasattr(resource_result, "model_dump") else resource_result
         labels = sorted(dict.fromkeys(x.get("l1_label", "") for x in resource.get("ideologyTags", {}).get("level1", []) if x.get("l1_label")))

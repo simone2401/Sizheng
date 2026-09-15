@@ -65,6 +65,11 @@
     }
     .small { font-size: 12px; color: #a7b3df; }
     .muted { color: #8ea0df; }
+    .material-list { display: grid; gap: 8px; margin-top: 10px; }
+    .material-card { border: 1px solid #3b4a8f; border-radius: 8px; padding: 10px; background: #0a122f; }
+    .material-card label { margin: 0; color: #e8edff; }
+    .material-meta { font-size: 12px; color: #a7b3df; margin-top: 4px; }
+    .hidden { display: none !important; }
     .mini-btn {
       width: auto; display: inline-block; margin-left: 6px; padding: 2px 10px;
       font-size: 12px; vertical-align: middle;
@@ -111,8 +116,16 @@
           <input id="baseUrl" value="http://127.0.0.1:8000" />
         </div>
         <div>
+          <label>资源 API 地址（静态素材）</label>
+          <input id="resourceBaseUrl" value="http://127.0.0.1:8001" />
+        </div>
+        <div>
           <label>API Key（Bearer）</label>
           <input id="apiKey" placeholder="local-model-key" />
+        </div>
+        <div>
+          <label>资源 API Key（可空，默认同上）</label>
+          <input id="resourceApiKey" placeholder="local-resource-key" />
         </div>
         <div>
           <label>超时（分钟）</label>
@@ -124,6 +137,15 @@
 
     <div class="card">
       <h2>请求参数</h2>
+      <div class="grid cols-3" style="margin-bottom: 10px;">
+        <div>
+          <label>助手类型</label>
+          <select id="assistantMode">
+            <option value="lesson_plan_assist">课程思政备课助手</option>
+            <option value="case_guide_study">苏格拉底式对话助手</option>
+          </select>
+        </div>
+      </div>
       <div class="grid cols-3" style="margin-bottom: 10px;">
         <div>
           <label>请求模板</label>
@@ -151,7 +173,7 @@
           <label>自定义模型（可空）</label>
           <input id="modelCustom" placeholder="例如 glm-5.2" />
         </div>
-        <div>
+        <div id="chatTypeBlock" class="hidden">
           <label>chatType</label>
           <select id="chatType">
             <option value="lesson_plan_assist">lesson_plan_assist</option>
@@ -175,10 +197,19 @@
       </div>
 
       <div class="row" style="margin-top: 10px;">
-        <button id="btnStream">发起流式请求（SSE）</button>
-        <button id="btnJson" class="secondary">发起非流式请求（JSON）</button>
+        <button id="btnStream">生成（流式）</button>
+        <button id="btnJson" class="secondary">生成（非流式）</button>
         <button id="btnStop" class="secondary">中止请求</button>
       </div>
+    </div>
+
+    <div class="card" id="lessonMaterialCard">
+      <h2>思政素材选择</h2>
+      <div class="row">
+        <button id="btnLoadMaterials" type="button">检索本节思政素材</button>
+      </div>
+      <div class="small muted" style="margin-top:8px;">勾选后再点击“生成教案”，将只使用所选素材。</div>
+      <div id="materialList" class="material-list"></div>
     </div>
 
     <div class="card">
@@ -197,7 +228,7 @@
           <div id="content" class="pane"></div>
         </div>
       </div>
-      <div style="margin-top: 10px;">
+      <div id="contentPreviewWrap" style="margin-top: 10px;">
         <div class="small muted">content Markdown 渲染（独立区域）</div>
         <div id="contentPreview" class="pane lesson-doc"></div>
       </div>
@@ -211,11 +242,15 @@
 
     const els = {
       baseUrl: document.getElementById("baseUrl"),
+      resourceBaseUrl: document.getElementById("resourceBaseUrl"),
       apiKey: document.getElementById("apiKey"),
+      resourceApiKey: document.getElementById("resourceApiKey"),
       timeoutMin: document.getElementById("timeoutMin"),
       modelSelect: document.getElementById("modelSelect"),
       modelCustom: document.getElementById("modelCustom"),
+      assistantMode: document.getElementById("assistantMode"),
       chatType: document.getElementById("chatType"),
+      chatTypeBlock: document.getElementById("chatTypeBlock"),
       requestTemplate: document.getElementById("requestTemplate"),
       btnApplyTemplate: document.getElementById("btnApplyTemplate"),
       schoolLevel: document.getElementById("schoolLevel"),
@@ -234,6 +269,10 @@
       btnStream: document.getElementById("btnStream"),
       btnJson: document.getElementById("btnJson"),
       btnStop: document.getElementById("btnStop"),
+      btnLoadMaterials: document.getElementById("btnLoadMaterials"),
+      materialList: document.getElementById("materialList"),
+      lessonMaterialCard: document.getElementById("lessonMaterialCard"),
+      contentPreviewWrap: document.getElementById("contentPreviewWrap"),
     };
 
     // 教材章节树：与 json_output/PEP8U_PHYSICS/entities.json 同步生成（6章28节）
@@ -313,8 +352,18 @@
       opt.textContent = name;
       els.chapter.appendChild(opt);
     });
-    els.chapter.addEventListener("change", () => fillLessons(els.chapter.value));
-    els.lesson.addEventListener("change", fillKnowledgePoints);
+    function resetMaterials() {
+      renderMaterials([]);
+    }
+
+    els.chapter.addEventListener("change", () => {
+      fillLessons(els.chapter.value);
+      resetMaterials();
+    });
+    els.lesson.addEventListener("change", () => {
+      fillKnowledgePoints();
+      resetMaterials();
+    });
     setChapterAndLesson("第六章 质量与密度", "第4节 密度的应用");
 
     const templates = {
@@ -337,6 +386,27 @@
         userText: "请继续案例导引学习，从学生常见误区切入，每轮只问一个关键问题。",
       },
     };
+
+    function isLessonMode() {
+      return els.assistantMode.value === "lesson_plan_assist";
+    }
+
+    function syncTemplateOptions() {
+      const target = isLessonMode() ? "lesson_plan_assist" : "case_guide_study";
+      els.requestTemplate.value = target;
+      applyTemplate(target);
+    }
+
+    function updateAssistantView() {
+      const lessonMode = isLessonMode();
+      els.chatType.value = lessonMode ? "lesson_plan_assist" : "case_guide_study";
+      els.lessonMaterialCard.classList.toggle("hidden", !lessonMode);
+      els.contentPreviewWrap.classList.toggle("hidden", !lessonMode);
+      els.btnPreview.classList.toggle("hidden", !lessonMode);
+      els.btnPrint.classList.toggle("hidden", !lessonMode);
+      els.btnStream.textContent = lessonMode ? "生成教案（流式）" : "发起对话（流式）";
+      els.btnJson.textContent = lessonMode ? "生成教案（非流式）" : "发起对话（非流式）";
+    }
 
     function setStatus(text) {
       const sec = startedAt ? ((Date.now() - startedAt) / 1000).toFixed(1) : "0.0";
@@ -365,8 +435,12 @@
         lesson: els.lesson.value.trim(),
       };
 
-      if (els.chatType.value === "lesson_plan_assist" && kp.length) {
+      if (isLessonMode() && kp.length) {
         metadata.knowledgePoints = kp;
+      }
+      const selectedIdeologyIds = getSelectedIdeologyIds();
+      if (isLessonMode() && selectedIdeologyIds.length) {
+        metadata.ideologyIDs = selectedIdeologyIds.join(",");
       }
 
       return {
@@ -383,6 +457,62 @@
       };
     }
 
+    function getSelectedIdeologyIds() {
+      return [...document.querySelectorAll('input[name="materialCheck"]:checked')]
+        .map(node => node.value)
+        .filter(Boolean);
+    }
+
+    function renderMaterials(items) {
+      els.materialList.innerHTML = "";
+      if (!items.length) {
+        els.materialList.innerHTML = '<div class="small muted">当前小节未检索到可选素材。</div>';
+        return;
+      }
+      items.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "material-card";
+        card.innerHTML = `
+          <label>
+            <input type="checkbox" name="materialCheck" value="${item.ideologyID}" ${index === 0 ? "checked" : ""} />
+            ${item.ideologyKeyword || "（无关键词）"}
+          </label>
+          <div class="material-meta">ideologyID: ${item.ideologyID} ｜ sourcePage: ${item.sourcePage} ｜ l1_label: ${item.l1_label}</div>
+        `;
+        els.materialList.appendChild(card);
+      });
+    }
+
+    async function loadMaterials() {
+      startedAt = Date.now();
+      setStatus("正在检索思政素材...");
+      const params = new URLSearchParams({
+        schoolLevel: els.schoolLevel.value.trim(),
+        subject: els.subject.value.trim(),
+        textbookVersion: els.textbookVersion.value.trim(),
+        chapter: els.chapter.value.trim(),
+        lesson: els.lesson.value.trim(),
+      });
+      const headers = {};
+      const key = (els.resourceApiKey.value.trim() || els.apiKey.value.trim());
+      if (key) headers.Authorization = `Bearer ${key}`;
+      try {
+        const resourceBase = els.resourceBaseUrl.value.trim() || els.baseUrl.value.trim();
+        const res = await fetch(`${resourceBase}/v1/teaching/resources/static?${params.toString()}`, { headers });
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus(`素材检索失败: HTTP ${res.status}\n${JSON.stringify(data, null, 2)}`);
+          renderMaterials([]);
+          return;
+        }
+        const items = data.items || [];
+        renderMaterials(items);
+        setStatus(`素材检索完成，共 ${items.length} 条。`);
+      } catch (err) {
+        setStatus(`素材检索异常：${err?.message || err}`);
+      }
+    }
+
     function clearOutput() {
       els.reasoning.textContent = "";
       els.content.textContent = "";
@@ -392,6 +522,8 @@
     function applyTemplate(templateKey) {
       const template = templates[templateKey];
       if (!template) return;
+      els.assistantMode.value = template.chatType;
+      updateAssistantView();
       els.chatType.value = template.chatType;
       els.schoolLevel.value = template.schoolLevel;
       els.subject.value = template.subject;
@@ -399,6 +531,7 @@
       els.chapter.value = template.chapter;
       els.lesson.value = template.lesson;
       fillKnowledgePoints();
+      resetMaterials();
       els.userText.value = template.userText;
       setStatus(`已应用模板：${templateKey}`);
     }
@@ -584,12 +717,18 @@
     els.btnStream.addEventListener("click", callStream);
     els.btnJson.addEventListener("click", callJson);
     els.btnApplyTemplate.addEventListener("click", () => applyTemplate(els.requestTemplate.value));
+    els.assistantMode.addEventListener("change", () => {
+      updateAssistantView();
+      syncTemplateOptions();
+    });
+    els.btnLoadMaterials.addEventListener("click", loadMaterials);
     els.btnStop.addEventListener("click", () => {
       stopCurrent();
       setStatus("已手动中止请求。");
     });
 
-    applyTemplate(els.requestTemplate.value);
+    updateAssistantView();
+    syncTemplateOptions();
   </script>
 </body>
 </html>
