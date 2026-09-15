@@ -59,7 +59,7 @@ class TeachingChatService:
         }
         if meta.chat_type == "lesson_plan_assist":
             resource_params["knowledgePoints"] = meta.knowledge_points
-            ideology_ids = [item.strip() for item in (meta.ideology_ids or "").split(",") if item.strip()]
+            ideology_ids = [item.strip() for item in (meta.ideology_ids or []) if item and item.strip()]
             if ideology_ids:
                 resource_params["ideologyIDs"] = ideology_ids
         resource_result = await self.resource_client.query(**resource_params)

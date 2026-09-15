@@ -16,7 +16,7 @@ class TeachingMetadata(BaseModel):
     chapter: str = Field(min_length=1)
     lesson: str = Field(min_length=1)
     knowledge_points: list[str] | None = Field(None, alias="knowledgePoints")
-    ideology_ids: str | None = Field(None, alias="ideologyIDs")
+    ideology_ids: list[str] | None = Field(None, alias="ideologyIDs")
     original_lesson_plan: str | None = Field(None, alias="originalLessonPlan")
     model_config = ConfigDict(populate_by_name=True, extra="ignore")
 class TeachingChatRequest(BaseModel):

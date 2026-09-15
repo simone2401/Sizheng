@@ -25,7 +25,7 @@ def test_lesson_generation_returns_reasoning_and_markdown(model_client):
 def test_lesson_generation_passes_ideology_ids(model_client):
     client, resource, _ = model_client
     payload = lesson_payload("请帮我生成课程思政教学设计教案")
-    payload["metadata"]["ideologyIDs"] = "EV_PEP8U_PHYSICS_06_04_01,EV_PEP8U_PHYSICS_06_04_02"
+    payload["metadata"]["ideologyIDs"] = ["EV_PEP8U_PHYSICS_06_04_01", "EV_PEP8U_PHYSICS_06_04_02"]
     response = client.post("/v1/chat/teaching", json=payload)
     assert response.status_code == 200
     assert resource.calls[0]["ideologyIDs"] == ["EV_PEP8U_PHYSICS_06_04_01", "EV_PEP8U_PHYSICS_06_04_02"]
