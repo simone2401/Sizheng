@@ -32,7 +32,7 @@ class StaticIdeologyItem(BaseModel):
     ideology_id: str = Field(alias="ideologyID")
     source_page: int = Field(alias="sourcePage")
     ideology_keyword: str = Field(alias="ideologyKeyword")
-    l1_label: str = Field(alias="l1_label")
+    l1_labels: list[str] = Field(alias="l1_labels")
     model_config = ConfigDict(populate_by_name=True)
 
 

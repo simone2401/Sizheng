@@ -121,11 +121,11 @@
         </div>
         <div>
           <label>API Key（Bearer）</label>
-          <input id="apiKey" placeholder="local-model-key" />
+          <input id="apiKey" value="local-model-key" placeholder="local-model-key" />
         </div>
         <div>
           <label>资源 API Key（可空，默认同上）</label>
-          <input id="resourceApiKey" placeholder="local-resource-key" />
+          <input id="resourceApiKey" value="local-resource-key" placeholder="local-resource-key" />
         </div>
         <div>
           <label>超时（分钟）</label>
@@ -477,7 +477,7 @@
             <input type="checkbox" name="materialCheck" value="${item.ideologyID}" ${index === 0 ? "checked" : ""} />
             ${item.ideologyKeyword || "（无关键词）"}
           </label>
-          <div class="material-meta">ideologyID: ${item.ideologyID} ｜ sourcePage: ${item.sourcePage} ｜ l1_label: ${item.l1_label}</div>
+          <div class="material-meta">ideologyID: ${item.ideologyID} ｜ sourcePage: ${item.sourcePage} ｜ l1_labels: ${(item.l1_labels || []).join("、")}</div>
         `;
         els.materialList.appendChild(card);
       });
