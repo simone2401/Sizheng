@@ -22,6 +22,15 @@ def test_lesson_generation_returns_reasoning_and_markdown(model_client):
     assert "思政段落" in fake_model.calls[0][1]
 
 
+def test_lesson_generation_passes_ideology_ids(model_client):
+    client, resource, _ = model_client
+    payload = lesson_payload("请帮我生成课程思政教学设计教案")
+    payload["metadata"]["ideologyIDs"] = ["EV_PEP8U_PHYSICS_06_04_01", "EV_PEP8U_PHYSICS_06_04_02"]
+    response = client.post("/v1/chat/teaching", json=payload)
+    assert response.status_code == 200
+    assert resource.calls[0]["ideologyIDs"] == ["EV_PEP8U_PHYSICS_06_04_01", "EV_PEP8U_PHYSICS_06_04_02"]
+
+
 def test_case_has_content_only_and_filters_resources(model_client):
     client, resource, fake_model = model_client
     payload = dict(BASE)
@@ -187,12 +196,7 @@ def test_sse_keepalive_ping_is_emitted(monkeypatch, model_client):
     from app.model_api.router import service_dependency as model_service_dependency
     from app.model_api.teaching_service import TeachingChatService
 
-    original_wait_for = asyncio.wait_for
-
-    async def fast_wait_for(coro, timeout):
-        return await original_wait_for(coro, 0.001)
-
-    monkeypatch.setattr("app.model_api.router.asyncio.wait_for", fast_wait_for)
+    monkeypatch.setattr("app.model_api.router.KEEPALIVE_TIMEOUT_SECONDS", 0.001)
     service = TeachingChatService(resource, model_client=SlowModel())
     model_app.dependency_overrides[model_service_dependency] = lambda: service
     response = client.post("/v1/chat/teaching", json=lesson_payload("请生成教案", True))

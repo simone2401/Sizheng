@@ -41,9 +41,14 @@ def create_app() -> FastAPI:
     settings = ModelSettings.from_env()
     application = FastAPI(title="Teaching Model API", version="1.0.0", lifespan=lifespan)
     application.state.bootstrap_settings = settings
+    origins = list(settings.cors_allow_origins)
+    if "null" not in origins:
+        origins.append("null")
+    if not settings.cors_allow_origins:
+        origins = ["*"]
     application.add_middleware(
         CORSMiddleware,
-        allow_origins=list(settings.cors_allow_origins),
+        allow_origins=origins,
         allow_credentials=False,
         allow_methods=["POST", "OPTIONS"],
         allow_headers=["Authorization", "Content-Type"],

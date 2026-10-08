@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Literal
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 class ContentItem(BaseModel):
     type: Literal["TEXT"]
@@ -9,13 +9,14 @@ class ChatMessage(BaseModel):
     role: Literal["USER", "ASSISTANT"]
     content: list[ContentItem] = Field(min_length=1)
 class TeachingMetadata(BaseModel):
-    chat_type: Literal["case_guide_study", "lesson_plan_assist"] = Field(alias="chatType")
+    chat_type: Literal["case_guide_study", "lesson_plan_assist", "case_diagnosis_card"] = Field(alias="chatType")
     school_level: str = Field(alias="schoolLevel", min_length=1)
     subject: str = Field(min_length=1)
     textbook_version: str = Field(alias="textbookVersion", min_length=1)
     chapter: str = Field(min_length=1)
     lesson: str = Field(min_length=1)
     knowledge_points: list[str] | None = Field(None, alias="knowledgePoints")
+    ideology_ids: list[str] | None = Field(None, alias="ideologyIDs")
     original_lesson_plan: str | None = Field(None, alias="originalLessonPlan")
     model_config = ConfigDict(populate_by_name=True, extra="ignore")
 class TeachingChatRequest(BaseModel):
@@ -27,11 +28,12 @@ class TeachingChatRequest(BaseModel):
     messages: list[ChatMessage] = Field(min_length=1)
     metadata: TeachingMetadata
     model_config = ConfigDict(populate_by_name=True, extra="ignore")
-    @field_validator("messages")
-    @classmethod
-    def last_message_must_be_user(cls, value: list[ChatMessage]) -> list[ChatMessage]:
-        if value[-1].role != "USER": raise ValueError("last message must have role USER")
-        return value
+    @model_validator(mode="after")
+    def last_message_rule(self) -> "TeachingChatRequest":
+        # 末条必须为 USER 仅约束对话式业务；case_diagnosis_card 传历史快照，末条可能是 ASSISTANT
+        if self.metadata.chat_type in ("case_guide_study", "lesson_plan_assist") and self.messages[-1].role != "USER":
+            raise ValueError("last message must have role USER")
+        return self
 class Usage(BaseModel):
     input_tokens: int = Field(alias="inputTokens", ge=0)
     output_tokens: int = Field(alias="outputTokens", ge=0)
@@ -52,4 +54,5 @@ class TeachingResponse(BaseModel):
     finish_reason: Literal["stop", "error", "length", "tool_calls", "content_filter"] | None = Field(None, alias="finishReason")
     usage: Usage | None = None
     error: ErrorInfo | None = None
+    diagnosis_card: dict | None = Field(default=None, alias="diagnosisCard")
     model_config = ConfigDict(populate_by_name=True)

@@ -27,6 +27,21 @@ class MockModelClient:
         if response_mode == "case_guide":
             content = "我们先看案例中的具体做法。你认为这里的思政内容是在帮助学生理解物理问题，还是暂时脱离了学科主线？"
             reasoning = ""
+        elif response_mode == "diagnosis_card":
+            sufficient = 1 if user_prompt.count("用户：") >= 2 else 0
+            evidence = (
+                '教师在对话中提到：“应该让学生自己经历探究过程归纳出结论”——已能从设计意图层面审视案例，而不停留在操作层面。'
+                if sufficient == 1
+                else "（暂缺）本轮对话中还没有足够的学习记录可供提取。先就案例本身谈谈你的理解——比如你最认同或最想质疑的一个设计细节，说出你的理由，诊断卡会随对话更新。"
+            )
+            content = (
+                f"SUFFICIENT: {sufficient}\n"
+                "=== problem ===\n（mock）这节课把概念教成了公式记忆与代数训练，缺少探究建构过程，学生只记住了运算形式。\n"
+                "=== cause ===\n（mock）教学目标定位停留在会算而非理解，跳过了概念形成所需的归纳过程。\n"
+                "=== fix ===\n（mock）用真实情境导入制造认知冲突，分组实验归纳后再引出公式，并增加解释性练习。\n"
+                f"=== evidence ===\n{evidence}\n"
+            )
+            reasoning = ""
         else:
             content = "# 课程思政融入初中物理教学\n\n## 《密度的应用》教学设计\n\n## 教学基本信息\n待补充课型、班型与学生基础。\n\n## 教学目标\n学生能够理解并应用密度知识。\n\n## 教学过程\n1. 创设真实情境并提出问题。\n2. 基于教材探究并交流证据。\n\n## 作业与延伸\n完成一个生活中的密度应用任务。"
             reasoning = "已完成教材分析、教案对齐和思政标签匹配；课型、班型与学生基础待补充。"
