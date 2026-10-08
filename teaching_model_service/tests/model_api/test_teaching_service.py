@@ -18,15 +18,17 @@ def test_case_prompt_contains_socratic_rules(model_client):
     assert "贴标签" in prepared.system_prompt and "喧宾夺主" in prepared.system_prompt
 
 
-def test_original_plan_uses_original_format_mode(model_client):
+def test_supplemental_material_is_referenced_but_format_is_forced(model_client):
     _, resource, fake_model = model_client
     payload = lesson_payload("请修改原教案中的教学过程")
-    payload["metadata"]["originalLessonPlan"] = "# 我原来的标题\n## 教学过程\n原有内容"
+    payload["messages"][-1]["content"][0]["text"] = "【补充材料】# 我原来的标题\n## 教学过程\n原有内容【补充材料结束】\n请修改教学过程"
     service = TeachingChatService(resource_client=resource, model_client=fake_model)
     prepared = asyncio.run(service.prepare(TeachingChatRequest.model_validate(payload)))
     assert prepared.mode == "lesson_plan_assist"
     assert "我原来的标题" in prepared.user_prompt
-    assert "优先保留原章节和格式" in prepared.user_prompt
+    assert "统一按 expert-0731-v1 模版输出" in prepared.user_prompt
+    assert "如提供补充材料，仅参考其内容" in prepared.user_prompt
+    assert "【补充材料】" in prepared.user_prompt
 
 
 def test_prompt_history_does_not_repeat_latest_user_message(model_client):

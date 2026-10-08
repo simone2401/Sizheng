@@ -59,6 +59,9 @@ class TeachingChatService:
         }
         if meta.chat_type == "lesson_plan_assist":
             resource_params["knowledgePoints"] = meta.knowledge_points
+            ideology_ids = [item.strip() for item in (meta.ideology_ids or []) if item and item.strip()]
+            if ideology_ids:
+                resource_params["ideologyIDs"] = ideology_ids
         resource_result = await self.resource_client.query(**resource_params)
         resource = resource_result.model_dump(by_alias=True) if hasattr(resource_result, "model_dump") else resource_result
         labels = sorted(dict.fromkeys(x.get("l1_label", "") for x in resource.get("ideologyTags", {}).get("level1", []) if x.get("l1_label")))
@@ -70,10 +73,11 @@ class TeachingChatService:
             user_prompt = "\n".join(("【教材与案例资源】", context, "【对话记录】", conversation, "【教师当前请求】", current_request))
         else:
             context = _json_context(resource)
-            original = meta.original_lesson_plan or _extract_original_plan(request)
-            mode_text = "带原教案修改/融合：优先保留原章节和格式，只按需求修改" if original else "从零生成：完整执行 expert-0731-v1 合同"
+            supplemental_materials = _extract_supplemental_materials(request, meta.original_lesson_plan)
+            mode_text = "统一按 expert-0731-v1 模版输出；如提供补充材料，仅参考其内容，不沿用其格式"
+            format_rule = "最终输出不得复用补充材料中的标题层级、段落编排或表格样式，必须完整落到 expert-0731-v1 结构"
             system_prompt, mode = LESSON_PLAN_CONTRACT, "lesson_plan_assist"
-            user_prompt = "\n".join((f"【工作模式】{mode_text}", f"【原教案】{original or '无'}", "【教材与匹配资源】", context, "【思政标签】" + "、".join(labels), "【对话记录】", conversation, "【教师当前请求】", current_request))
+            user_prompt = "\n".join((f"【工作模式】{mode_text}", f"【格式硬约束】{format_rule}", f"【补充材料】{supplemental_materials or '无'}", "【教材与匹配资源】", context, "【思政标签】" + "、".join(labels), "【对话记录】", conversation, "【教师当前请求】", current_request))
         self.input_guard.check(system_prompt)
         self.input_guard.check(user_prompt)
         return PreparedTeachingRequest(request, system_prompt, user_prompt, mode, labels)
@@ -134,13 +138,55 @@ def _conversation_text(messages):
         for i, m in enumerate(messages, 1)
     )
 def _current_user_text(request): return "\n".join(item.text for item in request.messages[-1].content)
-def _extract_original_plan(request):
-    for message in reversed(request.messages):
+
+
+def _extract_supplemental_materials(request, metadata_material: str | None = None):
+    materials = []
+    if metadata_material and metadata_material.strip():
+        materials.append(metadata_material.strip())
+    for message in request.messages:
         if message.role == "USER":
             text = "\n".join(x.text for x in message.content)
-            for marker in ("原教案：", "原始教案：", "待修改教案："):
-                if marker in text and text.split(marker, 1)[1].strip(): return text.split(marker, 1)[1].strip()[:30000]
-    return None
+            materials.extend(_extract_marked_materials(text))
+    if not materials:
+        return None
+    merged = "\n\n".join(dict.fromkeys(item for item in materials if item.strip()))
+    return merged[:30000] if merged else None
+
+
+def _extract_marked_materials(text: str) -> list[str]:
+    marker = "【补充材料】"
+    results: list[str] = []
+
+    for match in re.finditer(r"【补充材料】(.*?)【补充材料结束】", text, flags=re.S):
+        value = match.group(1).strip()
+        if value:
+            results.append(value)
+
+    if results:
+        return results
+
+    positions = []
+    start = 0
+    while True:
+        index = text.find(marker, start)
+        if index < 0:
+            break
+        positions.append(index)
+        start = index + len(marker)
+
+    if len(positions) < 2:
+        return results
+
+    for index in range(0, len(positions) - 1, 2):
+        begin = positions[index] + len(marker)
+        end = positions[index + 1]
+        value = text[begin:end].strip()
+        if value:
+            results.append(value)
+    return results
+
+
 def _case_resource_context(resource):
     return "\n".join((
         f"教材：{resource['textbook'].get('textbook_name', '')}",
