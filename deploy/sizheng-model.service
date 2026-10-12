@@ -1,0 +1,21 @@
+# 模型 API —— 开机自启、崩溃自动拉起
+# 安装位置: /etc/systemd/system/sizheng-model.service
+
+[Unit]
+Description=Sizheng Model API (uvicorn :9000)
+After=network.target sizheng-resource.service
+Wants=sizheng-resource.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/data/sizheng2/teaching_model_service
+EnvironmentFile=/data/sizheng2/teaching_model_service/.env.production
+ExecStart=/data/sizheng2/teaching_model_service/.venv/bin/python -m uvicorn app.model_api.main:app --host 127.0.0.1 --port 9000
+Restart=always
+RestartSec=3
+StandardOutput=append:/data/sizheng2/teaching_model_service/logs/model.log
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target
