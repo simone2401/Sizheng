@@ -51,8 +51,10 @@ def test_static_resource_endpoint_returns_expected_fields(resource_client):
     assert isinstance(payload.get("items"), list)
     assert payload["items"]
     first = payload["items"][0]
-    assert {"ideologyID", "sourcePage", "ideologyKeyword", "l1_labels"}.issubset(first.keys())
+    assert {"ideologyID", "sourcePage", "ideologyKeyword", "ideologyContent", "l1_labels"}.issubset(first.keys())
     assert isinstance(first["l1_labels"], list)
+    assert isinstance(first["ideologyContent"], str)
+    assert first["ideologyContent"]
 
 
 def test_resource_endpoint_filters_ideology_paragraphs_by_ideology_ids(resource_client):

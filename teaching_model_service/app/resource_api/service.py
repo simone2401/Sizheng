@@ -55,6 +55,7 @@ class ResourceService:
                 ideologyID=paragraph.get("paragraph_id", ""),
                 sourcePage=paragraph.get("source_page", 0),
                 ideologyKeyword=paragraph.get("keyword", ""),
+                ideologyContent=paragraph.get("textbook_original_excerpt", ""),
                 l1_labels=l1_labels,
             ))
         return StaticIdeologyResponse(items=results)
