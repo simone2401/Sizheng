@@ -1362,10 +1362,6 @@
     },
     {
       "section_id": "SEC_PEP8U_PHYSICS_03_02",
-      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02"
-    },
-    {
-      "section_id": "SEC_PEP8U_PHYSICS_03_02",
       "paragraph_id": "EV_PEP8U_PHYSICS_03_02_03"
     },
     {
@@ -2177,18 +2173,6 @@
     {
       "paragraph_id": "EV_PEP8U_PHYSICS_03_02_01",
       "l3_code": "T06-02-01"
-    },
-    {
-      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
-      "l3_code": "T02-02-01"
-    },
-    {
-      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
-      "l3_code": "T06-02-01"
-    },
-    {
-      "paragraph_id": "EV_PEP8U_PHYSICS_03_02_02",
-      "l3_code": "T02-03-03"
     },
     {
       "paragraph_id": "EV_PEP8U_PHYSICS_03_02_03",

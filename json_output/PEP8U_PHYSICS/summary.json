@@ -16,7 +16,7 @@
     "curriculum_standards": 43,
     "knowledge_points": 106,
     "textbook_original_chunks": 140,
-    "ideology_paragraphs": 63,
+    "ideology_paragraphs": 62,
     "ideology_tag_taxonomy": 93
   },
   "entity_counts": {
@@ -26,7 +26,7 @@
     "curriculum_standards": 43,
     "knowledge_points": 106,
     "textbook_chunks": 140,
-    "ideology_paragraphs": 63,
+    "ideology_paragraphs": 62,
     "ideology_tags": {
       "level_1": 10,
       "level_2": 31,
@@ -38,9 +38,9 @@
     "section_has_standard": 43,
     "section_has_knowledge_point": 106,
     "section_has_chunk": 140,
-    "section_has_ideology_paragraph": 63,
+    "section_has_ideology_paragraph": 62,
     "tag_l1_has_l2": 31,
     "tag_l2_has_l3": 93,
-    "paragraph_tagged_with_l3": 102
+    "paragraph_tagged_with_l3": 99
   }
 }
